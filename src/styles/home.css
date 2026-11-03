@@ -98,8 +98,13 @@
 .h-svcs { z-index: 2; background-color: var(--ink-1); color: var(--text-on-dark); }
 .h-svcs__glow { background-image: var(--spray); background-repeat: no-repeat; background-size: 55% 90%; background-position: 100% 30%; opacity: 0.5; }
 .h-svcs__drips { position: absolute; left: 0; right: 0; top: 0; z-index: 1; height: 56px; pointer-events: none; }
-.h-svcs__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(14px, 1.8vw, 24px); margin: 0; padding: 0; list-style: none; }
-.h-svcs__item { display: flex; }
+/* every service card is the same size at every width: equal columns, equal rows (1fr rows take the tallest card's
+   height, so the 2 x 2 phone and tablet grid is uniform too), and each card fills its cell */
+.h-svcs__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: clamp(14px, 1.8vw, 24px); margin: 0; padding: 0; list-style: none; }
+.h-svcs__item { display: flex; min-width: 0; }
+/* `a.glass { display: block }` (components.css) outranks .h-svc's column layout on the linked cards, which left each
+   call to action straight under the text instead of on the card's bottom line */
+.h-svcs__item > .h-svc { display: flex; }
 .h-svc { position: relative; display: flex; flex-direction: column; width: 100%; overflow: hidden; border-radius: var(--r-lg); color: var(--text-on-dark); text-decoration: none; }
 .h-svc__media { position: relative; display: block; overflow: hidden; aspect-ratio: 4 / 3; margin: 10px 10px 0; border-radius: var(--r-md); background-color: var(--ink-3); }
 .h-svc__media .h-svc__img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform var(--dur-slow) var(--ease-out); }
@@ -109,6 +114,8 @@
 .h-svc__t { margin: 0; font-family: var(--font-display); font-weight: var(--fw-display); font-size: var(--fs-h3); line-height: 1.02; text-transform: uppercase; }
 .h-svc__chip { font-size: var(--fs-small); }
 .h-svc__go { margin-top: auto; display: inline-flex; align-items: center; gap: 6px; color: var(--lime); font-weight: 600; }
+/* the "Coming Soon" card has no link: its status chip takes the call to action's place on the bottom line */
+.h-svc--soon .h-svc__chip:last-child { margin-top: auto; }
 .h-svc:hover .h-svc__img, .h-svc:focus-visible .h-svc__img { transform: scale(1.06); }
 .h-svc--soon .h-svc__media .h-svc__img { filter: saturate(0.75); }
 
@@ -396,4 +403,11 @@
   .h-comm__points .ico { flex: none; width: 16px; height: 16px; color: var(--lime); }
   .h-page .h-store { padding-bottom: 68px; }
   .h-store > .video-toggle { right: var(--gutter); bottom: 12px; }
+}
+/* services cards on phones: every card takes the longest card's height (Door to Door Delivery: two-line title plus
+   the offer chip), so the chip and the call to action are kept compact to keep that shared height, and the empty
+   space in the other three cards, small. The whole card is the link, so the inner arrow line needs no 44px box. */
+@media (max-width: 767px) {
+  .h-svcs__item > .h-svc .h-svc__go { min-height: 0; letter-spacing: 0.04em; }
+  .h-svcs__item > .h-svc .h-svc__chip { font-size: 0.8125rem; letter-spacing: 0.04em; padding-inline: 10px; }
 }

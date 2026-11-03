@@ -134,7 +134,7 @@ ${cats.map((c, i) => {
     const media = `<span class="h-svc__media${isIcon ? ' h-svc__media--icon' : ''}">${img({ src: c.icon, alt: '', w: c.iconW, h: c.iconH }, { sizes: isIcon ? '96px' : '(max-width: 767px) 46vw, 300px', cls: 'h-svc__img' })}</span>`;
     const text = c.html ? `<span class="chip chip--lime h-svc__chip">${c.html}</span>` : '';
     const body = `<span class="h-svc__body"><h3 class="h-svc__t">${esc(c.title)}</h3>${text}${r ? `<span class="link-arrow h-svc__go">${esc(r[1])}${icon('arrow')}</span>` : ''}</span>`;
-    return `<li class="h-svc__item" data-reveal style="--i:${i}">${r
+    return `<li class="h-svcs__item" data-reveal style="--i:${i}">${r
       ? `<a class="h-svc glass glass--lift" data-spot${linkAttrs(r[0])}>${media}${body}</a>`
       : `<div class="h-svc h-svc--soon glass">${media}${body}</div>`}</li>`;
   };
