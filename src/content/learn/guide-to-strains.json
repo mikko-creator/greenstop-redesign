@@ -1,0 +1,65 @@
+{
+  "slug": "guide-to-strains",
+  "path": "/education/guide-to-strains/",
+  "title": "A Guide to Cannabis Strains: Indica, Sativa and Hybrid",
+  "seoTitle": "Indica, Sativa and Hybrid Strains | Greenstop Dispensary",
+  "description": "Indica, sativa and hybrid are familiar labels, but what do they really tell you? Learn where the terms come from and what to look for on a cannabis label.",
+  "date": "2026-11-03",
+  "group": "basics",
+  "order": 1,
+  "readMinutes": 3,
+  "kicker": "Cannabis 101",
+  "lede": "Spend a few minutes around cannabis and you'll hear the words indica, sativa and hybrid. Here's where those labels come from, what they can and can't tell you, and what to look at instead.",
+  "sections": [
+    {
+      "heading": "Where the words come from",
+      "blocks": [
+        { "type": "p", "html": "<em>Cannabis sativa</em> and <em>Cannabis indica</em> are names botanists gave to cannabis plants back in the 1700s. Over time, growers came to use the terms to describe how a plant looks and grows." },
+        { "type": "ul", "items": [
+          "<strong>Indica</strong> plants are traditionally described as short and bushy, with broad leaves, and are associated with parts of South and Central Asia.",
+          "<strong>Sativa</strong> plants are traditionally described as tall and slender, with narrow leaves, and are associated with warmer regions closer to the equator.",
+          "<strong>Hybrids</strong> are crosses between the two. After decades of crossbreeding, most cannabis grown today has mixed ancestry, so nearly everything you'll find is a hybrid to some degree."
+        ] }
+      ]
+    },
+    {
+      "heading": "What the labels can and can't tell you",
+      "blocks": [
+        { "type": "p", "html": "Over the years, the labels picked up a second meaning. In everyday shorthand, <em>indica</em> came to mean relaxing and <em>sativa</em> came to mean energizing, with hybrids somewhere in between. It's a handy way to start a conversation, but it isn't a reliable guide to how a product will feel." },
+        { "type": "p", "html": "Researchers who have compared strain labels with lab results have found that the names often don't line up with a plant's genetics or its chemical makeup. Strain names aren't standardized either, so two products sold under the same name can differ depending on who grew them and how." },
+        { "type": "callout", "title": "The short version", "html": "Indica, sativa and hybrid say more about a plant's family history than about the experience you'll have. Treat them as a starting point, not a promise." }
+      ]
+    },
+    {
+      "heading": "What matters more: the chemistry",
+      "blocks": [
+        { "type": "p", "html": "A product's effects are shaped by its chemical makeup, which is why some scientists prefer the term <em>chemovar</em>, short for chemical variety. These are the details worth checking on a label:" },
+        { "type": "ul", "items": [
+          "<strong>THC content.</strong> THC is the main intoxicating compound in cannabis. More THC generally means a stronger product, though stronger isn't automatically better. Learn more in <a href=\"/education/thc-tetrahydrocannabinol/\">What Is THC?</a>",
+          "<strong>CBD content.</strong> CBD is non-intoxicating, and some products pair it with THC. Our guide to <a href=\"/education/thc-and-cbd/\">THC and CBD</a> explains how the two differ.",
+          "<strong>Terpenes.</strong> These aromatic compounds give each strain its scent, from citrus to pine to pepper. See <a href=\"/education/guide-to-terpenes/\">A Guide to Terpenes</a>."
+        ] },
+        { "type": "p", "html": "Even with all of that in hand, effects vary from person to person. How much you consume, the product format, your tolerance and even your mood and surroundings all play a part, and research on how these factors combine is still developing." }
+      ]
+    },
+    {
+      "heading": "Choosing with confidence",
+      "blocks": [
+        { "type": "ul", "items": [
+          "<strong>Start low, go slow.</strong> Begin with a small amount, especially with a product that's new to you, and give it time before having more.",
+          "<strong>Keep notes.</strong> Jot down what you tried, its THC and CBD content, any terpenes listed and how you felt. Over time, your own patterns tell you more than a strain name.",
+          "<strong>Share your history.</strong> Describing what you've enjoyed, or haven't, narrows things down far better than a single word on a package.",
+          "<strong>Check in with a healthcare provider</strong> if you have health questions or take medications."
+        ] },
+        { "type": "p", "html": "Questions? Ask the Greenstop team in store, or browse our <a href=\"/about/frequently-asked-questions/\">frequently asked questions</a>." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Is indica always relaxing and sativa always energizing?", "a_html": "No. That's a popular shorthand, but studies comparing labels with lab results show the names don't reliably predict effects. A product's cannabinoid and terpene content, how much you use and your own body chemistry matter more." },
+    { "q": "Why can the same strain name feel different from one product to the next?", "a_html": "Strain names aren't standardized. Genetics, growing conditions, harvest timing, processing and storage all shape the final chemistry, so two products with the same name can differ." },
+    { "q": "What is a hybrid?", "a_html": "A hybrid is a cross between plants of different lineages. Because of decades of crossbreeding, most cannabis available today is a hybrid of some kind, whatever its label says." }
+  ],
+  "related": ["guide-to-terpenes", "thc-and-cbd", "thc-tetrahydrocannabinol"],
+  "note": "Educational content, not medical or legal advice."
+}

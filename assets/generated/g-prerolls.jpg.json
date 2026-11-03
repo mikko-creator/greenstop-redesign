@@ -1,0 +1,28 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-prerolls",
+ "file": "assets/generated/g-prerolls.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Product still life photograph: three finished hand-rolled cone-shaped cannabis joints lying side by side at a slight diagonal, each one a slim white paper cone packed full with ground cannabis flower, faint green flecks showing through the thin white rolling paper, the wide end of each cone sealed shut with a small twisted paper tip, the narrow end plain rolled white paper, no filter, not cigarettes, a few crumbs of ground cannabis flower beside them, everything plain and unlabelled, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "3:2"
+ },
+ "seed": 2425797028,
+ "requestId": "01a19f27-6316-7151-b4d2-e7c011fa5f96",
+ "cutout": null,
+ "width": 2496,
+ "height": 1664,
+ "sha256": "dbb4429ba98764538c8e96aec36d4772c962760b0513f76f803eaf9950e1e192",
+ "raw": "tmp/img/raw/g-prerolls.1793671529623.jpg",
+ "attempt": 2,
+ "generatedAt": "2026-11-03T02:05:31.690Z",
+ "review": {
+  "verdict": "ACCEPT-WITH-CAVEAT",
+  "reason": "Best of three, kept attempt 2: open-ended rolled white papers filled with ground flower, clearly cannabis and not cigarettes, but not cone-shaped and without twisted tips. Attempt 1: empty open paper cones. Attempt 3: straight tubes, one with an orange filter-like tip. Retry limit reached.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "medical-cannabis",
+  "path": "/education/medical-cannabis/",
+  "title": "Medical Cannabis in New Jersey: How the Program Works",
+  "seoTitle": "Medical Cannabis in New Jersey | Greenstop Dispensary",
+  "description": "How New Jersey's Medicinal Cannabis Program works: who can register, the registration steps, ID cards, caregivers, purchase limits and where to get help.",
+  "date": "2026-11-03",
+  "group": "new-jersey",
+  "order": 9,
+  "readMinutes": 4,
+  "kicker": "New Jersey",
+  "lede": "Here is how New Jersey's medical cannabis program works, step by step. Whether it is right for you is a conversation for you and your healthcare provider.",
+  "sections": [
+    {
+      "heading": "What the program is",
+      "blocks": [
+        { "type": "p", "html": "New Jersey's Medicinal Cannabis Program, previously called the Medicinal Marijuana Program, helps registered patients under the care of licensed healthcare practitioners access medicinal cannabis from regulated and monitored facilities. Medicinal cannabis is not covered by any health plan in New Jersey, and the program does not share a patient's enrollment information without the patient's written consent." },
+        { "type": "facts", "ids": ["mcp-what-it-is", "mcp-not-insured", "mcp-privacy"] }
+      ]
+    },
+    {
+      "heading": "Who can register",
+      "blocks": [
+        { "type": "p", "html": "To register as a patient, you must:" },
+        { "type": "ul", "items": [
+          "be a New Jersey resident,",
+          "be diagnosed with a qualifying medical condition by a New Jersey healthcare practitioner registered with the program, and",
+          "have a bona fide relationship with a healthcare provider registered with the program."
+        ] },
+        { "type": "facts", "ids": ["elig-requirements"] },
+        { "type": "p", "html": "A bona fide relationship means the practitioner has treated you for at least one year, has seen you for the condition on at least four visits, or has taken over care of the condition after a comprehensive medical history and physical exam, including a review of your records from other treating physicians. The conditions are listed in our guide to <a href=\"/education/qualifying-conditions/\">qualifying conditions</a>." },
+        { "type": "facts", "ids": ["elig-bona-fide"] },
+        { "type": "p", "html": "Adults and minors with a qualifying medical condition may participate. For a minor whose authorizing provider is not a pediatrician, a parent or guardian also needs a Minor Attestation. The official pages differ on who issues it, so check the current requirement." },
+        { "type": "facts", "ids": ["elig-adults-and-minors", "steps-minor-attestation-pediatrician", "steps-minor-attestation-provider"] }
+      ]
+    },
+    {
+      "heading": "How registration works",
+      "blocks": [
+        { "type": "p", "html": "Registration is online only, and the program's patient services representatives can walk you through setting up or accessing your account." },
+        { "type": "facts", "ids": ["steps-online-only"] },
+        { "type": "ul", "items": [
+          "<strong>Find a provider.</strong> Check whether your current healthcare provider participates in the program, or find a participating practitioner.",
+          "<strong>Get your statement.</strong> If you and your provider decide that adding cannabis to your course of treatment makes sense for you, the provider gives you an Authorizing Healthcare Practitioner Statement with a reference ID number and a registry ID number.",
+          "<strong>Open a portal account.</strong> You need those numbers to set up a patient portal account with a username and password.",
+          "<strong>Complete registration.</strong> Once the account is active, choose an Alternative Treatment Center (a dispensary) to buy from, which you can change at any time, upload proof of New Jersey residency, choose your ID card option and upload a recent photo."
+        ] },
+        { "type": "facts", "ids": ["steps-find-provider", "steps-authorization", "steps-portal-account", "steps-complete-registration"] },
+        { "type": "p", "html": "Once you have created your portal account and started registration, you may buy at a medical dispensary with your government-issued ID while your registration is under review. Renewing patients are not eligible for this." },
+        { "type": "facts", "ids": ["steps-buy-during-review"] }
+      ]
+    },
+    {
+      "heading": "ID cards and caregivers",
+      "blocks": [
+        { "type": "p", "html": "Digital ID cards are free for new and renewing patients and caregivers, and a physical card costs $10. Both are valid for two years. Renewal reminders are sent 60 days before your ID expires, and you may renew any time after that." },
+        { "type": "facts", "ids": ["fee-id-card", "fee-card-validity", "steps-renewal"] },
+        { "type": "p", "html": "If your condition makes you physically unable to go to a dispensary, you may have up to two caregivers, who may buy medicinal cannabis without you present. A caregiver, typically a friend or family member you choose, must be a New Jersey resident and at least 18 years old, and must get a program ID card through the same registration process as patients. Caregivers who are not immediate family members must submit fingerprints for a criminal background check." },
+        { "type": "facts", "ids": ["cg-up-to-two", "cg-registration", "cg-qualify", "cg-background-check"] }
+      ]
+    },
+    {
+      "heading": "Buying as a registered patient",
+      "blocks": [
+        { "type": "p", "html": "The program's patient FAQ says the most a patient or designated caregiver may buy is 85 grams (3 oz) for a 30-day period, that your authorizing practitioner sets your dosage, and that terminally ill patients are exempt from the maximum. The same FAQ also gives the maximum monthly allowance, taken as flower, as 84 grams, or 3 ounces, so confirm your exact limit with your practitioner. To buy from a dispensary's medical menu, a patient or caregiver must show their program ID." },
+        { "type": "facts", "ids": ["medbuy-85g-max", "medbuy-84g-flower", "medbuy-id-required"] },
+        { "type": "p", "html": "Driving under the influence of cannabis is illegal in New Jersey whether the cannabis is used for recreational or medical purposes. Patients must not transport medicinal cannabis across state lines, and patients and caregivers are not permitted to grow cannabis or possess a cannabis plant." },
+        { "type": "facts", "ids": ["drive-illegal", "drive-medical-too", "transport-medical-state-lines", "grow-medical-not-allowed"] },
+        { "type": "callout", "title": "Where to get help", "html": "The program's Patient Services Unit can be reached at (609) 292-0424 or Medcannabis@crc.nj.gov. Rules change: check the official <a href=\"https://www.nj.gov/cannabis/medicinalcannabis/\">Medicinal Cannabis Program</a> pages for current details." },
+        { "type": "facts", "ids": ["mcp-patient-services"] }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Does health insurance cover medical cannabis in New Jersey?", "a_html": "No. Medicinal cannabis is not covered by any health plan in New Jersey." },
+    { "q": "How long is a patient ID card valid?", "a_html": "Both digital and physical ID cards are valid for two years. Digital cards are free, and a physical card costs $10." }
+  ],
+  "related": ["qualifying-conditions", "recreational-cannabis", "safe-and-responsible-consumption"],
+  "note": "Educational content, not medical or legal advice. Rules change: check the official sources linked on this page.",
+  "lastReviewed": "November 2026"
+}

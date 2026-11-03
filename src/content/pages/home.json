@@ -1,0 +1,546 @@
+{
+ "slug": "home",
+ "path": "/",
+ "url": "https://greenstopwellnessjc.com/",
+ "title": "Home | Greenstop Dispensary",
+ "description": "",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/photo-1597354641938-b44d2bc962ee-scaled.jpg",
+ "h1": "",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "video",
+     "src": "/assets/media/gs/WhatsApp-Video-2025-08-01-at-06.23.50_111c9249.mp4",
+     "w": 848,
+     "h": 480,
+     "attrs": [
+      "loop",
+      "muted",
+      "playsinline",
+      "uk-cover"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Shop Now",
+     "href": "/shop/mi/greenstop/"
+    },
+    {
+     "type": "button",
+     "text": "Visit Us",
+     "href": "/contact"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": "",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Frame-2951-3.png",
+     "alt": "",
+     "w": 1442,
+     "h": 537,
+     "href": "/shop/mi/greenstop/menu/discounts/harvest-moon-madness-45-off.-52016"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Frame-2951-3.png",
+     "alt": "",
+     "w": 1442,
+     "h": 537,
+     "href": "/shop/mi/greenstop/menu/discounts/harvest-moon-buy-any-7g-flower-get-a-free-pre-roll-56566"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Group-2844-3.png",
+     "alt": "",
+     "w": 1442,
+     "h": 543,
+     "href": "/shop/mi/greenstop/menu/discounts/buy-any-greenjoy-or-greenjoy-high-flower-get-a-free-pre-roll-56694"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Group-2970.png",
+     "alt": "",
+     "w": 840,
+     "h": 360,
+     "href": "/shop/mi/greenstop/menu/discounts/buy-any-legend-28g-get-a-surprise-goodie-56673"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Group-2984.png",
+     "alt": "",
+     "w": 1442,
+     "h": 537,
+     "href": "/shop/mi/greenstop/menu/discounts/terrascend-thunderbolt-45-off-56695"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Group-2967.png",
+     "alt": "",
+     "w": 1442,
+     "h": 537,
+     "href": "/shop/mi/greenstop/menu/discounts/kusala-hashtag-og-free-infused-pre-rolls-56660"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Group-2960-1.png",
+     "alt": "",
+     "w": 1442,
+     "h": 567,
+     "href": "/shop/mi/greenstop/menu/discounts/50-off-all-hash-tag-og-products-56657"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Group-2954-1.png",
+     "alt": "",
+     "w": 1442,
+     "h": 537,
+     "href": "/shop/mi/greenstop/menu/discounts/dime-buy-one-get-one-free-only-08-29-56651"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Frame-2977.png",
+     "alt": "",
+     "w": 1442,
+     "h": 531,
+     "href": "/shop/mi/greenstop/menu/discounts/hamilton-farms-08-29-only-45-off-56691"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Frame-2976.png",
+     "alt": "",
+     "w": 1442,
+     "h": 531,
+     "href": "/shop/mi/greenstop/menu/discounts/hamilton-farms-size-up-score-56688"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Group-2872-2.png",
+     "alt": "",
+     "w": 1442,
+     "h": 543,
+     "href": "/shop/mi/greenstop/menu/discounts/buy-any-happy-farmer-3.5g-flower-get-1-happy-farmer-pre-roll-free-56683"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Group-2980.png",
+     "alt": "",
+     "w": 1446,
+     "h": 537,
+     "href": "/shop/mi/greenstop/menu/discounts/elyon-flower-free-pre-roll-56693"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Frame-2978.png",
+     "alt": "",
+     "w": 1442,
+     "h": 531,
+     "href": "/shop/mi/greenstop/menu/discounts/bango-family-of-brands-45-off-56692"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Group-2963.png",
+     "alt": "",
+     "w": 1442,
+     "h": 537,
+     "href": "/shop/mi/greenstop/menu/discounts/july-4th-storewide-20-off-6956"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Group-2916.png",
+     "alt": "",
+     "w": 1442,
+     "h": 539,
+     "href": "/shop/mi/greenstop/menu/discounts/zip-rip-deal-buy-any-zips-28g-flower-get-a-free-goodie-bag-45799"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/hgfc.png",
+     "alt": "",
+     "w": 1442,
+     "h": 543,
+     "href": "/shop/mi/greenstop/menu/discounts/wyld-and-good-tide-mix-and-match-buy-2-get-1-good-tide-free-41631"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Group-2784-1.png",
+     "alt": "",
+     "w": 1442,
+     "h": 543,
+     "href": "/shop/mi/greenstop/menu/discounts/40-off-secret-menu-23042"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/flash-50-off.jpg",
+     "alt": "",
+     "w": 1442,
+     "h": 537,
+     "href": "/shop/mi/greenstop/menu/carousel-storewide-20-off-30-off-flash-50-off!!-630"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": "Our Premium Products",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Our Premium Products"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/flower.svg",
+     "iconAlt": "",
+     "iconW": 69,
+     "iconH": 68,
+     "title": "Flower",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/flower-2821"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/pre-roll.svg",
+     "iconAlt": "",
+     "iconW": 69,
+     "iconH": 68,
+     "title": "PreRolls",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/pre-rolls-2824"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/edibles.svg",
+     "iconAlt": "",
+     "iconW": 69,
+     "iconH": 68,
+     "title": "Edibles",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/edibles-2820"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/tincture.svg",
+     "iconAlt": "",
+     "iconW": 68,
+     "iconH": 68,
+     "title": "Concentrates",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/concentrates-2818"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/vape.svg",
+     "iconAlt": "",
+     "iconW": 68,
+     "iconH": 68,
+     "title": "Vaporizers",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/vapes-2827"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/tincture-1.svg",
+     "iconAlt": "",
+     "iconW": 68,
+     "iconH": 68,
+     "title": "Tinctures",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/tinctures-2825"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/topical.svg",
+     "iconAlt": "",
+     "iconW": 68,
+     "iconH": 68,
+     "title": "Topicals",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/topicals-2826"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Group-2696.png",
+     "iconAlt": "",
+     "iconW": 113,
+     "iconH": 113,
+     "title": "Shop All",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": "",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/leaf.png",
+     "iconAlt": "",
+     "iconW": 100,
+     "iconH": 100,
+     "title": "Pickup",
+     "html": "",
+     "href": "#"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/bag.jpg",
+     "iconAlt": "",
+     "iconW": 1500,
+     "iconH": 2000,
+     "title": "Door to Door Delivery",
+     "html": "Free Pre-Roll For First 100 Orders",
+     "href": "#"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/jar.jpg",
+     "iconAlt": "",
+     "iconW": 2000,
+     "iconH": 1333,
+     "title": "Budtenders",
+     "html": "",
+     "href": "#"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/cafe.jpg",
+     "iconAlt": "",
+     "iconW": 1200,
+     "iconH": 800,
+     "title": "Consume Place",
+     "html": "Coming Soon",
+     "href": "#"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": "",
+   "bg": "/assets/photos/gs/favicon-white.png",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/canna-leaf.png",
+     "alt": "",
+     "w": 1200,
+     "h": 1079
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "heading": "More Than a Dispensary — A Community Partner",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "More Than a Dispensary — A Community Partner"
+    },
+    {
+     "type": "p",
+     "html": "At Greenstop Wellness, we are committed to providing our community with access to the finest cannabis products."
+    },
+    {
+     "type": "button",
+     "text": "Learn More",
+     "href": "/about/"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "heading": "",
+   "bg": "/assets/photos/gs/greenstop-room.jpg",
+   "blocks": []
+  },
+  {
+   "id": "s8",
+   "heading": "Upcoming Events",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Upcoming Events"
+    },
+    {
+     "type": "button",
+     "text": "See All Events",
+     "href": "/events"
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "heading": "Follow Us @GreenStopnj",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Follow Us @GreenStopnj",
+     "href": "https://www.instagram.com/greenstopnj?utm_source=ig_web_button_share_sheet&igsh=cWNwOGZsa3FyOGVv"
+    },
+    {
+     "type": "video",
+     "src": "/assets/media/gs/1.mp4",
+     "w": 480,
+     "h": 848,
+     "attrs": [
+      "loop",
+      "muted",
+      "playsinline",
+      "uk-video"
+     ]
+    },
+    {
+     "type": "video",
+     "src": "/assets/media/gs/2.mp4",
+     "w": 480,
+     "h": 848,
+     "attrs": [
+      "loop",
+      "muted",
+      "playsinline",
+      "uk-video"
+     ]
+    },
+    {
+     "type": "video",
+     "src": "/assets/media/gs/3.mp4",
+     "w": 480,
+     "h": 848,
+     "attrs": [
+      "loop",
+      "muted",
+      "playsinline",
+      "uk-video"
+     ]
+    },
+    {
+     "type": "video",
+     "src": "/assets/media/gs/5.mp4",
+     "w": 480,
+     "h": 848,
+     "attrs": [
+      "loop",
+      "muted",
+      "playsinline",
+      "uk-video"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "heading": "Wonderful experience, they have an abundant of items and merchandise to look at, customer service was beyond exceptional. From walking into the front door getting your ID checked; to walking around looking at different types of things they have to offer, Greenstop is really the place to be, don’t miss out on an awesome experience and vibe! They also have this free space that they offer, for more info just reach out and ask about there Free Space. Extremely satisfied with my visit to Greenstop!",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/419ac6a3616e6544c1c69cced7244e519dbdfd85.png",
+     "alt": "",
+     "w": 90,
+     "h": 90
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/stars-2.svg",
+     "alt": "",
+     "w": 163,
+     "h": 23
+    },
+    {
+     "type": "h3",
+     "text": "Wonderful experience, they have an abundant of items and merchandise to look at, customer service was beyond exceptional. From walking into the front door getting your ID checked; to walking around looking at different types of things they have to offer, Greenstop is really the place to be, don’t miss out on an awesome experience and vibe! They also have this free space that they offer, for more info just reach out and ask about there Free Space. Extremely satisfied with my visit to Greenstop!"
+    },
+    {
+     "type": "p",
+     "html": "<em><strong>– Fernando Torres</strong></em>"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/ffa11c072a7d2e7c4c3d8985cb9b77bf59399e2d.png",
+     "alt": "",
+     "w": 90,
+     "h": 90
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/stars-2.svg",
+     "alt": "",
+     "w": 163,
+     "h": 23
+    },
+    {
+     "type": "h3",
+     "text": "Whoo! What an experience… I was literally on my way through Google maps to some other dispensary and passed this one and just turned in…couldn’t be happier. The wonderful greeting from the pleasant human at the front desk was super inviting and then I was helped immediately by Vick and then later again by JC and Vick. These guys were great, the energy of the dispensary was great – they are super knowledgeable and very helpful, also incredibly friendly. I went there because I happened to be working in that area but I will make it a point to go back. 10/10. Highly recommend. Thank you all for a fun shopping experience!"
+    },
+    {
+     "type": "p",
+     "html": "<em><strong>– Mkurene</strong></em>"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/6a704cf2bfa7a9688bf0107ae9a7651011187a0a.png",
+     "alt": "",
+     "w": 90,
+     "h": 90
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/stars-2.svg",
+     "alt": "",
+     "w": 163,
+     "h": 23
+    },
+    {
+     "type": "h3",
+     "text": "Love the location, the people, the products!! Amazing welcoming team, they’re all about wellness !! Also..best part…GREAT PRICES! Lots of discounts ???"
+    },
+    {
+     "type": "p",
+     "html": "<em><strong>– Mkurene</strong></em>"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/62c3b51517ad60de47345a95d26c45b2d8e612cf.png",
+     "alt": "",
+     "w": 72,
+     "h": 72
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/stars-2.svg",
+     "alt": "",
+     "w": 163,
+     "h": 23
+    },
+    {
+     "type": "h3",
+     "text": "WOW! Such a great experience. They’ve only been around for a few months but man are they all friendly and knowledgeable! Very well planned. Claudia was absolutely awesome to work with and very helpful, I’m definitely coming back ?"
+    },
+    {
+     "type": "p",
+     "html": "<em><strong>– Robert Rios</strong></em>"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "heading": "",
+   "bg": "/assets/photos/gs/plants.jpg",
+   "blocks": []
+  }
+ ]
+}

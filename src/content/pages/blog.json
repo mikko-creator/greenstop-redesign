@@ -1,0 +1,116 @@
+{
+ "slug": "blog",
+ "path": "/blog/",
+ "url": "https://greenstopwellnessjc.com/blog/",
+ "title": "Blog | Greenstop Dispensary",
+ "description": "",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/greenstop-logo.png",
+ "h1": "",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Discover, Learn & Grow",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "video",
+     "src": "/assets/media/gs/7fa299f50385b169a1604506cb263109.mp4",
+     "w": 720,
+     "h": 1280,
+     "attrs": [
+      "loop",
+      "muted",
+      "playsinline",
+      "uk-video"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Discover, Learn & Grow"
+    },
+    {
+     "type": "h3",
+     "text": "The Greenstop Journal"
+    },
+    {
+     "type": "p",
+     "html": "Explore cannabis culture, wellness tips, product education, and stories from our community."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": "",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/06ef439d689e7b8f683c257b7ab8d477d48678eb.jpg",
+     "iconAlt": "",
+     "iconW": 660,
+     "iconH": 433,
+     "title": "Cannabis for Wellness: Enhancing Your Lifestyle with Natural Remedies",
+     "html": "May 9, 2025<br>In recent years, cannabis has emerged as a versatile natural remedy, gaining popularity not just for recreational use but also for its potential heal…",
+     "href": "/cannabis-for-wellness-enhancing-your-lifestyle-with-natural-remedies/"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/0065ce0c8bc8291cf299375c067838e2cbb93a77.jpg",
+     "iconAlt": "",
+     "iconW": 1500,
+     "iconH": 536,
+     "title": "Cannabis and Mental Health: Exploring Its Role in Anxiety and Depression Relief",
+     "html": "May 9, 2025<br>As mental health awareness continues to grow, many individuals are seeking alternative treatments for conditions such as anxiety and depression. Amon…",
+     "href": "/cannabis-and-mental-health-exploring-its-role-in-anxiety-and-depression-relief/"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/10fa898400deb4566e5280bc8c1c651979c67a6e.jpg",
+     "iconAlt": "",
+     "iconW": 1280,
+     "iconH": 720,
+     "title": "Having a licensed cannabis dispensary in a community can offer numerous benefits and advantages:",
+     "html": "May 9, 2025<br>1. Economic Growth Job Creation:** Dispensaries create local jobs, from retail positions to management and cultivation roles, contributing to the loc…",
+     "href": "/having-a-licensed-cannabis-dispensary-in-a-community-can-offer-numerous-benefits-and-advantages/"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/a0934639c4b9a2aafc22f5405c4a511aafa83606.jpg",
+     "iconAlt": "",
+     "iconW": 1920,
+     "iconH": 1013,
+     "title": "The Health Benefits of Cannabis: More Than Just a High",
+     "html": "April 3, 2025<br>Introduction: Cannabis isn’t just about getting high—it’s a versatile plant that’s been used for centuries for its medicinal properties. With increas…",
+     "href": "/the-health-benefits-of-cannabis-more-than-just-a-high/"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/f9c924656f1e9a55ae436711234405c1cf55bf9f.jpg",
+     "iconAlt": "",
+     "iconW": 1024,
+     "iconH": 640,
+     "title": "Choosing the Right Cannabis Product for Your Needs: A Beginner’s Guide",
+     "html": "April 3, 2025<br>Introduction: If you’re new to cannabis, it can be overwhelming to figure out which product is best for your needs. With so many strains, edibles, co…",
+     "href": "/choosing-the-right-cannabis-product-for-your-needs-a-beginners-guide/"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/5cf924aec95cc94bf5cf38885eb2c21891c49f6e.jpg",
+     "iconAlt": "",
+     "iconW": 600,
+     "iconH": 397,
+     "title": "Navigating New Jersey’s Legal Cannabis Landscape: What You Need to Know",
+     "html": "April 3, 2025<br>Introduction: New Jersey’s cannabis laws have evolved rapidly over the last few years, and with recreational marijuana now legal, many people are cur…",
+     "href": "/navigating-new-jerseys-legal-cannabis-landscape-what-you-need-to-know/"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "1",
+      "<a href=\"/blog/page/2/\">2</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "safe-and-responsible-consumption",
+  "path": "/education/safe-and-responsible-consumption/",
+  "title": "Safe and Responsible Cannabis Use",
+  "seoTitle": "Safe and Responsible Cannabis Use | Greenstop Dispensary",
+  "description": "Plain-English tips for using cannabis safely in New Jersey: start low, go slow, give edibles time, never drive impaired and store products away from kids.",
+  "date": "2026-11-03",
+  "group": "consumption",
+  "order": 7,
+  "readMinutes": 4,
+  "kicker": "Consumption",
+  "lede": "A few simple habits make for a calmer, safer cannabis experience, whether it is your first time or your hundredth. Here is our plain-English guide to using cannabis responsibly in New Jersey.",
+  "sections": [
+    {
+      "heading": "Start low and go slow",
+      "blocks": [
+        { "type": "p", "html": "If you are new to cannabis, or trying a new product, begin with a small amount. Everyone responds differently, and the same product can feel different from day to day depending on sleep, food and setting." },
+        { "type": "p", "html": "Then give it time. Inhaled products tend to take effect within minutes, while edibles and other products you swallow can take much longer to kick in and can last longer, too." },
+        { "type": "callout", "title": "The patience rule", "html": "With edibles especially, take a small serving and wait well before deciding on more. You can always take more later, but you cannot take less." }
+      ]
+    },
+    {
+      "heading": "Know your tolerance and your limits",
+      "blocks": [
+        { "type": "p", "html": "Tolerance tends to build with regular use and fade after a break, so after time away, go back to a smaller amount. Read every label, since strength varies from product to product. Our guide to <a href=\"/education/thc-and-cbd/\">THC and CBD</a> covers two compounds you will often see listed." },
+        { "type": "p", "html": "Skip the mix: combining cannabis with alcohol can make effects stronger and harder to predict. If you take prescription medication or have a health condition, talk with your healthcare provider before using cannabis." },
+        { "type": "p", "html": "If you take more than you meant to, find a calm, comfortable spot, sip water and stay with someone you trust. If you feel unwell or worried, contact a medical professional, and call 911 in an emergency." }
+      ]
+    },
+    {
+      "heading": "Never drive high",
+      "blocks": [
+        { "type": "p", "html": "In New Jersey, driving under the influence of cannabis is illegal, even though cannabis itself is legal for adults 21 and older. That applies whether the cannabis was used for recreational or medical purposes, and an impaired driver can be charged with driving under the influence (DUI). Cannabis DUIs are prosecuted under the same statute as alcohol DUIs, N.J.S.A. 39:4-50." },
+        { "type": "facts", "ids": ["drive-illegal", "drive-medical-too", "drive-statute"] },
+        { "type": "p", "html": "Police may use trained Drug Recognition Experts and other evidence to decide whether a driver is impaired by drugs. For a first offense, the New Jersey Cannabis Regulatory Commission lists a license loss of 7 months to 1 year, a $300 to $500 fine plus fees and insurance surcharges, up to 30 days in jail, and 12 to 48 hours of the Intoxicated Driver Resource Center program." },
+        { "type": "facts", "ids": ["drive-dre", "drive-first-offense"] },
+        { "type": "p", "html": "Plan ahead: pick a sober driver, use public transit or a rideshare, or stay put until you are no longer impaired." }
+      ]
+    },
+    {
+      "heading": "Where, and with whom",
+      "blocks": [
+        { "type": "p", "html": "Cannabis is for adults. A person under 21 may not buy, acquire, accept or consume cannabis, or try to, and adults who give cannabis to someone under 21, or help them buy it in any way, are subject to penalties." },
+        { "type": "facts", "ids": ["age-under-21-prohibited", "age-adults-supplying-minors"] },
+        { "type": "p", "html": "Generally, adults 21 and older can use cannabis on private property, but property owners can limit its use there, and landlords may prohibit or regulate cannabis on their property. New Jersey's Smoke Free Air Act prohibits smoking of any kind in most public spaces, and the state rules do not permit smoking, vaping or aerosolizing cannabis anywhere a federal, state or local law prohibits smoking tobacco. The rules also do not permit anyone to possess or use cannabis in a school, hospital, detention facility or correctional facility." },
+        { "type": "facts", "ids": ["use-private-property", "use-rule-landlords", "use-smoke-free-air-act", "use-rule-tobacco-places", "use-rule-institutions"] }
+      ]
+    },
+    {
+      "heading": "Buy legal and store it safely",
+      "blocks": [
+        { "type": "p", "html": "Buying cannabis anywhere other than a New Jersey licensed dispensary is illegal, and the safety of that product cannot be guaranteed." },
+        { "type": "facts", "ids": ["legal-unlicensed-illegal"] },
+        { "type": "p", "html": "At home, keep products in their original packaging and store them locked or out of reach of children and pets, since many edibles look like everyday snacks. If a child may have eaten cannabis, call poison control or a doctor right away, and for a pet, call your veterinarian." },
+        { "type": "callout", "title": "Rules change", "html": "For the current rules, check the Commission's <a href=\"https://www.nj.gov/cannabis/adult-personal/safe-responsible-consumption/\">Safe &amp; Responsible Consumption</a> and <a href=\"https://www.nj.gov/cannabis/adult-personal/dont-drive-high/\">Don't Drive High</a> pages. Questions? <a href=\"/contact/\">Ask the Greenstop team</a>." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "How long should I wait before taking more?", "a_html": "It depends on you and the product. Inhaled products tend to act within minutes, while edibles can take much longer, so start small and give it plenty of time." },
+    { "q": "Is it illegal to drive high in New Jersey?", "a_html": "Yes. Driving under the influence of cannabis is illegal in New Jersey for recreational and medical use alike, and an impaired driver can be charged with DUI." },
+    { "q": "Can I smoke cannabis in public?", "a_html": "New Jersey's Smoke Free Air Act prohibits smoking of any kind in most public spaces. Use is generally allowed on private property, though property owners can limit it and landlords may prohibit it." }
+  ],
+  "related": ["routes-of-administration", "thc-and-cbd", "recreational-cannabis"],
+  "note": "Educational content, not medical or legal advice. Rules change: check the official sources linked on this page.",
+  "lastReviewed": "November 2026"
+}

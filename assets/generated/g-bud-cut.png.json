@@ -1,0 +1,31 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-bud-cut",
+ "file": "assets/generated/g-bud-cut.png",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Studio product photograph of a single dense cured cannabis bud, frosty white trichomes, orange pistils, deep green with hints of purple, isolated and centred on a plain seamless light grey background, soft even studio lighting, sharp focus throughout, the whole bud in frame with a wide empty margin around it, no props, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "1:1"
+ },
+ "seed": 422637070,
+ "requestId": "01a19f24-d649-7402-ac09-223e159da952",
+ "cutout": {
+  "model": "fal-ai/birefnet/v2",
+  "requestId": "01a19f25-0e19-7111-9643-221c526ce339"
+ },
+ "width": 2048,
+ "height": 2048,
+ "sha256": "7f3745981303a37ae570970bf88f46316f198039989126cee2d71cd8a45925f6",
+ "raw": "tmp/img/raw/g-bud-cut.1793671365609.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-03T02:02:52.083Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Accepted on the first attempt. Alpha: corners and a 4 px border fully transparent, 1.45% partial-alpha pixels (trichome fringe), no box.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "path": "/event/grass-crafts/",
+ "url": "https://greenstopwellnessjc.com/event/grass-crafts/",
+ "slug": "grass-crafts",
+ "title": "Grass & Crafts",
+ "restTitle": "Grass & Crafts",
+ "seoTitle": "Grass & Crafts | Greenstop Dispensary",
+ "description": "",
+ "date": "August 26, 2026",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2026-08-26T22:54:01-04:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/Blue-And-Silver-Sleek-Metallic-Dance-Party-Instagram-Post-Instagram-Reel-2.png",
+  "alt": "",
+  "w": 1080,
+  "h": 1920
+ },
+ "html": "",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/Blue-And-Silver-Sleek-Metallic-Dance-Party-Instagram-Post-Instagram-Reel-2.png",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Grass & Crafts",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Grass & Crafts"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "August 26, 2026"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Blue-And-Silver-Sleek-Metallic-Dance-Party-Instagram-Post-Instagram-Reel-2.png",
+     "alt": "",
+     "w": 1080,
+     "h": 1920
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/buds-bouquets/\">Previous</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

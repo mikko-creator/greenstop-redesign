@@ -1,0 +1,62 @@
+{
+ "path": "/event/hip-hop-class/",
+ "url": "https://greenstopwellnessjc.com/event/hip-hop-class/",
+ "slug": "hip-hop-class",
+ "title": "Hip Hop Class",
+ "restTitle": "Hip Hop Class",
+ "seoTitle": "Hip Hop Class | Greenstop Dispensary",
+ "description": "",
+ "date": "August 20, 2025",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2025-08-20T11:06:18-04:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/Screenshot-2025-08-20-110205.jpg",
+  "alt": "",
+  "w": 652,
+  "h": 1154
+ },
+ "html": "",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/Screenshot-2025-08-20-110205.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Hip Hop Class",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Hip Hop Class"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "August 20, 2025"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Screenshot-2025-08-20-110205.jpg",
+     "alt": "",
+     "w": 652,
+     "h": 1154
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/the-jersey-city-ward-tour/\">Previous</a>",
+      "<a href=\"/event/blazin-bbq/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

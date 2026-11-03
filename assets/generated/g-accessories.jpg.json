@@ -1,0 +1,28 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-accessories",
+ "file": "assets/generated/g-accessories.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Product still life photograph: a clear borosilicate glass hand pipe, a matte silver metal herb grinder with its lid set beside it, and a small loose stack of plain white rolling papers, all unbranded, blank and unmarked, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "3:2"
+ },
+ "seed": 2059641939,
+ "requestId": "01a19f24-b833-7f43-886d-eef5a33b0a15",
+ "cutout": null,
+ "width": 2496,
+ "height": 1664,
+ "sha256": "c5a08412a6b4c967ffa46e4f1e3eebf6d9f0b2ef8d83eed44c366c5a66d2d65c",
+ "raw": "tmp/img/raw/g-accessories.1793671354470.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-03T02:02:36.379Z",
+ "review": {
+  "verdict": "ACCEPT-WITH-CAVEAT",
+  "reason": "Accepted on the first attempt with a caveat: the glass piece is a small bubbler-shaped water pipe, not a hand pipe; the grinder reads as a plain metal canister.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "path": "/event/buds-bouquets/",
+ "url": "https://greenstopwellnessjc.com/event/buds-bouquets/",
+ "slug": "buds-bouquets",
+ "title": "Buds Bouquets",
+ "restTitle": "Buds Bouquets",
+ "seoTitle": "Buds Bouquets | Greenstop Dispensary",
+ "description": "",
+ "date": "August 26, 2026",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2026-08-26T22:52:20-04:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/Colorful-Floral-Illustrated-Spring-Flowers-Market-Flyer-Instagram-Reel.png",
+  "alt": "",
+  "w": 1080,
+  "h": 1920
+ },
+ "html": "",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/Colorful-Floral-Illustrated-Spring-Flowers-Market-Flyer-Instagram-Reel.png",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Buds Bouquets",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Buds Bouquets"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "August 26, 2026"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Colorful-Floral-Illustrated-Spring-Flowers-Market-Flyer-Instagram-Reel.png",
+     "alt": "",
+     "w": 1080,
+     "h": 1920
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/greenstop-world-cup-2026-streaming-mixer-jersey-city-event/\">Previous</a>",
+      "<a href=\"/event/grass-crafts/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

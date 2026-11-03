@@ -1,0 +1,75 @@
+{
+ "path": "/team-member/luis-oniell/",
+ "url": "https://greenstopwellnessjc.com/team-member/luis-oniell/",
+ "slug": "luis-oniell",
+ "name": "Luis",
+ "restTitle": "Luis",
+ "jobTitle": "Budtender",
+ "seoTitle": "Luis | Greenstop Dispensary",
+ "description": "",
+ "image": {
+  "src": "/assets/photos/gs/WhatsApp-Image-2026-02-06-at-9.42.36-PM.jpeg",
+  "alt": "",
+  "w": 1200,
+  "h": 1600
+ },
+ "html": "<p>Say hello to <strong data-start=\"104\" data-end=\"120\" data-is-only-node=\"\">Luis</strong>, the newest member of the Greenstop team! A former <strong data-start=\"172\" data-end=\"200\">college baseball athlete</strong> with degrees in <strong data-start=\"217\" data-end=\"262\">Business Management and Sports Management</strong>, Luis brings discipline, teamwork, and a winning mindset to everything he does. he’s passionate about connecting with customers, breaking down products in a simple way, and helping you find exactly what fits your vibe. Stop by, say what’s up, and let Lusi put you onto some Greenstop favorites ?</p>\n",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/WhatsApp-Image-2026-02-06-at-9.42.36-PM.jpeg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Luis",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2026-02-06-at-9.42.36-PM.jpeg",
+     "alt": "",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "type": "h3",
+     "text": "Luis"
+    },
+    {
+     "type": "p",
+     "html": "Say hello to <strong>Luis</strong>, the newest member of the Greenstop team! A former <strong>college baseball athlete</strong> with degrees in <strong>Business Management and Sports Management</strong>, Luis brings discipline, teamwork, and a winning mindset to everything he does. he’s passionate about connecting with customers, breaking down products in a simple way, and helping you find exactly what fits your vibe. Stop by, say what’s up, and let Lusi put you onto some Greenstop favorites ?"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2026-02-06-202348.png",
+     "iconAlt": "",
+     "iconW": 937,
+     "iconH": 946,
+     "title": "Garden Greens | Z pie",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/flower-2821/premium-flower-hybrid-z-pie-premium-flower-3.5g-157499?stockType=Default",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/1761124928_b52e0ef2-0e32-471c-b1f1-a0cd09bc8f6a.avif",
+     "iconAlt": "",
+     "iconW": 350,
+     "iconH": 350,
+     "title": "Verano | Pain Relief 1:1…",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/topicals-2826/lotion-pain-relief-1-1-cbd-thc-lotion-100mg-158216?stockType=Default",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/1761126156_17588e2f-1517-4b9e-ab09-0e0b5888407c.jpg",
+     "iconAlt": "",
+     "iconW": 350,
+     "iconH": 350,
+     "title": "Drool | Recovery Stick 1…",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/topicals-2826/stick-recovery-1-1-1-thc-cbd-cbg-stick-500mg-158270?stockType=Default",
+     "linkText": "add"
+    }
+   ]
+  }
+ ]
+}

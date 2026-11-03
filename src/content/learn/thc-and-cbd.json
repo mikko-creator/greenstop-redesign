@@ -1,0 +1,59 @@
+{
+  "slug": "thc-and-cbd",
+  "path": "/education/thc-and-cbd/",
+  "title": "THC and CBD: How They Differ and Work Together",
+  "seoTitle": "THC and CBD: How They Differ | Greenstop Dispensary",
+  "description": "THC and CBD are the best-known compounds in cannabis. Learn how they differ, how they interact with the body and what a THC to CBD ratio on a label means.",
+  "date": "2026-11-03",
+  "group": "basics",
+  "order": 3,
+  "readMinutes": 3,
+  "kicker": "Cannabis 101",
+  "lede": "THC and CBD come from the same plant and are close chemical cousins, yet they feel very different. Here's a plain-English look at each one and what happens when they show up together.",
+  "sections": [
+    {
+      "heading": "Two compounds, one plant",
+      "blocks": [
+        { "type": "p", "html": "Cannabis produces more than 100 compounds called <strong>cannabinoids</strong>. Two of them get most of the attention: <strong>THC</strong> (delta-9-tetrahydrocannabinol) and <strong>CBD</strong> (cannabidiol). They even share the same chemical formula, with the atoms arranged differently. The living plant makes both mostly in acidic forms, THCA and CBDA, which heat converts into THC and CBD." },
+        { "type": "p", "html": "The biggest difference is simple. THC is the main intoxicating cannabinoid, the one responsible for the high. CBD is non-intoxicating: it does act on the body and brain, but it doesn't produce a high." }
+      ]
+    },
+    {
+      "heading": "How they interact with the body",
+      "blocks": [
+        { "type": "p", "html": "Both compounds interact with the <strong>endocannabinoid system</strong>, a network of signaling molecules and receptors found throughout the body. Your body makes its own cannabinoid-like molecules, and scientists are still learning about everything this system does." },
+        { "type": "ul", "items": [
+          "<strong>THC</strong> binds to CB1 receptors, which are especially common in the brain and nervous system. That's what produces its intoxicating effects, such as changes in mood, perception, memory and coordination.",
+          "<strong>CBD</strong> doesn't activate CB1 receptors the way THC does. It appears to act through several other pathways, and exactly how it works is still being studied."
+        ] }
+      ]
+    },
+    {
+      "heading": "When THC and CBD show up together",
+      "blocks": [
+        { "type": "p", "html": "Many products contain both, and labels often express the balance as a ratio. A 1:1 product contains roughly equal amounts of each, while a product labeled 20:1 CBD to THC is mostly CBD with a small amount of THC. Ratios help you compare products at a glance, but the actual amounts matter too: a 1:1 product can still be strong if each serving contains a lot of both." },
+        { "type": "p", "html": "You may hear that CBD softens or balances the effects of THC. Some studies suggest CBD may change how THC feels for some people, while others have found little difference, so the evidence is mixed. Keep in mind that a product with CBD can still be intoxicating if it also contains THC." },
+        { "type": "callout", "title": "Start low, go slow", "html": "Whatever the ratio, begin with a small amount of any product that's new to you and give it time to take effect before having more. Effects vary from person to person." }
+      ]
+    },
+    {
+      "heading": "Good to know",
+      "blocks": [
+        { "type": "ul", "items": [
+          "<strong>Medications.</strong> Both THC and CBD can interact with some medications. If you take any, or have health questions, talk with a healthcare provider or pharmacist first.",
+          "<strong>Drug tests.</strong> Drug tests typically look for substances your body makes as it breaks down THC. Some CBD products contain small amounts of THC, so using them doesn't guarantee a negative result.",
+          "<strong>Labels.</strong> Check how much THC and CBD is in each serving and in the whole package, and compare products by those numbers rather than by name.",
+          "<strong>Research.</strong> Scientists are actively studying both compounds, and much is still unknown about their long-term effects and how they work together."
+        ] },
+        { "type": "p", "html": "Questions? Ask the Greenstop team in store, or read <a href=\"/education/thc-tetrahydrocannabinol/\">What Is THC?</a> for a closer look at THC." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Will CBD get me high?", "a_html": "No. CBD is non-intoxicating. A product can still cause a high if it also contains THC, so check the label for both." },
+    { "q": "Can CBD cancel out a high?", "a_html": "Not reliably. Research on whether CBD changes THC's effects has produced mixed results. If you've had more THC than you'd like, a calm setting and time are what help most." },
+    { "q": "Which one is right for me?", "a_html": "That depends on what you're looking for, including whether you want an intoxicating experience at all. Effects vary from person to person, so start low, go slow, and bring any health questions to a healthcare provider." }
+  ],
+  "related": ["thc-tetrahydrocannabinol", "guide-to-strains", "guide-to-terpenes"],
+  "note": "Educational content, not medical or legal advice."
+}

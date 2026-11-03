@@ -1,0 +1,28 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-flower",
+ "file": "assets/generated/g-flower.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Product still life photograph: two clear glass jars with glass lids filled with dense cured cannabis flower buds, one bud resting on the surface beside the jars, everything plain and unlabelled, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "3:2"
+ },
+ "seed": 3093012404,
+ "requestId": "01a19f24-7a75-75c0-92a3-67faa5b6def2",
+ "cutout": null,
+ "width": 2496,
+ "height": 1664,
+ "sha256": "9ed0ce5af523f183a9388b1c43df1d5ca8766d47b5feaa402ac27199b3fa422e",
+ "raw": "tmp/img/raw/g-flower.1793671343899.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-03T02:02:25.489Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Accepted on the first attempt.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ }
+}

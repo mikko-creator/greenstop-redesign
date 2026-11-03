@@ -1,0 +1,64 @@
+{
+  "slug": "thc-tetrahydrocannabinol",
+  "path": "/education/thc-tetrahydrocannabinol/",
+  "title": "What Is THC?",
+  "seoTitle": "What Is THC? A Plain-English Guide | Greenstop Dispensary",
+  "description": "THC is the main intoxicating compound in cannabis. Learn how it forms in the plant, how it works in the body, what shapes its strength and how to pace yourself.",
+  "date": "2026-11-03",
+  "group": "basics",
+  "order": 4,
+  "readMinutes": 3,
+  "kicker": "Cannabis 101",
+  "lede": "THC is the compound most people have in mind when they think of cannabis. Knowing a little about how it works can help you choose products and pace yourself with confidence.",
+  "sections": [
+    {
+      "heading": "The basics",
+      "blocks": [
+        { "type": "p", "html": "THC, short for <strong>delta-9-tetrahydrocannabinol</strong>, is the main intoxicating compound in cannabis. Researchers in Israel first isolated and described it in 1964, and it remains one of the most studied of the plant's more than 100 cannabinoids." },
+        { "type": "p", "html": "THC works by binding to CB1 receptors, part of the body's endocannabinoid system. Your body makes its own similar molecules, called endocannabinoids, and THC acts on some of the same receptors. These receptors are concentrated in areas of the brain involved in mood, memory, perception, coordination and appetite, which helps explain the wide range of ways THC can make people feel." }
+      ]
+    },
+    {
+      "heading": "From THCA to THC: why heat matters",
+      "blocks": [
+        { "type": "p", "html": "Living cannabis plants make very little THC directly. Instead, they produce <strong>THCA</strong>, an acidic form that isn't intoxicating on its own. Heat converts THCA into THC through a process called decarboxylation." },
+        { "type": "p", "html": "That's why cannabis is smoked or vaporized, and why it's heated before being made into edibles. It's also why flower labels often list THCA, and some show a total THC figure that estimates how much THC will be available once the product is heated." }
+      ]
+    },
+    {
+      "heading": "How THC can feel",
+      "blocks": [
+        { "type": "p", "html": "Effects vary widely from person to person, and from one occasion to the next. People commonly describe feeling relaxed, euphoric or giggly, noticing sounds and flavors more, or feeling hungrier than usual. Your surroundings and expectations play a part too, which is why a comfortable, familiar place is a good choice when you're trying something new." },
+        { "type": "p", "html": "THC can also cause effects people don't enjoy, especially with larger amounts or stronger products: anxious or paranoid feelings, a racing heart, dry mouth, red eyes, dizziness, and trouble with short-term memory and coordination." },
+        { "type": "callout", "title": "If you've had too much", "html": "Find a calm, comfortable spot, sip some water and remind yourself the feeling will pass. Stay with someone you trust. If you have chest pain, trouble breathing or severe confusion, call 911 or get medical help right away." }
+      ]
+    },
+    {
+      "heading": "What shapes the strength",
+      "blocks": [
+        { "type": "ul", "items": [
+          "<strong>Potency.</strong> Average THC levels in cannabis have risen considerably over the past few decades, and concentrates contain far more THC than flower.",
+          "<strong>Format.</strong> Inhaled THC takes effect within minutes. Edibles can take 30 minutes to 2 hours to kick in, and their effects usually last longer. Our <a href=\"/education/routes-of-administration/\">product format guide</a> walks through each option.",
+          "<strong>Tolerance.</strong> Regular use builds tolerance, so the same amount can feel very different to an occasional consumer.",
+          "<strong>You.</strong> Body chemistry, mood and setting all play a part, and research on how these factors interact is still developing."
+        ] },
+        { "type": "p", "html": "The guiding principle is <strong>start low, go slow</strong>: begin with a small amount, wait to see how you feel, and talk with a healthcare provider if you have health questions or take medications." }
+      ]
+    },
+    {
+      "heading": "Never drive high",
+      "blocks": [
+        { "type": "p", "html": "THC affects reaction time, coordination and judgment, so plan a ride before you consume. New Jersey's cannabis regulator is clear on this point:" },
+        { "type": "facts", "ids": ["drive-illegal", "drive-medical-too"] },
+        { "type": "p", "html": "Questions? Ask the Greenstop team in store." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Is THC the same as THCA?", "a_html": "Not quite. THCA is the form the plant produces, and it isn't intoxicating on its own. Heating converts it into THC." },
+    { "q": "How long does THC stay in your system?", "a_html": "It depends on how often and how much you consume, your body and the type of test. Occasional consumers usually clear it sooner, while regular consumers can test positive for much longer." },
+    { "q": "Is a higher THC number always better?", "a_html": "Not necessarily. A higher number means a stronger product, not a better experience. Starting with a lower-potency product makes it easier to find what feels comfortable for you." }
+  ],
+  "related": ["thc-and-cbd", "routes-of-administration", "safe-and-responsible-consumption"],
+  "note": "Educational content, not medical or legal advice."
+}

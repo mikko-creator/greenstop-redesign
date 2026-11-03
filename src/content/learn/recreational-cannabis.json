@@ -1,0 +1,75 @@
+{
+  "slug": "recreational-cannabis",
+  "path": "/education/recreational-cannabis/",
+  "title": "Recreational Cannabis in New Jersey: The Basics",
+  "seoTitle": "Recreational Cannabis in New Jersey | Greenstop Dispensary",
+  "description": "New to legal cannabis in New Jersey? Learn who can buy, how much you can purchase, where you can use it, and the rules on ID, driving, travel and home growing.",
+  "date": "2026-11-03",
+  "group": "new-jersey",
+  "order": 8,
+  "readMinutes": 4,
+  "kicker": "New Jersey",
+  "lede": "New to legal cannabis in New Jersey? This guide covers who can buy, how much, where you can use it and other rules worth knowing, with every legal point linked to its official source.",
+  "sections": [
+    {
+      "heading": "Who can buy",
+      "blocks": [
+        { "type": "p", "html": "New Jersey's Cannabis Regulatory, Enforcement Assistance, and Marketplace Modernization (CREAMM) Act allows the legal sale and use of cannabis and cannabis products for residents 21 and older, and anyone 21 or older, New Jersey resident or visitor, can buy recreational cannabis at a licensed dispensary." },
+        { "type": "facts", "ids": ["legal-creamm-act", "age-who-can-buy", "legal-buy-at-licensed"] },
+        { "type": "p", "html": "Bring a government-issued ID. Staff must see it to confirm you are 21 or older, and may not copy it or keep a record of your purchase beyond what that single transaction requires. Under the state rules, they check photo ID before you enter and again before each sale. Buying anywhere other than a New Jersey licensed dispensary is illegal, and the safety of that product cannot be guaranteed." },
+        { "type": "facts", "ids": ["age-id-check", "age-id-each-transaction", "legal-unlicensed-illegal"] }
+      ]
+    },
+    {
+      "heading": "How much you can buy",
+      "blocks": [
+        { "type": "p", "html": "In each transaction, a dispensary may sell you up to the equivalent of 1 ounce (28.35 grams) of usable cannabis. According to the New Jersey Cannabis Regulatory Commission, that means up to:" },
+        { "type": "ul", "items": [
+          "28.35 grams (1 ounce) of dried flower, or",
+          "4 grams of solid concentrate or resin, or the equivalent of 4 grams of concentrate in liquid form, or",
+          "4 grams of vaporized formulations (oil), a cap the state rules express as vaporized formulations containing no more than four mL of oil, or",
+          "1,000 mg of ingestible products such as gummies, for example ten 100 mg packages."
+        ] },
+        { "type": "facts", "ids": ["limit-per-transaction", "limit-flower", "limit-concentrate", "limit-vape", "limit-rule-concentrate-vape", "limit-edibles"] },
+        { "type": "p", "html": "You can combine products, for example 14.17 grams (1/2 ounce) of dried flower and 2 grams of concentrate, as long as the total does not exceed 28.35 grams (one ounce) or the equivalent. Dispensaries must make a good-faith effort to stop customers from going over one ounce across multiple transactions." },
+        { "type": "facts", "ids": ["limit-combination", "limit-rule-combination"] }
+      ]
+    },
+    {
+      "heading": "How much you can have and share",
+      "blocks": [
+        { "type": "p", "html": "Official texts give different possession figures. The Commission's recreational cannabis page and general FAQ say state law allows adults 21 and older to have up to 6 ounces of cannabis and cannabis products in their possession. The state's personal use rules say it is not unlawful for a consumer to possess, purchase, transport or give away without payment up to 1 ounce of usable cannabis, or the equivalent in cannabis products, obtained directly from a licensed retailer. Check the current guidance before relying on either." },
+        { "type": "facts", "ids": ["poss-six-ounces", "poss-six-ounces-faq", "poss-rule-one-ounce"] },
+        { "type": "p", "html": "You may give up to 1 ounce (28.35 grams) of cannabis to another adult 21 or older, but you may not accept any payment or compensation for it." },
+        { "type": "facts", "ids": ["poss-gifting"] }
+      ]
+    },
+    {
+      "heading": "Where you can use it",
+      "blocks": [
+        { "type": "p", "html": "You may smoke cannabis in private spaces, and cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise. Generally, adults 21 and older can use cannabis on private property, but property owners can limit its use, and landlords may prohibit it on their property. New Jersey's Smoke Free Air Act prohibits smoking of any kind in most public spaces." },
+        { "type": "facts", "ids": ["use-private-spaces", "use-where-cigarettes", "use-private-property", "use-smoke-free-air-act"] },
+        { "type": "p", "html": "You can also consume legal cannabis at licensed dispensaries with consumption areas, which admit only patrons 21 or older with photo ID. Consumption areas cannot sell food or drinks. You may bring or order in food and drinks, but no alcohol, and no tobacco products are allowed inside. You may not leave a consumption area with an open package of cannabis." },
+        { "type": "facts", "ids": ["use-consumption-areas", "use-consumption-area-rules", "use-consumption-area-open-packages"] }
+      ]
+    },
+    {
+      "heading": "Driving, travel and growing at home",
+      "blocks": [
+        { "type": "p", "html": "Driving under the influence of cannabis is illegal in New Jersey, and an impaired driver can be charged with DUI. Transporting cannabis across state lines is still illegal, so you cannot take cannabis bought here home to another state. Growing cannabis at home is not legal either: current state law does not let the Commission authorize any growing outside a business with a cultivation license." },
+        { "type": "facts", "ids": ["drive-illegal", "drive-medical-too", "transport-state-lines", "grow-not-allowed"] },
+        { "type": "p", "html": "Federal law, the Controlled Substances Act, still prohibits the cultivation, distribution and possession of marijuana regardless of state law." },
+        { "type": "facts", "ids": ["legal-federal-law"] },
+        { "type": "callout", "title": "Rules change", "html": "For the current rules, check the Commission's <a href=\"https://www.nj.gov/cannabis/adult-personal/\">recreational cannabis page</a> and <a href=\"https://www.nj.gov/cannabis/resources/faqs/general/\">general FAQ</a>. For safety tips, see <a href=\"/education/safe-and-responsible-consumption/\">Safe and Responsible Cannabis Use</a>. Questions? <a href=\"/contact/\">Ask the Greenstop team</a>." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Do I have to be a New Jersey resident to buy?", "a_html": "No. Anyone 21 or older, resident or visitor, can buy recreational cannabis at a licensed dispensary. Bring a government-issued ID." },
+    { "q": "How much can I buy in one transaction?", "a_html": "Up to the equivalent of 1 ounce (28.35 grams) of usable cannabis, for example 28.35 grams of dried flower or 1,000 mg of ingestible products." },
+    { "q": "Can I take cannabis home to another state?", "a_html": "No. Transporting cannabis across state lines is still illegal." }
+  ],
+  "related": ["safe-and-responsible-consumption", "medical-cannabis", "thc-and-cbd"],
+  "note": "Educational content, not medical or legal advice. Rules change: check the official sources linked on this page.",
+  "lastReviewed": "November 2026"
+}

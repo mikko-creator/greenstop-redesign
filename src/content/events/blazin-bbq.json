@@ -1,0 +1,62 @@
+{
+ "path": "/event/blazin-bbq/",
+ "url": "https://greenstopwellnessjc.com/event/blazin-bbq/",
+ "slug": "blazin-bbq",
+ "title": "Blazin’ BBQ",
+ "restTitle": "Blazin’ BBQ",
+ "seoTitle": "Blazin' BBQ | Greenstop Dispensary",
+ "description": "",
+ "date": "August 20, 2025",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2025-08-20T11:06:48-04:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/18e4cad7e467b27b7dc4a9e9d3ff7cc70e6cbc42.jpg",
+  "alt": "",
+  "w": 1080,
+  "h": 1349
+ },
+ "html": "",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/18e4cad7e467b27b7dc4a9e9d3ff7cc70e6cbc42.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Blazin’ BBQ",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Blazin’ BBQ"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "August 20, 2025"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/18e4cad7e467b27b7dc4a9e9d3ff7cc70e6cbc42.jpg",
+     "alt": "",
+     "w": 1080,
+     "h": 1349
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/hip-hop-class/\">Previous</a>",
+      "<a href=\"/event/happy-holidaze/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

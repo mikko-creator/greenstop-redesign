@@ -1,0 +1,66 @@
+{
+ "path": "/event/new-year-higher-yoga-1-11/",
+ "url": "https://greenstopwellnessjc.com/event/new-year-higher-yoga-1-11/",
+ "slug": "new-year-higher-yoga-1-11",
+ "title": "New year Higher Yoga 1/11",
+ "restTitle": "New year Higher Yoga 1/11",
+ "seoTitle": "New year Higher Yoga 1/11 | Greenstop Dispensary",
+ "description": "",
+ "date": "December 25, 2025",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2025-12-25T20:08:30-05:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/Higheryoga.webp",
+  "alt": "",
+  "w": 1242,
+  "h": 1630
+ },
+ "html": "<h1 id=\"yui_3_17_2_1_1766711070712_495\" class=\"ProductItem-details-title\" data-content-field=\"title\">New year Higher Yoga 1/11</h1>\n<div id=\"yui_3_17_2_1_1766711070712_493\" class=\"ProductItem-details-excerpt\" data-content-field=\"excerpt\">\n<p class=\"\">\n</div>\n",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/Higheryoga.webp",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "New year Higher Yoga 1/11",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "New year Higher Yoga 1/11"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "December 25, 2025"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Higheryoga.webp",
+     "alt": "",
+     "w": 1242,
+     "h": 1630
+    },
+    {
+     "type": "h2",
+     "text": "New year Higher Yoga 1/11"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/events-donq-house-flower-drop/\">Previous</a>",
+      "<a href=\"/event/1492/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

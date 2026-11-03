@@ -1,0 +1,76 @@
+/* motion.css - scroll and hover motion hooks (FOUNDATION, "STREET GLASS"). Reveals use the individual `translate`
+   property and a short blur ("spray un-blur"), parallax uses `transform`, tilt uses transform variables, so a lane's
+   own transform on the same element is not overwritten by a reveal. Everything is off under prefers-reduced-motion
+   (site.js also skips the hooks). Fail-safe: html.reveal-all (2.5 s, or no IntersectionObserver) shows everything. */
+
+/* [data-reveal]: fade-up with a spray un-blur (site.js adds .is-in; stagger with style="--i:n") */
+html.js [data-reveal] {
+  transition: opacity var(--dur-slow) var(--ease-out), translate var(--dur-slow) var(--ease-out), filter 1s var(--ease-out);
+  transition-delay: calc(var(--i, 0) * 90ms);
+}
+html.js [data-reveal]:not(.is-in) { opacity: 0; translate: 0 var(--reveal-distance); filter: blur(6px); }
+html.js [data-reveal="fade"]:not(.is-in) { translate: none; }
+html.js [data-reveal="left"]:not(.is-in) { translate: calc(-1 * var(--reveal-distance)) 0; }
+html.js [data-reveal="right"]:not(.is-in) { translate: var(--reveal-distance) 0; }
+html.js [data-reveal="zoom"]:not(.is-in) { translate: none; scale: 0.94; }
+html.js [data-reveal="zoom"] { transition-property: opacity, scale, filter; }
+html.reveal-all [data-reveal] { opacity: 1; translate: none; scale: none; filter: none; }
+
+/* [data-drip]: paint drips run down once when revealed */
+html.js [data-drip] { transition: transform 1.8s var(--ease-out); }
+html.js [data-drip]:not(.is-in) { transform: scaleY(0.12); }
+html.js .drip-edge--bottom[data-drip]:not(.is-in) { transform: scaleY(-0.12); }
+html.reveal-all [data-drip]:not(.drip-edge--bottom) { transform: none; }
+html.reveal-all .drip-edge--bottom[data-drip] { transform: scaleY(-1); }
+
+/* [data-depth]: scroll parallax; site.js writes --py (px) while the element is near the viewport */
+[data-depth] { transform: translate3d(0, var(--py, 0px), 0); }
+[data-depth].is-moving { will-change: transform; }
+
+/* [data-tilt]: pointer tilt on fine pointers (site.js writes --rx/--ry and --mx/--my for an optional .glint) */
+[data-tilt] { transform: perspective(1000px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform 600ms var(--ease-out); transform-style: preserve-3d; }
+[data-tilt].is-tilting { transition: transform 120ms linear; }
+.glint { position: absolute; inset: 0; pointer-events: none; border-radius: inherit; opacity: 0; transition: opacity var(--dur); background: radial-gradient(40% 40% at var(--mx, 30%) var(--my, 20%), rgba(255, 255, 255, 0.18), transparent 70%); }
+[data-tilt].is-tilting .glint { opacity: 1; }
+
+/* [data-spot]: a lime spray light follows the cursor (site.js sets --sx/--sy in %). Put it on a positioned element;
+   the light is painted by an inner .spot (or use var(--spot-light) in your own background). */
+[data-spot] { --sx: 30%; --sy: 30%; --spot-light: radial-gradient(28% 40% at var(--sx) var(--sy), rgba(189, 215, 101, 0.26), rgba(189, 215, 101, 0.08) 45%, transparent 72%); }
+.spot { position: absolute; inset: 0; pointer-events: none; border-radius: inherit; background: var(--spot-light); opacity: 0.55; transition: opacity var(--dur) var(--ease-out); mix-blend-mode: screen; }
+[data-spot].is-spotting .spot { opacity: 1; }
+
+/* haze drift (transform only) */
+@keyframes haze-drift { 0% { transform: translate3d(-3%, 2%, 0) scale(1.06); } 50% { transform: translate3d(3%, -2%, 0) scale(1.12); } 100% { transform: translate3d(-3%, 2%, 0) scale(1.06); } }
+.haze--drift { animation: haze-drift 36s ease-in-out infinite; }
+
+/* marquee (site.js builds .marquee__track with two groups) */
+@keyframes marquee { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(-50%, 0, 0); } }
+.is-marquee .marquee__track { animation: marquee var(--marquee-dur, 40s) linear infinite; }
+[data-marquee="reverse"].is-marquee .marquee__track { animation-direction: reverse; }
+.is-marquee:hover .marquee__track, .is-marquee:focus-within .marquee__track, .is-marquee.is-paused .marquee__track { animation-play-state: paused; }
+
+/* image slow zoom on hover (opt-in) */
+.zoom-hover { overflow: hidden; }
+.zoom-hover img { transition: transform 1.6s var(--ease-out); }
+.zoom-hover:hover img, .zoom-hover:focus-within img { transform: scale(1.05); }
+
+/* panel entries */
+@keyframes panel-in { from { opacity: 0; transform: translate3d(0, -8px, 0); } to { opacity: 1; transform: none; } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+
+/* footer wordmark light: a soft band slides across (transform), its content counter-slides so the lit letters stay
+   registered with the dim ones */
+@keyframes mark-band { from { transform: translate3d(-100%, 0, 0); } to { transform: translate3d(334%, 0, 0); } }
+@keyframes mark-band-in { from { transform: translate3d(30%, 0, 0); } to { transform: translate3d(-100%, 0, 0); } }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; transition-delay: 0s !important; }
+  html.js [data-reveal]:not(.is-in) { opacity: 1; translate: none; scale: none; filter: none; }
+  html.js [data-drip]:not(.is-in) { transform: none; }
+  html.js .drip-edge--bottom[data-drip]:not(.is-in) { transform: scaleY(-1); }
+  [data-depth] { --py: 0px; }
+  [data-tilt] { --rx: 0deg; --ry: 0deg; }
+  .haze--drift, .is-marquee .marquee__track { animation: none !important; }
+  [data-video-toggle] { display: none; }
+}

@@ -1,0 +1,86 @@
+/* mobile.css - tablet + phone pass, loaded after every lane sheet (only fix.css follows) (FOUNDATION).
+   Below 1024px: the drawer (shell.css), stacked footer and trio. Phones: opaque fills instead of live backdrop blur
+   (the sticky header keeps its frost), smaller protrusions, 44px taps, capped section padding and NO horizontal
+   overflow at 390 (.site clips sideways overflow; nothing here may widen the page). */
+@media (max-width: 1023.98px) {
+  .footer__grid { grid-template-columns: 1fr; }
+  .trio__grid { grid-template-columns: 1fr; max-width: 640px; margin-inline: auto; }
+  .trio__card { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); grid-template-rows: none; }
+  .trio__media { aspect-ratio: auto; min-height: 100%; border-radius: calc(var(--r-lg) - 1px) 0 0 calc(var(--r-lg) - 1px); }
+  .trio__body { margin-top: 0; padding: 18px 18px 20px; }
+  .page-hero__grid { grid-template-columns: 1fr; }
+  .page-hero__media { min-height: 0; }
+  .page-hero__media > .frame, .page-hero__media > .taped, .page-hero__media > .cut { position: relative; right: auto; bottom: auto; width: min(100%, 420px); margin: 8px 0 calc(-1 * var(--hero-overhang)) auto; }
+  .topbar__ig { display: none; }
+
+  /* 44px taps */
+  .btn { min-height: 48px; }
+  .btn--sm { min-height: 44px; }
+  .chip, .footer__area-list .chip { min-height: 44px; }
+  .link-arrow { min-height: 44px; }
+  .rotator__dot { width: 44px; height: 44px; }
+  .video-toggle { min-height: 44px; }
+  .topbar__item { min-height: 44px; }
+  .crumbs a { display: inline-flex; align-items: center; min-height: 44px; }
+
+  /* footer: store block first, then the link columns; every row a 44px target */
+  .footer__addr a, .footer__contact a { display: flex; align-items: center; min-height: 44px; }
+  .footer__addr .ico, .footer__contact .ico { margin-top: 0; }
+  .footer__links { gap: 0; }
+  .footer__links a { display: flex; width: 100%; min-height: 44px; padding-block: 6px; line-height: 1.3; }
+  .footer__legal-links a, .footer__top { min-height: 44px; }
+  .faq summary { min-height: 52px; }
+}
+@media (max-width: 767.98px) {
+  :root { --gutter: 16px; --section-y: 56px; --topbar-h: 44px; }
+  .band { padding-block: min(var(--section-y), 56px); }
+  .band--tight { padding-block: 40px; }
+
+  /* no live blur on phones below the header: opaque fills */
+  .glass, .glass--strong, .btn--glass, .video-toggle, .topbar__pop { -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .glass { background-color: rgba(7, 40, 26, 0.95); }
+  .glass--strong { background-color: rgba(4, 30, 19, 0.97); }
+  .glass--paper { background-color: rgba(246, 245, 240, 0.97); }
+  .btn--glass { background-color: rgba(11, 61, 39, 0.94); }
+  .video-toggle { background-color: rgba(2, 21, 13, 0.9); }
+  .topbar__pop { background-color: var(--ink-1); }
+
+  /* top bar: street address + the hours button + a phone icon on one 44px line */
+  .topbar { font-size: 13px; }
+  .topbar__inner { gap: 4px 8px; }
+  .topbar__item { gap: 6px; }
+  .topbar__hours-btn .ico--chev { display: none; }
+  .topbar__full { display: none; }
+  .topbar__short { display: inline; }
+  .topbar__phone span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .topbar__phone { justify-content: center; min-width: 44px; }
+  .topbar__hours { margin-left: auto; }
+  .topbar__pop { position: fixed; left: 16px; right: 16px; top: calc(var(--topbar-h) + 6px); width: auto; }
+  .header-cta { padding: 0 14px; font-size: 0.98rem; min-height: 44px; }
+  .brand__logo { width: 112px; }
+
+  /* depth: smaller protrusions, nothing wider than the screen */
+  .protrude { --protrude: 36px; max-width: 60vw; }
+  .page-hero { --hero-overhang: 36px; padding-block: 28px 44px; }
+  .page-hero h1 { margin-block: 12px 10px; }
+  .page-hero .btn-row { margin-top: 20px; }
+  .taped::before, .taped::after { width: 72px; height: 24px; }
+  .tag--corner { font-size: 0.6em; top: -0.5em; }
+
+  .trio__card { grid-template-columns: 1fr; }
+  .trio__media { aspect-ratio: 16 / 9; min-height: 0; border-radius: calc(var(--r-lg) - 1px) calc(var(--r-lg) - 1px) 0 0; }
+  .footer__cols { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 16px; }
+  .footer__cols > :last-child { grid-column: 1 / -1; }
+  .footer__top { margin-left: 0; }
+  .footer__legal { gap: 0 20px; }
+  .footer__mark { --mark-fs: 25vw; }
+  .age-gate__actions .btn { flex: 1 1 0; min-width: 0; }
+  .demo-form__btn { justify-self: stretch; }
+  .tile-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .tile { padding: 8px 8px 14px; gap: 10px; }
+  .tile__title { font-size: 1.3rem; }
+}
+@media (max-width: 359.98px) {
+  .header-cta { display: none; }
+  .topbar__addr { display: none; }
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "respiratory-administration",
+  "path": "/education/respiratory-administration/",
+  "title": "Smoking and Vaping: What to Know About Inhaled Cannabis",
+  "seoTitle": "Smoking and Vaping Cannabis | Greenstop Dispensary",
+  "description": "Smoking and vaping are the fastest ways to feel cannabis. Learn how they differ, how to pace yourself, hardware basics and where you can consume in New Jersey.",
+  "date": "2026-11-03",
+  "group": "consumption",
+  "order": 6,
+  "readMinutes": 3,
+  "kicker": "Consumption",
+  "lede": "Inhaling is the most familiar way to consume cannabis, and the fastest. Here's how smoking and vaping work, how they differ, and how to keep the experience comfortable.",
+  "sections": [
+    {
+      "heading": "Why inhaled cannabis works quickly",
+      "blocks": [
+        { "type": "p", "html": "When you inhale cannabis, cannabinoids like THC pass from your lungs into your bloodstream and reach the brain quickly. Effects usually begin within minutes and fade over a few hours, so it's easier to judge how you feel before deciding whether to have more." }
+      ]
+    },
+    {
+      "heading": "Smoking",
+      "blocks": [
+        { "type": "p", "html": "Smoking means burning cannabis <a href=\"/products/flower/\">flower</a>, whether it's rolled into a joint, packed into a pipe or used in a water pipe. Many people enjoy the ritual and the full flavor of the flower." },
+        { "type": "p", "html": "Burning anything creates smoke, and cannabis smoke contains tar and many of the same irritants and harmful substances as tobacco smoke. Regular smoking is linked to coughing, phlegm and other breathing symptoms. Water pipes cool the smoke, which can feel smoother, but cooler smoke isn't the same as cleaner smoke." },
+        { "type": "p", "html": "Keeping a pipe or water pipe clean helps with flavor. And remember that sharing a joint or pipe also means sharing germs." }
+      ]
+    },
+    {
+      "heading": "Vaping",
+      "blocks": [
+        { "type": "p", "html": "Vaporizers heat cannabis enough to release cannabinoids and terpenes as a vapor, without burning it." },
+        { "type": "ul", "items": [
+          "<strong>Dry herb vaporizers</strong> heat flower.",
+          "<strong>Cartridges and disposables</strong> heat a cannabis oil and are compact and simple to use.",
+          "<strong>Concentrate devices</strong> vaporize wax, rosin and similar extracts, which are much stronger than flower."
+        ] },
+        { "type": "p", "html": "Because vaping skips combustion, it produces fewer of the byproducts of burning. That doesn't make it risk-free, and research on its long-term effects is limited. In 2019, a national outbreak of serious lung injuries was strongly linked to vitamin E acetate, an additive found mostly in THC vapes from informal, unregulated sources. Where you buy matters:" },
+        { "type": "facts", "ids": ["legal-unlicensed-illegal"] },
+        { "type": "callout", "title": "Hardware basics", "html": "Use the battery and charger made for your device, keep vapes out of hot cars and direct sun, and never modify a cartridge or refill a disposable." }
+      ]
+    },
+    {
+      "heading": "Pacing and comfort",
+      "blocks": [
+        { "type": "ul", "items": [
+          "<strong>Start low, go slow.</strong> Take one small puff, then wait 10 to 15 minutes before deciding on another.",
+          "<strong>Go easy on your lungs.</strong> Public health guidance commonly advises against deep inhales and holding smoke in, since both increase how much smoke reaches your lungs.",
+          "<strong>Keep water nearby.</strong> Dry mouth is common.",
+          "<strong>Skip the tobacco.</strong> Mixing cannabis with tobacco adds nicotine, which is addictive.",
+          "<strong>Never drive after consuming.</strong> Plan a ride before you start."
+        ] },
+        { "type": "p", "html": "Effects vary from person to person, and research on inhaled cannabis is still developing. If you have a lung condition or other health concerns, talk with a healthcare provider before smoking or vaping." }
+      ]
+    },
+    {
+      "heading": "Where you can smoke or vape in New Jersey",
+      "blocks": [
+        { "type": "p", "html": "Smoke and vapor reach the people around you, so it pays to be a considerate neighbor. Secondhand cannabis smoke contains many of the same harmful substances as tobacco smoke, so give children, pets and anyone who'd rather not share the air some space. Here's what the state's official sources say:" },
+        { "type": "facts", "ids": ["use-private-spaces", "use-rule-tobacco-places", "drive-illegal"] },
+        { "type": "p", "html": "Questions? Ask the Greenstop team in store, or read our guide to <a href=\"/education/safe-and-responsible-consumption/\">safe and responsible consumption</a>." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Is vaping safer than smoking?", "a_html": "Vaping avoids burning, so it produces fewer combustion byproducts, but it isn't risk-free and long-term research is limited. Neither option is completely free of risk to your lungs." },
+    { "q": "How long do inhaled effects last?", "a_html": "Effects usually begin within minutes and fade over a few hours, though this varies with the product, the amount and the person." },
+    { "q": "What's the difference between a cartridge and a disposable?", "a_html": "A cartridge attaches to a reusable battery and is replaced when it's empty. A disposable has the battery and oil built in and is used until it runs out." }
+  ],
+  "related": ["routes-of-administration", "safe-and-responsible-consumption", "guide-to-terpenes"],
+  "note": "Educational content, not medical or legal advice."
+}

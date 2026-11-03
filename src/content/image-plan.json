@@ -1,0 +1,430 @@
+{
+ "about": "Generated industry imagery for the Greenstop Wellness redesign pitch \"STREET GLASS\" (IMAGERY lane, 2026-11-03): glassmorphism crossed with graffiti street culture. Night scenes in deep forest green with a lime chartreuse signal glow, abstract graffiti made of shapes only (never readable letters or words), frosted glass and soft light streaks, plus a consistent set of category still lifes and three cut-outs that protrude past their frames. Every image is illustrative industry mood only: none stands in for Greenstop's store, staff, customers, products or a real place, and none is captioned as a photograph of them. Every alt describes what is depicted. Greenstop's own photos and videos live in assets/photos/gs/ and assets/media/gs/ (another lane). g-city-dusk was tried on Higgsfield Soul first; that request was not accepted, so every still here is FLUX 1.1 Pro Ultra on fal (cut-outs: BiRefNet v2 on fal). Each entry carries its by-eye review; prompt is the prompt of the shipped attempt, retryPrompt the last rejected retry where one was run. Run: node tools/fal-gen.mjs --plan src/content/image-plan.json --key-file <path outside the project>.",
+ "defaults": {
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "input": {
+   "output_format": "jpeg",
+   "safety_tolerance": "5"
+  },
+  "style": "no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+  "cutoutModel": "fal-ai/birefnet/v2",
+  "cutoutInput": {
+   "model": "General Use (Heavy)",
+   "operating_resolution": "2048x2048",
+   "output_format": "png"
+  }
+ },
+ "images": [
+  {
+   "id": "g-hero-wall",
+   "file": "assets/generated/g-hero-wall.jpg",
+   "role": "backdrop",
+   "decorative": true,
+   "usedFor": [
+    "home hero still and poster",
+    "hero-haze loop key frame"
+   ],
+   "aspect": "16:9",
+   "negativeSpace": "left 45% calm and dark for big white headline type; graffiti concentrated in the right half",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "A long concrete and brick wall at night, painted deep forest green and covered in layered abstract graffiti shapes, arrows and drips in lime and white, with a lime-green spray haze glowing from the left over wet asphalt.",
+   "prompt": "Cinematic night photograph of a long empty concrete and brick wall painted deep forest green, covered in a layered abstract graffiti mural made only of shapes: bold geometric blocks, swooping arrows, thick black outlines, long paint drips, spray splashes and dots in lime chartreuse, white, pale mint and a little teal. A soft glowing lime-green spray-paint haze drifts in from the left edge of the frame, wet black asphalt in the foreground mirrors the colours in long reflections, two or three soft diagonal streaks of light diffused as if seen through frosted glass. Composition: the left 45 percent of the frame is calm, dark and almost empty, deep green shadow with only the faint haze, the mural is concentrated in the right half of the frame. Empty street at night, moody high contrast, clean modern editorial look, 35mm photograph, fine grain",
+   "rejectReason": "attempt 1: a dotted block in the left headline zone reads like a numeral 6 or a letter E; flat vector look, no wet reflections or glass streaks",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 2,
+    "keptAttempt": 1,
+    "note": "Attempt 1 kept after a retouch: a dotted block in the left headline zone that read like a numeral 6 or a letter E was painted out (ffmpeg delogo plus a feathered patch of the surrounding haze; a faint soft smear remains there). Attempt 2 was rejected: a bright busy mural across the left half, no calm area for type.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   },
+   "postEdit": "retouched: letter-like block removed at x 460-698, y 500-782 of 2752x1536",
+   "retryPrompt": "Cinematic night street photograph, shot on 35mm film: a long empty concrete and brick wall painted deep forest green runs across the frame, its right half covered by a large layered abstract geometric mural made only of shapes: overlapping circles, blocks, swooping arrows, halftone dots, long paint drips and spray splashes in lime chartreuse, white, pale mint and teal. The left 45 percent of the wall is bare dark green concrete in deep shadow, lit only by a soft glowing lime-green spray-paint haze drifting in from the left edge. In the foreground, rain-wet black asphalt mirrors the mural and the haze in long glossy reflections. Two or three soft diagonal streaks of light cross the frame, diffused as if seen through frosted glass. Empty street at night, moody, high contrast, realistic photograph, fine grain"
+  },
+  {
+   "id": "g-spray-haze",
+   "file": "assets/generated/g-spray-haze.jpg",
+   "role": "backdrop",
+   "decorative": true,
+   "usedFor": [
+    "screen-blended overlay over sections",
+    "loop source"
+   ],
+   "aspect": "16:9",
+   "negativeSpace": "the cloud sits right of centre; generous near-black space on every side",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "A billowing cloud of lime-green and white spray-paint mist on a near-black green ground, fine droplets catching the light.",
+   "prompt": "A billowing cloud of lime chartreuse and white spray-paint mist drifting through darkness, soft volumetric plumes curling outward, fine glowing paint droplets catching the light at the edges of the cloud, set against a plain near-black deep green background, the cloud sits right of centre and fills about a third of the frame, lots of empty dark space all around it, high-speed studio photograph on a dark ground, crisp droplets, soft glow",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 1,
+    "keptAttempt": 1,
+    "note": "Accepted on the first attempt.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   }
+  },
+  {
+   "id": "g-drips",
+   "file": "assets/generated/g-drips.jpg",
+   "role": "backdrop",
+   "decorative": true,
+   "usedFor": [
+    "section band",
+    "drip-loop source"
+   ],
+   "aspect": "21:9",
+   "input": {
+    "aspect_ratio": "21:9"
+   },
+   "alt": "Close-up of glossy lime-green paint drips running down a dark green painted wall in raking light.",
+   "prompt": "Close-up photograph of glossy lime chartreuse paint drips running down a dark forest-green painted wall, thick drips with rounded beads at their tips and long thin trails of different lengths across the frame, raking light from the left making the wet paint glisten and the brushed wall texture visible, dark moody shadows, shallow depth of field, macro detail",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 1,
+    "keptAttempt": 1,
+    "note": "Accepted on the first attempt.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   }
+  },
+  {
+   "id": "g-city-dusk",
+   "file": "assets/generated/g-city-dusk.jpg",
+   "role": "backdrop",
+   "provider": "fal",
+   "usedFor": [
+    "visit / neighbourhood band"
+   ],
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "An empty city street at blue hour, brick row buildings with colourful abstract murals, glowing street lamps and wet pavement. An illustration, not a real location.",
+   "prompt": "Blue-hour photograph looking down a narrow, empty lane between old red brick row buildings in North Jersey, the long blank brick side wall on the right painted with a large colourful abstract geometric mural of overlapping circles and triangles in lime green, teal and magenta, two old cast-iron street lamps glowing warm, rain-wet paving stones reflecting the lamps and the mural, warm light in a few upper windows, deep blue evening sky above the rooftops, quiet and atmospheric, full-frame photograph edge to edge, nobody there: no people, no cars, no signs, no shop fronts, no house numbers, no text, no letters, no words, no numbers, no logos, no graffiti tags",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "note": "Higgsfield Soul was tried first and the request was not accepted, so this image was generated with FLUX 1.1 Pro Ultra on fal.",
+   "rejectReason": "attempt 2: a sandwich board and street signs with lettering, parked cars, letterbox bars",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 3,
+    "keptAttempt": 3,
+    "note": "Higgsfield Soul was tried first and the request was not accepted, so it was made with FLUX on fal. Attempt 3 kept after a retouch: one tiny distant figure (about 40 px tall) was painted out. Attempts 1 and 2 were rejected for shop signs and street signs with lettering, people and parked cars.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   },
+   "postEdit": "retouched: distant figure removed at x 1362-1398, y 1062-1130 of 2752x1536"
+  },
+  {
+   "id": "g-glass-bud",
+   "file": "assets/generated/g-glass-bud.jpg",
+   "role": "feature",
+   "usedFor": [
+    "about / product story panel"
+   ],
+   "aspect": "4:5",
+   "note": "generated at 3:4 (FLUX ultra has no 4:5) and cropped to 4:5, then re-labelled",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "alt": "Macro of a cured cannabis bud seen partly through a sheet of frosted glass, outlined by a lime rim light on a deep green background.",
+   "prompt": "Macro photograph of a single dense cured cannabis bud, frosty trichomes and amber pistils, seen partly through and around the edge of a vertical sheet of frosted glass: the part of the bud behind the glass is softly blurred and diffused, the part beside the glass edge is crisp and sharp, a lime chartreuse rim light outlines the bud and the polished glass edge, deep forest-green background, dark moody studio, shallow depth of field",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 1,
+    "keptAttempt": 1,
+    "note": "Accepted on the first attempt; generated at 3:4 (FLUX ultra has no 4:5) and cropped to 4:5.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   },
+   "postEdit": "cropped 1792x2368 -> 1792x2240 (64 px off the top and bottom), re-labelled"
+  },
+  {
+   "id": "g-flower",
+   "file": "assets/generated/g-flower.jpg",
+   "role": "category",
+   "usedFor": [
+    "category tile: Flower"
+   ],
+   "aspect": "3:2",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Glass jars of cured cannabis flower on dark concrete, lit by a lime rim light.",
+   "prompt": "Product still life photograph: two clear glass jars with glass lids filled with dense cured cannabis flower buds, one bud resting on the surface beside the jars, everything plain and unlabelled, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 1,
+    "keptAttempt": 1,
+    "note": "Accepted on the first attempt.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   }
+  },
+  {
+   "id": "g-prerolls",
+   "file": "assets/generated/g-prerolls.jpg",
+   "role": "category",
+   "usedFor": [
+    "category tile: Pre-rolls"
+   ],
+   "aspect": "3:2",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Cone-shaped pre-rolled joints in white rolling paper with twisted tips, lying on dark concrete in a lime rim light.",
+   "prompt": "Product still life photograph: three finished hand-rolled cone-shaped cannabis joints lying side by side at a slight diagonal, each one a slim white paper cone packed full with ground cannabis flower, faint green flecks showing through the thin white rolling paper, the wide end of each cone sealed shut with a small twisted paper tip, the narrow end plain rolled white paper, no filter, not cigarettes, a few crumbs of ground cannabis flower beside them, everything plain and unlabelled, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field",
+   "rejectReason": "attempt 2: straight open paper tubes stuffed at the end, no cone shape and no twisted tips",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT-WITH-CAVEAT",
+    "generationCalls": 3,
+    "keptAttempt": 2,
+    "note": "Best of three, kept attempt 2: open-ended rolled white papers filled with ground flower, clearly cannabis and not cigarettes, but not cone-shaped and without twisted tips. Attempt 1: empty open paper cones. Attempt 3: straight tubes, one with an orange filter-like tip. Retry limit reached.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   },
+   "retryPrompt": "Product still life photograph of three finished cannabis pre-roll cones lying side by side in a slight fan: each is a slim cone of white rolling paper, noticeably wider at one end and tapering to a narrow end, fully packed and closed, the wide end of each cone finished with a small twisted paper twist like a candle wick, the narrow end plain white paper, faint green specks of ground flower visible through the thin paper, a few loose crumbs of ground cannabis flower nearby, no filter, not cigarettes, everything plain and unlabelled, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field"
+  },
+  {
+   "id": "g-edibles",
+   "file": "assets/generated/g-edibles.jpg",
+   "role": "category",
+   "usedFor": [
+    "category tile: Edibles"
+   ],
+   "aspect": "3:2",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Sugar-dusted cannabis gummies in a shallow glass dish on dark concrete, with a small cannabis leaf beside it.",
+   "prompt": "Product still life photograph: a shallow clear glass dish holding a small pile of sugar-dusted cannabis gummies in lime green, amber and deep red, two gummies on the surface beside the dish, a small fresh cannabis leaf lying next to the dish, everything plain and unlabelled, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 1,
+    "keptAttempt": 1,
+    "note": "Accepted on the first attempt.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   }
+  },
+  {
+   "id": "g-vapes",
+   "file": "assets/generated/g-vapes.jpg",
+   "role": "category",
+   "usedFor": [
+    "category tile: Vapes"
+   ],
+   "aspect": "3:2",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Unbranded vape cartridges with clear tanks of amber oil standing on dark concrete in a lime rim light.",
+   "prompt": "Product still life photograph: three unbranded 510-thread vape cartridges with clear glass tanks filled with golden amber cannabis oil and plain black ceramic mouthpieces, two standing upright and one lying on its side, blank glass and blank metal with no markings, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind making the oil glow, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 1,
+    "keptAttempt": 1,
+    "note": "Accepted on the first attempt.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   }
+  },
+  {
+   "id": "g-concentrates",
+   "file": "assets/generated/g-concentrates.jpg",
+   "role": "category",
+   "usedFor": [
+    "category tile: Concentrates"
+   ],
+   "aspect": "3:2",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Shards of amber cannabis shatter and a dab of live resin on parchment paper, with a slim metal dab tool, on dark concrete.",
+   "prompt": "Cannabis extract product photograph, macro: a thin flat sheet of translucent amber cannabis shatter, like a pane of amber glass, snapped into a few flat glassy shards with sharp edges, lying on a square of white parchment paper; beside the shards a small glossy puddle of golden live resin sauce glistening with tiny crystals; one slim stainless-steel dab tool, a thin metal wand with a tiny flat paddle tip, resting on the parchment, everything plain and unlabelled, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field",
+   "rejectReason": "attempt 1: faceted gem-like lump and a sugar-like mound with a knife-like tool: risks reading as rock candy or food",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 2,
+    "keptAttempt": 2,
+    "note": "Attempt 2 accepted: glassy amber shatter shards and a puddle of golden sauce on parchment with a slim dab tool. Attempt 1 was rejected: a faceted gem-like lump and a sugar-like mound with a knife-like tool, at risk of reading as candy or food.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   }
+  },
+  {
+   "id": "g-tinctures",
+   "file": "assets/generated/g-tinctures.jpg",
+   "role": "category",
+   "usedFor": [
+    "category tile: Tinctures"
+   ],
+   "aspect": "3:2",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Unlabelled amber glass dropper bottles on dark concrete, a dropper beside them holding a drop of golden oil.",
+   "prompt": "Product still life photograph: three unlabelled amber glass dropper bottles with black rubber bulb droppers, blank glass with no label, a loose glass dropper lying beside them with a single golden drop of oil at its tip, a small fresh cannabis leaf beside the bottles, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 1,
+    "keptAttempt": 1,
+    "note": "Accepted on the first attempt (two bottles and a loose dropper, not three bottles).",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   }
+  },
+  {
+   "id": "g-topicals",
+   "file": "assets/generated/g-topicals.jpg",
+   "role": "category",
+   "usedFor": [
+    "category tile: Topicals"
+   ],
+   "aspect": "3:2",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Unlabelled metal balm tins and a frosted glass cream jar on dark concrete, one tin open to show a pale green balm.",
+   "prompt": "Product still life photograph: two unlabelled matte brushed-metal balm tins, one closed and one open showing a smooth pale green balm, and a frosted glass cream jar with its lid off showing thick white cream, a small fresh cannabis leaf beside them, all blank and unmarked, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 1,
+    "keptAttempt": 1,
+    "note": "Accepted on the first attempt.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   }
+  },
+  {
+   "id": "g-accessories",
+   "file": "assets/generated/g-accessories.jpg",
+   "role": "category",
+   "usedFor": [
+    "category tile: Accessories"
+   ],
+   "aspect": "3:2",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A clear glass hand pipe, a metal herb grinder and plain rolling papers on dark concrete in a lime rim light.",
+   "prompt": "Product still life photograph: a clear borosilicate glass hand pipe, a matte silver metal herb grinder with its lid set beside it, and a small loose stack of plain white rolling papers, all unbranded, blank and unmarked, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT-WITH-CAVEAT",
+    "generationCalls": 1,
+    "keptAttempt": 1,
+    "note": "Accepted on the first attempt with a caveat: the glass piece is a small bubbler-shaped water pipe, not a hand pipe; the grinder reads as a plain metal canister.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   }
+  },
+  {
+   "id": "g-bud-cut",
+   "file": "assets/generated/g-bud-cut.png",
+   "role": "cutout",
+   "cutout": true,
+   "usedFor": [
+    "protruding object across frames and section seams"
+   ],
+   "aspect": "1:1",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "A single cured cannabis bud, frosted with trichomes and orange pistils.",
+   "prompt": "Studio product photograph of a single dense cured cannabis bud, frosty white trichomes, orange pistils, deep green with hints of purple, isolated and centred on a plain seamless light grey background, soft even studio lighting, sharp focus throughout, the whole bud in frame with a wide empty margin around it, no props",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 1,
+    "keptAttempt": 1,
+    "note": "Accepted on the first attempt. Alpha: corners and a 4 px border fully transparent, 1.45% partial-alpha pixels (trichome fringe), no box.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   }
+  },
+  {
+   "id": "g-leaf-cut",
+   "file": "assets/generated/g-leaf-cut.png",
+   "role": "cutout",
+   "cutout": true,
+   "usedFor": [
+    "protruding object across frames and section seams"
+   ],
+   "aspect": "1:1",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "A single fresh green cannabis fan leaf with serrated leaflets.",
+   "prompt": "Studio photograph of a single fresh green cannabis fan leaf with seven serrated leaflets and a short stem, lying flat, isolated and centred on a plain seamless white background, soft even studio lighting, sharp focus, the whole leaf in frame with a wide empty margin around it, no props",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 1,
+    "keptAttempt": 1,
+    "note": "Accepted on the first attempt. Alpha: corners and a 4 px border fully transparent, 1.71% partial-alpha pixels, no box.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   }
+  },
+  {
+   "id": "g-can-cut",
+   "file": "assets/generated/g-can-cut.png",
+   "role": "cutout",
+   "cutout": true,
+   "usedFor": [
+    "protruding object across frames and section seams"
+   ],
+   "aspect": "3:4",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "alt": "A plain unbranded lime-green spray-paint can with a white cap, at a slight angle.",
+   "prompt": "Studio product photograph of a single plain spray-paint can standing at a slight three-quarter angle, glossy lime chartreuse metallic body, white plastic cap, completely blank can with no label and no printing, isolated and centred on a plain seamless light grey background, soft studio lighting with a gentle highlight down the can, sharp focus, the whole can in frame with a wide empty margin around it, no props",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "review": {
+    "verdict": "ACCEPT",
+    "generationCalls": 1,
+    "keptAttempt": 1,
+    "note": "Accepted on the first attempt; the can stands nearly front-on rather than at an angle. Alpha: corners and a 4 px border fully transparent, 0.44% partial-alpha pixels (the cleanest edge of the three), no box.",
+    "reviewedAt": "2026-11-03T02:25:13.470Z"
+   }
+  },
+  {
+   "id": "g-hf-wall",
+   "file": "assets/generated/g-hf-wall.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "call-to-action trio card backdrops"
+   ],
+   "aspect": "16:9",
+   "decorative": true,
+   "alt": "Abstract lime green and white spray paint strokes with drips on a dark green concrete wall (AI-generated texture).",
+   "model": "Higgsfield z_image (via the Higgsfield MCP)",
+   "prompt": "Extreme close-up of a weathered concrete wall layered with abstract spray paint: bold lime green strokes, white over-spray mist, deep forest green fields, long paint drips, raking night light; abstract shapes only, no text, no people.",
+   "review": {
+    "verdict": "ACCEPT",
+    "by": "main session",
+    "note": "no letters, no marks"
+   }
+  },
+  {
+   "id": "g-hf-glass",
+   "file": "assets/generated/g-hf-glass.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "call-to-action trio card backdrops"
+   ],
+   "aspect": "16:9",
+   "decorative": true,
+   "alt": "A night alley with a colourful abstract mural seen through rain-speckled glass, lit in green (AI-generated).",
+   "model": "Higgsfield z_image (via the Higgsfield MCP)",
+   "prompt": "A pane of frosted glass with water droplets in the foreground, behind it a blurred night alley with lime and deep green light on painted brick walls with abstract murals; no text, no people, no vehicles.",
+   "review": {
+    "verdict": "ACCEPT",
+    "by": "main session",
+    "note": "no letters; not a real place"
+   }
+  }
+ ]
+}

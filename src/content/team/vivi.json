@@ -1,0 +1,115 @@
+{
+ "path": "/team-member/vivi/",
+ "url": "https://greenstopwellnessjc.com/team-member/vivi/",
+ "slug": "vivi",
+ "name": "Viv",
+ "restTitle": "Viv",
+ "jobTitle": "manager",
+ "seoTitle": "Viv | Greenstop Dispensary",
+ "description": "",
+ "image": {
+  "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-20.00.13_a5294d7f-e1756857722398.jpg",
+  "alt": "",
+  "w": 600,
+  "h": 783
+ },
+ "html": "",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/WhatsApp-Image-2025-09-02-at-20.00.13_a5294d7f-e1756857722398.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Viv",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-20.00.13_a5294d7f-e1756857722398.jpg",
+     "alt": "",
+     "w": 600,
+     "h": 783
+    },
+    {
+     "type": "h3",
+     "text": "Viv"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6NTAwfX0sImJ1Y2tldCI6InByb3RldXNpbWFnZXMiLCJrZXkiOiJncmVlbnN0b3AvcHJvZHVjdHMvTEdTY3JlZW5zaG90MjAyNS0wOC0yNDE3MDkzNS5wbmcifQ.png",
+     "iconAlt": "",
+     "iconW": 500,
+     "iconH": 500,
+     "title": "GTI | Rythm | Mai Tai |…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GTIRythmMaiTai25g5pkInfusedPrerollPacks/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/straw-banana-twax.jpg",
+     "iconAlt": "",
+     "iconW": 498,
+     "iconH": 501,
+     "title": "KL | Twax | Strawberry B…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/KLTwaxStrawberryBanana1gInfusedPrerollInfusedJoints/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/supercherrylemonhazeinfusedpreroll.jpg",
+     "iconAlt": "",
+     "iconW": 400,
+     "iconH": 400,
+     "title": "GF | Super Cherry Lemon…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GFSuperCherryLemonHaze12gMoonrocklInfusedPreRollInfusedJoints/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/download.jpg",
+     "iconAlt": "",
+     "iconW": 225,
+     "iconH": 225,
+     "title": "GTI | Rythm | Rose Gold…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GTIRythmRoseGoldRuntz35gFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/SuperLemonHaze_colorized_IG_Grid-21-1.jpg",
+     "iconAlt": "",
+     "iconW": 2160,
+     "iconH": 2160,
+     "title": "GG | Super Lemon Haze |…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GGSuperLemonHaze35gFlowerFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/caminowatermelonlemonadecopy.jpg",
+     "iconAlt": "",
+     "iconW": 1180,
+     "iconH": 1470,
+     "title": "GS | Camino | Watermelon…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GSCaminoWatermelonLemonade100mg20pkGummiesEdibles/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/JamsSourGreenApple.jpg",
+     "iconAlt": "",
+     "iconW": 1284,
+     "iconH": 1284,
+     "title": "CL | JAMS | Sour Green A…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/CLJAMSSourGreenApple100mg20pkFastActingGummiesEdibles/",
+     "linkText": "add"
+    }
+   ]
+  }
+ ]
+}

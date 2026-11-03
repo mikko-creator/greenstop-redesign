@@ -1,0 +1,94 @@
+{
+ "path": "/team-member/lohith-masavarapu/",
+ "url": "https://greenstopwellnessjc.com/team-member/lohith-masavarapu/",
+ "slug": "lohith-masavarapu",
+ "name": "Lohith Masavarapu",
+ "restTitle": "Lohith Masavarapu",
+ "jobTitle": "manager",
+ "seoTitle": "Lohith Masavarapu | Greenstop Dispensary",
+ "description": "",
+ "image": {
+  "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-18.06.53_589285c7.jpg",
+  "alt": "",
+  "w": 1536,
+  "h": 2048
+ },
+ "html": "<p data-start=\"290\" data-end=\"536\"><strong data-start=\"290\" data-end=\"310\">Hey, I’m Lohith.</strong><br data-start=\"310\" data-end=\"313\" />I’m a UX Designer and Operations Intern here at Greenstop. I blend design, tech, and real in-store experience to make sure everything—from how the site feels to how the store runs—stays smooth, fast, and customer-first.</p>\n<p data-start=\"543\" data-end=\"696\">I’m always working on improving the Greenstop experience, whether that’s digital design, operations, or helping you discover your next favorite strain.</p>\n<p data-start=\"703\" data-end=\"810\"><strong data-start=\"703\" data-end=\"721\">Personal note:</strong> I’m a full Indica guy. If I’m smoking, I like to be <em data-start=\"774\" data-end=\"803\">thrown straight to the moon</em> ??</p>\n",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/WhatsApp-Image-2025-09-02-at-18.06.53_589285c7.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Lohith Masavarapu",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-18.06.53_589285c7.jpg",
+     "alt": "",
+     "w": 1536,
+     "h": 2048
+    },
+    {
+     "type": "h3",
+     "text": "Lohith Masavarapu"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Hey, I’m Lohith.</strong><br>I’m a UX Designer and Operations Intern here at Greenstop. I blend design, tech, and real in-store experience to make sure everything—from how the site feels to how the store runs—stays smooth, fast, and customer-first."
+    },
+    {
+     "type": "p",
+     "html": "I’m always working on improving the Greenstop experience, whether that’s digital design, operations, or helping you discover your next favorite strain."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Personal note:</strong> I’m a full Indica guy. If I’m smoking, I like to be <em>thrown straight to the moon</em> ??"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2026-02-06-202348.png",
+     "iconAlt": "",
+     "iconW": 937,
+     "iconH": 946,
+     "title": "Garden Greens | Z Pie Fl…",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/flower-2821/premium-flower-hybrid-z-pie-premium-flower-3.5g-157499?stockType=Default",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/1761122421_dfe0efb9-54e7-465b-8c90-781fc856d2fc.jpg",
+     "iconAlt": "",
+     "iconW": 350,
+     "iconH": 350,
+     "title": "Happy Farmer | Candied G…",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/flower-2821/premium-flower-hybrid-candied-garlic-premium-flower-3.5g-157697?stockType=Default",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/1761122202_1be4db33-4414-4ecb-87dc-e1b0450762bf.jpg",
+     "iconAlt": "",
+     "iconW": 350,
+     "iconH": 416,
+     "title": "Hamilton Farms | Apple J…",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/flower-2821/flower-indica-apple-jelly-mb-flower-3.5g-157688?stockType=Default",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/1761123711_1666c5d5-7d1f-4283-a022-9fa6a2bc7c25.jpg",
+     "iconAlt": "",
+     "iconW": 350,
+     "iconH": 350,
+     "title": "Rove | Grandaddy Purp 1g…",
+     "html": "",
+     "href": "/shop/mi/greenstop/menu/vapes-2827/disposable-indica-grandaddy-purp-diamond-live-resin-disposable-1g-158523?stockType=Default",
+     "linkText": "add"
+    }
+   ]
+  }
+ ]
+}

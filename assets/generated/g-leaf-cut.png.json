@@ -1,0 +1,31 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-leaf-cut",
+ "file": "assets/generated/g-leaf-cut.png",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Studio photograph of a single fresh green cannabis fan leaf with seven serrated leaflets and a short stem, lying flat, isolated and centred on a plain seamless white background, soft even studio lighting, sharp focus, the whole leaf in frame with a wide empty margin around it, no props, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "1:1"
+ },
+ "seed": 3527792404,
+ "requestId": "01a19f24-d7f5-7c53-a8c1-640a3d9f5505",
+ "cutout": {
+  "model": "fal-ai/birefnet/v2",
+  "requestId": "01a19f25-0ac6-74a2-ab57-1f43a6c0622c"
+ },
+ "width": 2048,
+ "height": 2048,
+ "sha256": "a66cf812a56e4a55a5fda0dad9a28e5bf17e3602b62c2fc56c6b1afe09e144c0",
+ "raw": "tmp/img/raw/g-leaf-cut.1793671364786.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-03T02:02:50.856Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Accepted on the first attempt. Alpha: corners and a 4 px border fully transparent, 1.71% partial-alpha pixels, no box.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ }
+}

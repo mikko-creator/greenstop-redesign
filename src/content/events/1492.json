@@ -1,0 +1,66 @@
+{
+ "path": "/event/1492/",
+ "url": "https://greenstopwellnessjc.com/event/1492/",
+ "slug": "1492",
+ "title": "Bend with ButACake @ GreenStop",
+ "restTitle": "",
+ "seoTitle": "| Greenstop Dispensary",
+ "description": "Hosted by ButACake and GreenStopGreenstop Dispensary516 Tonnelle Ave, Jersey City, Join us for Bend with ButACake — Spread Love Edition at GreenStop Dispensary!A chill, inclusive evening of yoga, connection, and tasty ButACake vibes. Come move, meet people, and leave feeling cozy. What to expect: light flow suitable for all levels, short breathwork, and a chance to snag limited merch.?To enter the merch grab, stop into GreenStop and purchase any ButACake item before the event. We’ll select 3 winners for limited merch grabs from those who purchased.Bring a mat, bring a friend, bring your energy. Can’t wait to vibe and love!",
+ "date": "January 21, 2026",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2026-01-21T21:22:07-05:00",
+ "start": null,
+ "end": null,
+ "time": "6:00pm – 8:00pm",
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/XOJdMahHNK3cJzhLdGzk8.avif",
+  "alt": "",
+  "w": 630,
+  "h": 840
+ },
+ "html": "<h1 class=\"ptf-l-PKzNy ptf-l-iKGGq EventPage-module-scss-module__c70mbW__title\"><span class=\"summary\">Bend with ButACake @ GreenStop</span></h1>\n<div class=\"ptf-l-kmWBO EventPage-module-scss-module__c70mbW__details\">\n<div class=\"ptf-l-daxsj\">\n<div class=\"ptf-l-y64FO\"><strong>6:00pm – 8:00pm</strong></div>\n</div>\n</div>\n",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/greenstop-logo.png",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Bend with ButACake @ GreenStop",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "ul",
+     "items": [
+      "January 21, 2026"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/XOJdMahHNK3cJzhLdGzk8.avif",
+     "alt": "",
+     "w": 630,
+     "h": 840
+    },
+    {
+     "type": "h1",
+     "text": "Bend with ButACake @ GreenStop"
+    },
+    {
+     "type": "p",
+     "html": "<strong>6:00pm – 8:00pm</strong>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/new-year-higher-yoga-1-11/\">Previous</a>",
+      "<a href=\"/event/mindful-flow-yoga-valentines-edition/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

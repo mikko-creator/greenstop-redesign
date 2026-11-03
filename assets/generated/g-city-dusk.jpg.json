@@ -1,0 +1,29 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-city-dusk",
+ "file": "assets/generated/g-city-dusk.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Blue-hour photograph looking down a narrow, empty lane between old red brick row buildings in North Jersey, the long blank brick side wall on the right painted with a large colourful abstract geometric mural of overlapping circles and triangles in lime green, teal and magenta, two old cast-iron street lamps glowing warm, rain-wet paving stones reflecting the lamps and the mural, warm light in a few upper windows, deep blue evening sky above the rooftops, quiet and atmospheric, full-frame photograph edge to edge, nobody there: no people, no cars, no signs, no shop fronts, no house numbers, no text, no letters, no words, no numbers, no logos, no graffiti tags, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "16:9"
+ },
+ "seed": 481603991,
+ "requestId": "01a19f2b-bcfc-7770-8a78-c6e7379ffb1d",
+ "cutout": null,
+ "width": 2752,
+ "height": 1536,
+ "sha256": "496b988753536c34ac142643ca08e5bd9d650618fb703510fa27a8bf0869c17a",
+ "raw": "tmp/img/raw/g-city-dusk.1793671816607.jpg",
+ "attempt": 3,
+ "generatedAt": "2026-11-03T02:10:18.914Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Higgsfield Soul was tried first and the request was not accepted, so it was made with FLUX on fal. Attempt 3 kept after a retouch: one tiny distant figure (about 40 px tall) was painted out. Attempts 1 and 2 were rejected for shop signs and street signs with lettering, people and parked cars.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ },
+ "postEdit": "retouched: distant figure removed at x 1362-1398, y 1062-1130 of 2752x1536"
+}

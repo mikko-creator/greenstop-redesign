@@ -1,0 +1,66 @@
+{
+ "path": "/event/mindful-flow-yoga-valentines-edition/",
+ "url": "https://greenstopwellnessjc.com/event/mindful-flow-yoga-valentines-edition/",
+ "slug": "mindful-flow-yoga-valentines-edition",
+ "title": "Mindful Flow Yoga | Valentine’s Edition",
+ "restTitle": "Mindful Flow Yoga | Valentine’s Edition",
+ "seoTitle": "Mindful Flow Yoga | Valentine's Edition | Greenstop Dispensary",
+ "description": "",
+ "date": "February 4, 2026",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2026-02-04T11:22:54-05:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/image.webp",
+  "alt": "",
+  "w": 940,
+  "h": 627
+ },
+ "html": "<div class=\"EventDetails_wrapper__53cE4\" data-testid=\"event-details\">\n<div class=\"EventDetails_venueAndDateTimeWrapper__TO15z\">\n<div class=\"EventDetails_secondaryText__YIPTc\" data-testid=\"event-datetime\">Get ready to flow and glow at our Valentine&#8217;s Edition of Mindful Flow Yoga, where self-love meets relaxation and good vibes!</div>\n</div>\n</div>\n",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/image.webp",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Mindful Flow Yoga | Valentine’s Edition",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Mindful Flow Yoga | Valentine’s Edition"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "February 4, 2026"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/image.webp",
+     "alt": "",
+     "w": 940,
+     "h": 627
+    },
+    {
+     "type": "p",
+     "html": "Get ready to flow and glow at our Valentine’s Edition of Mindful Flow Yoga, where self-love meets relaxation and good vibes!"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/1492/\">Previous</a>",
+      "<a href=\"/event/light-n-wick-jersey-city-edition/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

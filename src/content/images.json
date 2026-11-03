@@ -1,0 +1,20 @@
+{
+ "photos": {},
+ "media": {
+  "hero-haze": {
+   "mp4": "/assets/media/hero-haze.mp4",
+   "mp4Small": "/assets/media/hero-haze-sm.mp4",
+   "poster": "/assets/media/hero-haze.jpg",
+   "posterSmall": "/assets/media/hero-haze-sm.jpg",
+   "w": 1920,
+   "h": 1072,
+   "wSmall": 720,
+   "hSmall": 1080,
+   "duration": 10,
+   "audio": false,
+   "use": "decorative seamless loop: muted, loop, playsinline, aria-hidden, with a visible pause toggle; poster only under prefers-reduced-motion",
+   "note": "AI-generated motion: the g-hero-wall still (FLUX 1.1 Pro Ultra via fal.ai) animated with Kling 2.1 image-to-video via fal.ai. The lime spray haze drifts across the wall and glows over the mural while the wall and the street stay put. A 5 second clip played forward then backward, so the loop has no cut. Not footage of Greenstop, its store, staff, customers, products or brands.",
+   "smallNote": "phones: a 715x1072 crop of the 1928x1072 clip at x 560 (the left half of the mural, where the haze drifts in), scaled to 720x1080, same 240 frames"
+  }
+ }
+}

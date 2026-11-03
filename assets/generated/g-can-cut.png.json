@@ -1,0 +1,31 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-can-cut",
+ "file": "assets/generated/g-can-cut.png",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Studio product photograph of a single plain spray-paint can standing at a slight three-quarter angle, glossy lime chartreuse metallic body, white plastic cap, completely blank can with no label and no printing, isolated and centred on a plain seamless light grey background, soft studio lighting with a gentle highlight down the can, sharp focus, the whole can in frame with a wide empty margin around it, no props, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "3:4"
+ },
+ "seed": 3780816079,
+ "requestId": "01a19f24-e206-75c0-8673-ef7d50e54ef6",
+ "cutout": {
+  "model": "fal-ai/birefnet/v2",
+  "requestId": "01a19f25-0c79-73b0-b19d-66db300387cc"
+ },
+ "width": 1792,
+ "height": 2368,
+ "sha256": "46594b0d3bcc82c4ae2976186db32f3dd9a8fc502fc8d93e7f5c177785d93c50",
+ "raw": "tmp/img/raw/g-can-cut.1793671365236.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-03T02:02:50.778Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Accepted on the first attempt; the can stands nearly front-on rather than at an angle. Alpha: corners and a 4 px border fully transparent, 0.44% partial-alpha pixels (the cleanest edge of the three), no box.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ }
+}

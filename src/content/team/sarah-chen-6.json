@@ -1,0 +1,49 @@
+{
+ "path": "/team-member/sarah-chen-6/",
+ "url": "https://greenstopwellnessjc.com/team-member/sarah-chen-6/",
+ "slug": "sarah-chen-6",
+ "name": "Ari",
+ "restTitle": "Ari",
+ "jobTitle": "Budtender",
+ "seoTitle": "Ari | Greenstop Dispensary",
+ "description": "",
+ "image": {
+  "src": "/assets/photos/gs/RenderedImage.jpeg",
+  "alt": "",
+  "w": 1603,
+  "h": 1909
+ },
+ "html": "",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/RenderedImage.jpeg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Ari",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/RenderedImage.jpeg",
+     "alt": "",
+     "w": 1603,
+     "h": 1909
+    },
+    {
+     "type": "h3",
+     "text": "Ari"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/indi-1.png",
+     "iconAlt": "",
+     "iconW": 1024,
+     "iconH": 1024,
+     "title": "HM FM | Tyson | Sativa C…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/HMFMTysonSativaChemdawgXSuperSkunk1g2pkPrerollPacks/",
+     "linkText": "add"
+    }
+   ]
+  }
+ ]
+}

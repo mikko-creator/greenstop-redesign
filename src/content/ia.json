@@ -1,0 +1,338 @@
+{
+  "about": "The adopted site's information architecture (nav order, dropdown groups, hub-and-child URL patterns, store top bar, three-card CTA row above the footer, footer store block + menu + areas list, Yes/No age gate) mapped onto Greenstop. Labels are Greenstop's own where Greenstop names the thing, neutral otherwise. Greenstop's existing URLs are kept; new pages follow the adopted patterns under Greenstop's own parents.",
+  "topbar": {
+    "show": [
+      "address",
+      "hours",
+      "phone"
+    ],
+    "hoursLabel": "When are we open?"
+  },
+  "cta": {
+    "label": "Shop Now",
+    "href": "/products/"
+  },
+  "nav": [
+    {
+      "label": "About Us",
+      "href": "/about/",
+      "feature": {
+        "photo": "/assets/photos/gs/greenstop-room.jpg",
+        "title": "Visit Greenstop",
+        "href": "/location/jersey-city-nj/"
+      },
+      "children": [
+        {
+          "label": "About Greenstop",
+          "href": "/about/"
+        },
+        {
+          "label": "Our Team",
+          "href": "/about/team/"
+        },
+        {
+          "label": "Events",
+          "href": "/events/"
+        },
+        {
+          "label": "Blog",
+          "href": "/blog/"
+        },
+        {
+          "label": "Rewards Program",
+          "href": "/deals/#rewards"
+        },
+        {
+          "label": "Frequently Asked Questions",
+          "href": "/about/frequently-asked-questions/"
+        },
+        {
+          "label": "Service Areas",
+          "href": "/about/service-areas/"
+        }
+      ]
+    },
+    {
+      "label": "Brands",
+      "href": "/our-brands/"
+    },
+    {
+      "label": "Education",
+      "href": "/education/",
+      "feature": {
+        "gimg": "g-glass-bud",
+        "title": "Cannabis 101",
+        "href": "/education/"
+      },
+      "children": [
+        {
+          "label": "Guide to Strains",
+          "href": "/education/guide-to-strains/"
+        },
+        {
+          "label": "Guide to Terpenes",
+          "href": "/education/guide-to-terpenes/"
+        },
+        {
+          "label": "THC and CBD",
+          "href": "/education/thc-and-cbd/"
+        },
+        {
+          "label": "What Is THC?",
+          "href": "/education/thc-tetrahydrocannabinol/"
+        },
+        {
+          "label": "Ways to Consume",
+          "href": "/education/routes-of-administration/"
+        },
+        {
+          "label": "Smoking and Vaping",
+          "href": "/education/respiratory-administration/"
+        },
+        {
+          "label": "Safe and Responsible Use",
+          "href": "/education/safe-and-responsible-consumption/"
+        },
+        {
+          "label": "Recreational Cannabis in NJ",
+          "href": "/education/recreational-cannabis/"
+        },
+        {
+          "label": "Medical Cannabis in NJ",
+          "href": "/education/medical-cannabis/"
+        },
+        {
+          "label": "Qualifying Conditions",
+          "href": "/education/qualifying-conditions/"
+        }
+      ]
+    },
+    {
+      "label": "Products",
+      "href": "/products/",
+      "children": [
+        {
+          "label": "Flower",
+          "href": "/products/flower/",
+          "gimg": "g-flower",
+          "cart": "flower"
+        },
+        {
+          "label": "Pre-Rolls",
+          "href": "/products/pre-rolls/",
+          "gimg": "g-prerolls",
+          "cart": "pre-rolls"
+        },
+        {
+          "label": "Edibles",
+          "href": "/products/edibles/",
+          "gimg": "g-edibles",
+          "cart": "edibles"
+        },
+        {
+          "label": "Vapes & Cartridges",
+          "href": "/products/vapes-cartridges/",
+          "gimg": "g-vapes",
+          "cart": "vaporizers"
+        },
+        {
+          "label": "Concentrates",
+          "href": "/products/concentrates/",
+          "gimg": "g-concentrates",
+          "cart": "concentrates"
+        },
+        {
+          "label": "Tinctures",
+          "href": "/products/tinctures/",
+          "gimg": "g-tinctures",
+          "cart": "tinctures"
+        },
+        {
+          "label": "Topicals",
+          "href": "/products/topicals/",
+          "gimg": "g-topicals",
+          "cart": "topicals"
+        },
+        {
+          "label": "Bud Bar",
+          "href": "/products/bud-bar/",
+          "gimg": "g-glass-bud",
+          "cart": "bud-bar"
+        }
+      ]
+    },
+    {
+      "label": "Services",
+      "href": "/online-ordering/",
+      "children": [
+        {
+          "label": "Online Ordering",
+          "href": "/online-ordering/"
+        },
+        {
+          "label": "In-store Pickup",
+          "href": "/in-store-pickup/"
+        },
+        {
+          "label": "Door to Door Delivery",
+          "href": "/online-ordering/#delivery"
+        },
+        {
+          "label": "Visit the Store",
+          "href": "/location/jersey-city-nj/"
+        }
+      ]
+    },
+    {
+      "label": "Deals",
+      "href": "/deals/"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact/"
+    }
+  ],
+  "trio": [
+    {
+      "kicker": "Rewards",
+      "title": "Get Rewards",
+      "text": "Join the Greenstop Rewards Program.",
+      "href": "/deals/#rewards",
+      "gimg": "g-hf-wall"
+    },
+    {
+      "kicker": "Shop",
+      "title": "Our Products",
+      "text": "Flower, pre-rolls, edibles, vapes and more.",
+      "href": "/products/",
+      "gimg": "g-flower"
+    },
+    {
+      "kicker": "Community",
+      "title": "Events",
+      "text": "See what is happening at Greenstop.",
+      "href": "/events/",
+      "gimg": "g-hf-glass"
+    }
+  ],
+  "footer": {
+    "columns": [
+      {
+        "title": "Shop",
+        "links": [
+          {
+            "label": "All Products",
+            "href": "/products/"
+          },
+          {
+            "label": "Flower",
+            "href": "/products/flower/"
+          },
+          {
+            "label": "Pre-Rolls",
+            "href": "/products/pre-rolls/"
+          },
+          {
+            "label": "Edibles",
+            "href": "/products/edibles/"
+          },
+          {
+            "label": "Vapes & Cartridges",
+            "href": "/products/vapes-cartridges/"
+          },
+          {
+            "label": "Deals",
+            "href": "/deals/"
+          }
+        ]
+      },
+      {
+        "title": "Greenstop",
+        "links": [
+          {
+            "label": "About Greenstop",
+            "href": "/about/"
+          },
+          {
+            "label": "Our Team",
+            "href": "/about/team/"
+          },
+          {
+            "label": "Events",
+            "href": "/events/"
+          },
+          {
+            "label": "Blog",
+            "href": "/blog/"
+          },
+          {
+            "label": "FAQ",
+            "href": "/about/frequently-asked-questions/"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Learn",
+        "links": [
+          {
+            "label": "Education",
+            "href": "/education/"
+          },
+          {
+            "label": "Guide to Strains",
+            "href": "/education/guide-to-strains/"
+          },
+          {
+            "label": "Guide to Terpenes",
+            "href": "/education/guide-to-terpenes/"
+          },
+          {
+            "label": "Safe and Responsible Use",
+            "href": "/education/safe-and-responsible-consumption/"
+          },
+          {
+            "label": "Service Areas",
+            "href": "/about/service-areas/"
+          }
+        ]
+      }
+    ],
+    "legal": [
+      {
+        "label": "Terms & Conditions",
+        "href": "/terms-conditions/"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy-policy/"
+      },
+      {
+        "label": "Sitemap",
+        "href": "/sitemap/"
+      }
+    ],
+    "areasTitle": "Cannabis Dispensary Near Me"
+  },
+  "gate": {
+    "pattern": "Yes/No dialog over a darkened photo; Yes remembers the answer in localStorage greenstop-age-ok = 1; No shows a short refusal line."
+  },
+  "newPages": [
+    "/products/",
+    "/products/<cat>/ x8",
+    "/our-brands/",
+    "/education/",
+    "/education/<slug>/ x10",
+    "/about/team/",
+    "/about/frequently-asked-questions/ (Greenstop FAQ moved from /about/)",
+    "/about/service-areas/",
+    "/online-ordering/",
+    "/in-store-pickup/",
+    "/location/jersey-city-nj/",
+    "/sitemap/",
+    "/404.html"
+  ]
+}

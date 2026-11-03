@@ -1,0 +1,69 @@
+{
+ "path": "/event/wonder-buds-2023-cannabis-festival-san-francisco-3/",
+ "url": "https://greenstopwellnessjc.com/event/wonder-buds-2023-cannabis-festival-san-francisco-3/",
+ "slug": "wonder-buds-2023-cannabis-festival-san-francisco-3",
+ "title": "Space Ranger Untie Takeover Greenstop",
+ "restTitle": "Space Ranger Untie Takeover Greenstop",
+ "seoTitle": "Space Ranger Untie Takeover Greenstop | Greenstop Dispensary",
+ "description": "",
+ "date": "August 12, 2025",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2025-08-12T15:30:09-04:00",
+ "start": null,
+ "end": null,
+ "time": "7pm – 11pm",
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/Colorful-Illustrative-Space-Camp-Event-Flyer.png",
+  "alt": "",
+  "w": 1080,
+  "h": 1350
+ },
+ "html": "<p>DJ Fresco, DJ GOD &amp; DJ Disco T / Starts At : 7pm &#8211; 11pm</p>\n<p>516, Tonnelle Ave, Jersey City</p>\n",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/Colorful-Illustrative-Space-Camp-Event-Flyer.png",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Space Ranger Untie Takeover Greenstop",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Space Ranger Untie Takeover Greenstop"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "August 12, 2025"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Colorful-Illustrative-Space-Camp-Event-Flyer.png",
+     "alt": "",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "type": "p",
+     "html": "DJ Fresco, DJ GOD &amp; DJ Disco T / Starts At : 7pm – 11pm"
+    },
+    {
+     "type": "p",
+     "html": "516, Tonnelle Ave, Jersey City"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/pink-pixie-party/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

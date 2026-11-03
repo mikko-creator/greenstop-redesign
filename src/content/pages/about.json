@@ -1,0 +1,845 @@
+{
+ "slug": "about",
+ "path": "/about/",
+ "url": "https://greenstopwellnessjc.com/about/",
+ "title": "About | Greenstop Dispensary",
+ "description": "With over 20 years of leadership experience across the oil, retail, and technology sectors, Vikram brings proven expertise in strategy, operations, and brand growth. His passion for innovation, strong business relationships, and commitment to excellence drive GreenStop’s vision of delivering quality and community-focused experiences.",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/greenstop-logo.png",
+ "h1": "Frequently Asked Questions",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "",
+   "bg": "/assets/photos/gs/d6799d371a3baa008c95b0fecf55ee33a74d02cd-1.jpg",
+   "blocks": []
+  },
+  {
+   "id": "s2",
+   "heading": "Rooted in Wellness.",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Rooted in Wellness."
+    },
+    {
+     "type": "h2",
+     "text": "Powered by Community."
+    },
+    {
+     "type": "p",
+     "html": "At Greenstop Wellness, cannabis isn’t just a product — it’s a way to heal, unwind, and grow. We’re here to guide your journey with empathy, knowledge, and purpose."
+    },
+    {
+     "type": "button",
+     "text": "Explore Products",
+     "href": "https://cart.greenstopwellnessjc.com/"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": "",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "button",
+     "text": "Our Story",
+     "href": "#story"
+    },
+    {
+     "type": "p",
+     "html": "Green Stop, Jersey City’s newest premier recreational dispensary, is situated in the heart of Hudson County on Tonnelle Ave, a mere 10-minute drive from the Meadowlands. Greenstop is dedicated to serving and positively impacting the Jersey City community and its residents. We prioritize customer satisfaction and provide high-quality cannabis in a welcoming environment, offering empathy, education, and an unparalleled experience. Our knowledgeable staff ensures a curated selection of products to meet every demand or need, with one of the state’s largest menus catering to all preferences. Drop by today, order online for pickup, or visit us in person for personalized assistance from our friendly budtenders. tep into a world where relaxation and rejuvenation await, as our knowledgeable staff guide you through a personalized journey of exploration and wellness. Embrace a new paradigm of cannabis consumption at Green stop dispensary, where every visit promises an elevated experience beyond expectation."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": "Real People. Real Passion.",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Real People. Real Passion."
+    },
+    {
+     "type": "p",
+     "html": "We’re a crew of wellness advocates, educators, and cannabis lovers — ready to support your next step, wherever you are in your journey."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-17.18.47_53d634d6.jpg",
+     "alt": "",
+     "w": 350,
+     "h": 350
+    },
+    {
+     "type": "p",
+     "html": "<strong>Vikram Kumar</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Owner / CEO</strong>"
+    },
+    {
+     "type": "p",
+     "html": "With over 20 years of leadership experience across the oil, retail, and technology sectors, Vikram brings proven expertise in strategy, operations, and brand growth. His passion for innovation, strong business relationships, and commitment to excellence drive GreenStop’s vision of delivering quality and community-focused experiences."
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-18.06.53_589285c7.jpg",
+     "iconAlt": "",
+     "iconW": 1536,
+     "iconH": 2048,
+     "title": "Lohith Masavarapu",
+     "html": "",
+     "href": "#fs-grid-modal-1"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-18.06.53_589285c7.jpg",
+     "alt": "",
+     "w": 1536,
+     "h": 2048
+    },
+    {
+     "type": "h3",
+     "text": "Lohith Masavarapu"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Hey, I’m Lohith.</strong><br>I’m a UX Designer and Operations Intern here at Greenstop. I blend design, tech, and real in-store experience to make sure everything—from how the site feels to how the store runs—stays smooth, fast, and customer-first."
+    },
+    {
+     "type": "p",
+     "html": "I’m always working on improving the Greenstop experience, whether that’s digital design, operations, or helping you discover your next favorite strain."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Personal note:</strong> I’m a full Indica guy. If I’m smoking, I like to be <em>thrown straight to the moon</em> ??"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2026-02-06-202348.png",
+     "iconAlt": "",
+     "iconW": 937,
+     "iconH": 946,
+     "title": "Garden Greens | Z Pie Fl…",
+     "html": "20% Off<br>Indica-Hybrid",
+     "href": "/shop/mi/greenstop/menu/flower-2821/premium-flower-hybrid-z-pie-premium-flower-3.5g-157499?stockType=Default",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/1761122421_dfe0efb9-54e7-465b-8c90-781fc856d2fc.jpg",
+     "iconAlt": "",
+     "iconW": 350,
+     "iconH": 350,
+     "title": "Happy Farmer | Candied G…",
+     "html": "15% Off<br>hybrid",
+     "href": "/shop/mi/greenstop/menu/flower-2821/premium-flower-hybrid-candied-garlic-premium-flower-3.5g-157697?stockType=Default",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/1761122202_1be4db33-4414-4ecb-87dc-e1b0450762bf.jpg",
+     "iconAlt": "",
+     "iconW": 350,
+     "iconH": 416,
+     "title": "Hamilton Farms | Apple J…",
+     "html": "15% Off<br>Indica",
+     "href": "/shop/mi/greenstop/menu/flower-2821/flower-indica-apple-jelly-mb-flower-3.5g-157688?stockType=Default",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/1761123711_1666c5d5-7d1f-4283-a022-9fa6a2bc7c25.jpg",
+     "iconAlt": "",
+     "iconW": 350,
+     "iconH": 350,
+     "title": "Rove | Grandaddy Purp 1g…",
+     "html": "30% Off<br>Indica",
+     "href": "/shop/mi/greenstop/menu/vapes-2827/disposable-indica-grandaddy-purp-diamond-live-resin-disposable-1g-158523?stockType=Default",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-20.00.13_a5294d7f-e1756857722398.jpg",
+     "iconAlt": "",
+     "iconW": 600,
+     "iconH": 783,
+     "title": "Viv",
+     "html": "",
+     "href": "#fs-grid-modal-2"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-20.00.13_a5294d7f-e1756857722398.jpg",
+     "alt": "",
+     "w": 600,
+     "h": 783
+    },
+    {
+     "type": "h3",
+     "text": "Viv"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6NTAwfX0sImJ1Y2tldCI6InByb3RldXNpbWFnZXMiLCJrZXkiOiJncmVlbnN0b3AvcHJvZHVjdHMvTEdTY3JlZW5zaG90MjAyNS0wOC0yNDE3MDkzNS5wbmcifQ.png",
+     "iconAlt": "",
+     "iconW": 500,
+     "iconH": 500,
+     "title": "GTI | Rythm | Mai Tai |…",
+     "html": "20% off<br>Sativa",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GTIRythmMaiTai25g5pkInfusedPrerollPacks/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/straw-banana-twax.jpg",
+     "iconAlt": "",
+     "iconW": 498,
+     "iconH": 501,
+     "title": "KL | Twax | Strawberry B…",
+     "html": "20% off<br>Sativa",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/KLTwaxStrawberryBanana1gInfusedPrerollInfusedJoints/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/supercherrylemonhazeinfusedpreroll.jpg",
+     "iconAlt": "",
+     "iconW": 400,
+     "iconH": 400,
+     "title": "GF | Super Cherry Lemon…",
+     "html": "20% off<br>Hybrid",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GFSuperCherryLemonHaze12gMoonrocklInfusedPreRollInfusedJoints/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/download.jpg",
+     "iconAlt": "",
+     "iconW": 225,
+     "iconH": 225,
+     "title": "GTI | Rythm | Rose Gold…",
+     "html": "20% off<br>Hybrid",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GTIRythmRoseGoldRuntz35gFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/SuperLemonHaze_colorized_IG_Grid-21-1.jpg",
+     "iconAlt": "",
+     "iconW": 2160,
+     "iconH": 2160,
+     "title": "GG | Super Lemon Haze |…",
+     "html": "30% off<br>Sativa",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GGSuperLemonHaze35gFlowerFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/caminowatermelonlemonadecopy.jpg",
+     "iconAlt": "",
+     "iconW": 1180,
+     "iconH": 1470,
+     "title": "GS | Camino | Watermelon…",
+     "html": "20% off<br>Hybrid",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GSCaminoWatermelonLemonade100mg20pkGummiesEdibles/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/JamsSourGreenApple.jpg",
+     "iconAlt": "",
+     "iconW": 1284,
+     "iconH": 1284,
+     "title": "CL | JAMS | Sour Green A…",
+     "html": "20% off<br>Hybrid",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/CLJAMSSourGreenApple100mg20pkFastActingGummiesEdibles/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/RenderedImage.jpeg",
+     "iconAlt": "",
+     "iconW": 1603,
+     "iconH": 1909,
+     "title": "Ari",
+     "html": "",
+     "href": "#fs-grid-modal-3"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/RenderedImage.jpeg",
+     "alt": "",
+     "w": 1603,
+     "h": 1909
+    },
+    {
+     "type": "h3",
+     "text": "Ari"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/indi-1.png",
+     "iconAlt": "",
+     "iconW": 1024,
+     "iconH": 1024,
+     "title": "HM FM | Tyson | Sativa C…",
+     "html": "20% off<br>Sativa",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/HMFMTysonSativaChemdawgXSuperSkunk1g2pkPrerollPacks/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/WhatsApp-Image-2025-09-03-at-13.39.08_a2c48305.jpg",
+     "iconAlt": "",
+     "iconW": 1200,
+     "iconH": 1599,
+     "title": "Claudia",
+     "html": "",
+     "href": "#fs-grid-modal-4"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-03-at-13.39.08_a2c48305.jpg",
+     "alt": "",
+     "w": 1200,
+     "h": 1599
+    },
+    {
+     "type": "h3",
+     "text": "Claudia"
+    },
+    {
+     "type": "p",
+     "html": "Claudia! Capricorn! Avid thrifter, knick knack enthusiast and your friendly neighborhood budtender!"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-08-28-113527.png",
+     "iconAlt": "",
+     "iconW": 940,
+     "iconH": 927,
+     "title": "Bango | Feelz | Cherry G…",
+     "html": "20% off<br>Indica",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/BangoFeelzCherryGas7gFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/cake-desist.png",
+     "iconAlt": "",
+     "iconW": 800,
+     "iconH": 797,
+     "title": "GG | Cake & Desist | 3.5…",
+     "html": "30% off<br>Indica",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GGCakeDesist35gFlowerFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/BlackberryLemonade.jpg",
+     "iconAlt": "",
+     "iconW": 642,
+     "iconH": 575,
+     "title": "MPX | Gron | Blackberry…",
+     "html": "20% off<br>Indica",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/MPXGronBlackberryLemonadePearls111CBNCBDTHC100mg10pkEdibles/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-08-08-223150.jpg",
+     "iconAlt": "",
+     "iconW": 955,
+     "iconH": 870,
+     "title": "CL | Select XBites | Rai…",
+     "html": "20% off<br>Hybrid",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/CLSelectXBitesRainbowUpload100mg10pkRSOEdibles/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-19.18.35_7bfdeb52-e1756855199139.jpg",
+     "iconAlt": "",
+     "iconW": 437,
+     "iconH": 697,
+     "title": "Kayla",
+     "html": "",
+     "href": "#fs-grid-modal-5"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-19.18.35_7bfdeb52-e1756855199139.jpg",
+     "alt": "",
+     "w": 437,
+     "h": 697
+    },
+    {
+     "type": "h3",
+     "text": "Kayla"
+    },
+    {
+     "type": "p",
+     "html": "Kayla is a born and raised New Yorker with the ambition of a true hustler. Not only does she work here at GreenStop, she is pursuing a degree in Nursing and has two businesses in events and beauty. She also has an immense passion for travel, music, fashion, the arts, and of course CANNABIS ! Kayla loves working here at GreenStop, she loves to share her knowledge of cannabis and it’s amazing benefits. She always says it never feels like she’s working, it feels like she’s just talking with her besties about something she loves. Make sure you say hi so she can share that million dollar smile with you!"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6NTAwfX0sImJ1Y2tldCI6InByb3RldXNpbWFnZXMiLCJrZXkiOiJncmVlbnN0b3AvcHJvZHVjdHMvTEdtYW5nb2phY2toZXJlci5qcGcifQ.jpeg",
+     "iconAlt": "",
+     "iconW": 500,
+     "iconH": 403,
+     "title": "Little Leaf | Mango Jack…",
+     "html": "30% Off<br>Sativa",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/LittleLeafMangoJackHerer35gMoonrockInfusedShakeFlowerFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6NTAwfX0sImJ1Y2tldCI6InByb3RldXNpbWFnZXMiLCJrZXkiOiJncmVlbnN0b3AvcHJvZHVjdHMvTEdTY3JlZW5zaG90MjAyNS0wNi0xNDAyMzg0MC5qcGcifQ.jpeg",
+     "iconAlt": "",
+     "iconW": 500,
+     "iconH": 733,
+     "title": "HM FM | Tokesly | Strawb…",
+     "html": "20%<br>Hybrid",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/HMFMTokeslyStrawberryMilanoGJ35gFlowerFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-192531.jpg",
+     "iconAlt": "",
+     "iconW": 620,
+     "iconH": 621,
+     "title": "GTI | Rythm | Jack Herer…",
+     "html": "20%<br>Sativa",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GTIRythmJackHererLiveResin1gConcentrates/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-192824.jpg",
+     "iconAlt": "",
+     "iconW": 621,
+     "iconH": 620,
+     "title": "VNF | Rove Ice Packs | P…",
+     "html": "20%<br>Sativa",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/VNFRoveIcePacksPeachesCream1gTripleInfusedPrerollInfusedPrerolls/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/WhatsApp-Image-2026-02-06-at-9.42.36-PM.jpeg",
+     "iconAlt": "",
+     "iconW": 1200,
+     "iconH": 1600,
+     "title": "Luis",
+     "html": "",
+     "href": "#fs-grid-modal-6"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2026-02-06-at-9.42.36-PM.jpeg",
+     "alt": "",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "type": "h3",
+     "text": "Luis"
+    },
+    {
+     "type": "p",
+     "html": "Say hello to <strong>Luis</strong>, the newest member of the Greenstop team! A former <strong>college baseball athlete</strong> with degrees in <strong>Business Management and Sports Management</strong>, Luis brings discipline, teamwork, and a winning mindset to everything he does. he’s passionate about connecting with customers, breaking down products in a simple way, and helping you find exactly what fits your vibe. Stop by, say what’s up, and let Lusi put you onto some Greenstop favorites ?"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2026-02-06-202348.png",
+     "iconAlt": "",
+     "iconW": 937,
+     "iconH": 946,
+     "title": "Garden Greens | Z pie",
+     "html": "20% Off<br>Indica – Hybrid",
+     "href": "/shop/mi/greenstop/menu/flower-2821/premium-flower-hybrid-z-pie-premium-flower-3.5g-157499?stockType=Default",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/1761124928_b52e0ef2-0e32-471c-b1f1-a0cd09bc8f6a.avif",
+     "iconAlt": "",
+     "iconW": 350,
+     "iconH": 350,
+     "title": "Verano | Pain Relief 1:1…",
+     "html": "15%<br>Hybrid",
+     "href": "/shop/mi/greenstop/menu/topicals-2826/lotion-pain-relief-1-1-cbd-thc-lotion-100mg-158216?stockType=Default",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/1761126156_17588e2f-1517-4b9e-ab09-0e0b5888407c.jpg",
+     "iconAlt": "",
+     "iconW": 350,
+     "iconH": 350,
+     "title": "Drool | Recovery Stick 1…",
+     "html": "15% Off<br>Hybrid",
+     "href": "/shop/mi/greenstop/menu/topicals-2826/stick-recovery-1-1-1-thc-cbd-cbg-stick-500mg-158270?stockType=Default",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-20.18.30_67e85b33.jpg",
+     "iconAlt": "",
+     "iconW": 1170,
+     "iconH": 1559,
+     "title": "Maisa",
+     "html": "",
+     "href": "#fs-grid-modal-7"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-20.18.30_67e85b33.jpg",
+     "alt": "",
+     "w": 1170,
+     "h": 1559
+    },
+    {
+     "type": "h3",
+     "text": "Maisa"
+    },
+    {
+     "type": "p",
+     "html": "Hi, I’m Maisa! A high-functioning smoker with a love for wellness and good vibes. I keep things light, fun, and judgment-free while helping customers find the perfect pick for their lifestyle."
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6NTAwfX0sImJ1Y2tldCI6InByb3RldXNpbWFnZXMiLCJrZXkiOiJncmVlbnN0b3AvcHJvZHVjdHMvTEdnZ3RyaXBsZW9nMy41LmpwZyJ9.jpeg",
+     "iconAlt": "",
+     "iconW": 500,
+     "iconH": 500,
+     "title": "GG | Triple Og | 3.5g Fl…",
+     "html": "20% off<br>Indica",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GGTripleOg35gFlowerFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6NTAwfX0sImJ1Y2tldCI6InByb3RldXNpbWFnZXMiLCJrZXkiOiJncmVlbnN0b3AvcHJvZHVjdHMvTEdTb3VyRGllc2VsSW5mdXNlZHByZXJvbGwuanBlZyJ9.jpeg",
+     "iconAlt": "",
+     "iconW": 500,
+     "iconH": 500,
+     "title": "GF | Sour Diesel | 1.2g…",
+     "html": "20% off<br>Sativa",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GFSourDiesel12gMoonrockInfusedPreRollInfusedJoints/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-202801.png",
+     "iconAlt": "",
+     "iconW": 626,
+     "iconH": 619,
+     "title": "Little Leaf | Strawberry…",
+     "html": "20% off<br>Sativa",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/LittleLeafStrawberryShortcake1gMoonrockInfusedPrerollInfusedJoints/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6NTAwfX0sImJ1Y2tldCI6InByb3RldXNpbWFnZXMiLCJrZXkiOiJncmVlbnN0b3AvcHJvZHVjdHMvTEdTY3JlZW5zaG90MjAyNS0wNy0wNzE0MTczMi5qcGcifQ.jpeg",
+     "iconAlt": "",
+     "iconW": 500,
+     "iconH": 499,
+     "title": "TSB | Papa Herb | Jack H…",
+     "html": "20% off<br>Sativa",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/TSBPapaHerbJackHerer1gDisposables/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-08-21-122536.png",
+     "iconAlt": "",
+     "iconW": 625,
+     "iconH": 651,
+     "title": "GTI | Rythm | Dulce De U…",
+     "html": "20% off<br>Indica",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GTIRythmDulceDeUvaSolventlessLiveRosin1gConcentrates/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-19.06.25_f51310f5-e1756854563759.jpg",
+     "iconAlt": "",
+     "iconW": 585,
+     "iconH": 724,
+     "title": "Mel",
+     "html": "",
+     "href": "#fs-grid-modal-8"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-19.06.25_f51310f5-e1756854563759.jpg",
+     "alt": "",
+     "w": 585,
+     "h": 724
+    },
+    {
+     "type": "h3",
+     "text": "Mel"
+    },
+    {
+     "type": "p",
+     "html": "“Hi I’m Mel , I’ve been a budtender at Greenstop for a couple of months now , I have gotten the chance to learn lots of new things about all the variety of strains we have here , have found some of my favorites and have tried a variety of the products we have in stock and I love helping whoever comes into our store find what they need and will enjoy “"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-194249.jpg",
+     "iconAlt": "",
+     "iconW": 1037,
+     "iconH": 1010,
+     "title": "GTI | Snow Big Dogs | OM…",
+     "html": "20% Off<br>Indica",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GTISnowBigDogsOMGStay1gInfusedJoints/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-194050.jpg",
+     "iconAlt": "",
+     "iconW": 622,
+     "iconH": 620,
+     "title": "Verano | Savvy Strut AIO…",
+     "html": "20% Off<br>Indica",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/VeranoSavvyStrutAIORainbowSherbert2gDisposableDisposables/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-194442.jpg",
+     "iconAlt": "",
+     "iconW": 628,
+     "iconH": 632,
+     "title": "GTI | Rythm | Strawberry…",
+     "html": "20% Off<br>Sativa",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GTIRythmStrawberrySourDiesel1gInfusedJointsInfusedJoints/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-194753.jpg",
+     "iconAlt": "",
+     "iconW": 780,
+     "iconH": 772,
+     "title": "Fernway | Blueberry Cake…",
+     "html": "20% Off<br>Indica",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/FernwayBlueberryCake1g1pkInfusedPrerollPrerolls/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-195004.jpg",
+     "iconAlt": "",
+     "iconW": 622,
+     "iconH": 902,
+     "title": "West Orange | Pineapple…",
+     "html": "20% Off<br>Sativa",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/WestOrangePineappleDonut35gPremiumFlower/",
+     "linkText": "add"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": "",
+   "bg": "/assets/photos/gs/greenstop-room.jpg",
+   "blocks": []
+  },
+  {
+   "id": "s6",
+   "heading": "LOCATION",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h4",
+     "text": "LOCATION"
+    },
+    {
+     "type": "h3",
+     "text": "Greenstop Wellness 516 Tonnelle Ave, Jersey City, NJ 07307"
+    },
+    {
+     "type": "button",
+     "text": "Get Directions",
+     "href": "https://www.google.com/maps/place/516+Tonnelle+Ave,+Jersey+City,+NJ+07307/data=!4m2!3m1!1s0x89c2571661f9ebbf:0x755cb7878aab46d1?sa=X&ved=1t:242&ictx=111"
+    },
+    {
+     "type": "h4",
+     "text": "Hours:"
+    },
+    {
+     "type": "p",
+     "html": "Monday–Sunday: 7:00 AM – 11:00 PM"
+    },
+    {
+     "type": "h4",
+     "text": "Phone:"
+    },
+    {
+     "type": "p",
+     "html": "201.604.1281"
+    },
+    {
+     "type": "h4",
+     "text": "Email:"
+    },
+    {
+     "type": "p",
+     "html": "greenstopwellnessjc@gmail.com"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "heading": "Frequently Asked Questions",
+   "bg": "/assets/photos/gs/photo-1597354641938-b44d2bc962ee-scaled.jpg",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Frequently Asked Questions"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "heading": "Products and Usage",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Products and Usage"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What types of products do you sell?",
+       "a_html": "<p>We offer a variety of cannabis products, including flowers, edibles, concentrates, topicals, tinctures, and accessories.</p>"
+      },
+      {
+       "q": "How do I choose the right product for me?",
+       "a_html": "<p>Our knowledgeable staff can help you choose the right product based on your needs and experience level. You can also refer to our product descriptions and customer reviews.</p>"
+      },
+      {
+       "q": "What is the difference between Indica, Sativa, and Hybrid strains?",
+       "a_html": "<p><strong>Indica:</strong> Known for relaxing effects, ideal for evening use.</p><p><strong>Sativa:</strong> Known for uplifting and energizing effects, suitable for daytime use.</p><p><strong>Hybrid:</strong> A mix of Indica and Sativa, offering a balance of effects.</p>"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Purchasing and Payment"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Do I need a medical marijuana card to purchase?",
+       "a_html": "<p>This depends on state laws. In some states, you can buy cannabis products for recreational use without a medical card, while others require one.</p>"
+      },
+      {
+       "q": "What forms of payment do you accept?",
+       "a_html": "<p>We accept cash and may also accept debit cards. Please check our website or contact us for the most up-to-date payment options.</p>"
+      },
+      {
+       "q": "Can I place an order online?",
+       "a_html": "<p>Yes, you can place an order online for in-store pickup or delivery (if available). Please visit our online shop for details.</p>"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Legal and Safety"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Is marijuana legal in my state?",
+       "a_html": "<p>Marijuana laws vary by state. Please check your local regulations to understand the legality of cannabis in your area.</p>"
+      },
+      {
+       "q": "Is it safe to use cannabis?",
+       "a_html": "<p>When used responsibly, cannabis is generally considered safe. However, it’s important to start with a low dose, especially if you’re a beginner, and be aware of potential side effects.</p>"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Delivery and Pickup"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Do you offer delivery?",
+       "a_html": "<p>We offer delivery services in certain areas. Please check our delivery policy page for more information on availability and fees.</p>"
+      },
+      {
+       "q": "How does in-store pickup work?",
+       "a_html": "<p>You can place your order online and select the in-store pickup option. You’ll receive a notification when your order is ready, and you can pick it up during our business hours.</p>"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Loyalty Programs and Discounts"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Do you have a loyalty program?",
+       "a_html": "<p>Yes, we offer a loyalty program where you can earn points on purchases and redeem them for discounts on future orders. Sign up in-store or online to start earning points.</p>"
+      },
+      {
+       "q": "Are there any discounts available?",
+       "a_html": "<p>We offer various discounts, including first-time customer discounts, veteran discounts, and daily deals. Check our promotions page for current offers.</p>"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Health and Wellness"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Can cannabis be used for medical purposes?",
+       "a_html": "<p>Yes, many people use cannabis for medical purposes, such as pain relief, anxiety reduction, and improved sleep. Consult with a healthcare professional to see if it’s right for you.</p>"
+      },
+      {
+       "q": "How do I store my cannabis products?",
+       "a_html": "<p>Store your cannabis products in a cool, dry place, away from direct sunlight and out of reach of children and pets.</p>"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Contact Us"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "How can I contact you if I have more questions?",
+       "a_html": "<p>You can reach us through our contact page, by phone, or by visiting our store during business hours. We’re here to help!</p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

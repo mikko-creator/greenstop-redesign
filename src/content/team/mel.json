@@ -1,0 +1,97 @@
+{
+ "path": "/team-member/mel/",
+ "url": "https://greenstopwellnessjc.com/team-member/mel/",
+ "slug": "mel",
+ "name": "Mel",
+ "restTitle": "Mel",
+ "jobTitle": "Budtender",
+ "seoTitle": "Mel | Greenstop Dispensary",
+ "description": "",
+ "image": {
+  "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-19.06.25_f51310f5-e1756854563759.jpg",
+  "alt": "",
+  "w": 585,
+  "h": 724
+ },
+ "html": "<p>“Hi I’m Mel , I’ve been a budtender at Greenstop for a couple of months now , I have gotten the chance to learn lots of new things about all the variety of strains we have here , have found some of my favorites and have tried a variety of the products we have in stock and I love helping whoever comes into our store find what they need and will enjoy “</p>\n",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/WhatsApp-Image-2025-09-02-at-19.06.25_f51310f5-e1756854563759.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Mel",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-19.06.25_f51310f5-e1756854563759.jpg",
+     "alt": "",
+     "w": 585,
+     "h": 724
+    },
+    {
+     "type": "h3",
+     "text": "Mel"
+    },
+    {
+     "type": "p",
+     "html": "“Hi I’m Mel , I’ve been a budtender at Greenstop for a couple of months now , I have gotten the chance to learn lots of new things about all the variety of strains we have here , have found some of my favorites and have tried a variety of the products we have in stock and I love helping whoever comes into our store find what they need and will enjoy “"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-194249.jpg",
+     "iconAlt": "",
+     "iconW": 1037,
+     "iconH": 1010,
+     "title": "GTI | Snow Big Dogs | OM…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GTISnowBigDogsOMGStay1gInfusedJoints/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-194050.jpg",
+     "iconAlt": "",
+     "iconW": 622,
+     "iconH": 620,
+     "title": "Verano | Savvy Strut AIO…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/VeranoSavvyStrutAIORainbowSherbert2gDisposableDisposables/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-194442.jpg",
+     "iconAlt": "",
+     "iconW": 628,
+     "iconH": 632,
+     "title": "GTI | Rythm | Strawberry…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GTIRythmStrawberrySourDiesel1gInfusedJointsInfusedJoints/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-194753.jpg",
+     "iconAlt": "",
+     "iconW": 780,
+     "iconH": 772,
+     "title": "Fernway | Blueberry Cake…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/FernwayBlueberryCake1g1pkInfusedPrerollPrerolls/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-195004.jpg",
+     "iconAlt": "",
+     "iconW": 622,
+     "iconH": 902,
+     "title": "West Orange | Pineapple…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/WestOrangePineappleDonut35gPremiumFlower/",
+     "linkText": "add"
+    }
+   ]
+  }
+ ]
+}

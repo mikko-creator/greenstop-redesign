@@ -1,0 +1,62 @@
+{
+ "path": "/event/fresco-release-party/",
+ "url": "https://greenstopwellnessjc.com/event/fresco-release-party/",
+ "slug": "fresco-release-party",
+ "title": "Fresco Release Party",
+ "restTitle": "Fresco Release Party",
+ "seoTitle": "Fresco Release Party | Greenstop Dispensary",
+ "description": "",
+ "date": "August 20, 2025",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2025-08-20T11:02:56-04:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/Screenshot-2025-08-20-110148.jpg",
+  "alt": "",
+  "w": 829,
+  "h": 1161
+ },
+ "html": "",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/Screenshot-2025-08-20-110148.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Fresco Release Party",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Fresco Release Party"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "August 20, 2025"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Screenshot-2025-08-20-110148.jpg",
+     "alt": "",
+     "w": 829,
+     "h": 1161
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/fourth-of-july-bbq/\">Previous</a>",
+      "<a href=\"/event/the-jersey-city-ward-tour/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

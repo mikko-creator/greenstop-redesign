@@ -1,0 +1,211 @@
+{
+ "slug": "events",
+ "path": "/events/",
+ "url": "https://greenstopwellnessjc.com/events/",
+ "title": "Events Archive | Greenstop Dispensary",
+ "description": "",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/greenstop-logo.png",
+ "h1": "",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "",
+   "bg": "/assets/photos/gs/544acf196c8d62e5243e4ca1261201baf4f12982.jpg",
+   "blocks": []
+  },
+  {
+   "id": "s2",
+   "heading": "Join the Movement. Feel the Vibe.",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h4",
+     "text": "Join the Movement. Feel the Vibe."
+    },
+    {
+     "type": "h3",
+     "text": "Events at Greenstop."
+    },
+    {
+     "type": "p",
+     "html": "Workshops. Pop-ups. Tastings. Explore cannabis culture with the community."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": "Upcoming Events",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Upcoming Events"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": "PAST MOMENTS",
+   "bg": "/assets/photos/gs/favicon.png",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "PAST MOMENTS"
+    },
+    {
+     "type": "p",
+     "html": "Snapshots from our favorite events."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Blue-And-Silver-Sleek-Metallic-Dance-Party-Instagram-Post-Instagram-Reel-2.png",
+     "alt": "",
+     "w": 1080,
+     "h": 1920
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Colorful-Floral-Illustrated-Spring-Flowers-Market-Flyer-Instagram-Reel.png",
+     "alt": "",
+     "w": 1080,
+     "h": 1920
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/image0.png",
+     "alt": "",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/GreenStopFlyer_1024x1024.webp",
+     "alt": "",
+     "w": 819,
+     "h": 1024,
+     "href": "https://njgardenstateofmind.com/products/light-n-wick-greenstop"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/image.webp",
+     "alt": "",
+     "w": 940,
+     "h": 627,
+     "href": "https://www.eventbrite.com/e/mindful-flow-yoga-valentines-edition-tickets-1980774695435"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/XOJdMahHNK3cJzhLdGzk8.avif",
+     "alt": "",
+     "w": 630,
+     "h": 840,
+     "href": "https://partiful.com/e/3ythZBHoMZncwSbfz1xU?source=share"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Higheryoga.webp",
+     "alt": "",
+     "w": 1242,
+     "h": 1630,
+     "href": "https://www.higherdining.com/new-events/higher-yoga-1-4x5ll-37gg7"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/donq.jpg",
+     "alt": "",
+     "w": 1100,
+     "h": 1200
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Orange-and-Black-Skull-Spooky-Night-Halloween-Flyer-1.png",
+     "alt": "",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/1747f63bc591e0e4d648d7510cd862fdb0ce0714.jpg",
+     "alt": "",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/18e4cad7e467b27b7dc4a9e9d3ff7cc70e6cbc42.jpg",
+     "alt": "",
+     "w": 1080,
+     "h": 1349
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Screenshot-2025-08-20-110205.jpg",
+     "alt": "",
+     "w": 652,
+     "h": 1154
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/26b13b1c791aa981a7af5e049a351c9429b0c29d.jpg",
+     "alt": "",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Screenshot-2025-08-20-110148.jpg",
+     "alt": "",
+     "w": 829,
+     "h": 1161
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/0b47b65beb5d20deab4007eaeaae4918e337f1b1.jpg",
+     "alt": "",
+     "w": 1080,
+     "h": 1398
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Screenshot-2025-08-20-105012.jpg",
+     "alt": "",
+     "w": 967,
+     "h": 1190
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Colorful-Illustrative-Space-Camp-Event-Flyer.png",
+     "alt": "",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/leaf-bud.png",
+     "alt": "",
+     "w": 550,
+     "h": 529
+    },
+    {
+     "type": "h3",
+     "text": "Book Your Event"
+    },
+    {
+     "type": "p",
+     "html": "We’ll ensure you have a smooth entry and a great spot to enjoy the event."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": "“More than products — we build community through curated, mindful experiences.”",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "“More than products — we build community through curated, mindful experiences.”"
+    }
+   ]
+  }
+ ]
+}

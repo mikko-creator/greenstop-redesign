@@ -1,0 +1,28 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-vapes",
+ "file": "assets/generated/g-vapes.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Product still life photograph: three unbranded 510-thread vape cartridges with clear glass tanks filled with golden amber cannabis oil and plain black ceramic mouthpieces, two standing upright and one lying on its side, blank glass and blank metal with no markings, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind making the oil glow, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "3:2"
+ },
+ "seed": 4172403360,
+ "requestId": "01a19f24-a56f-7c61-9a26-44f4caadb932",
+ "cutout": null,
+ "width": 2496,
+ "height": 1664,
+ "sha256": "e67a2a4ca1071e9c822a1c95e5730855840ab1ec977e7b2cb2e2882dc6d19b6c",
+ "raw": "tmp/img/raw/g-vapes.1793671351356.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-03T02:02:33.214Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Accepted on the first attempt.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ }
+}

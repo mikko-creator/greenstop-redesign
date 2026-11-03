@@ -1,0 +1,62 @@
+{
+ "path": "/event/fourth-of-july-bbq/",
+ "url": "https://greenstopwellnessjc.com/event/fourth-of-july-bbq/",
+ "slug": "fourth-of-july-bbq",
+ "title": "Fourth of July BBQ",
+ "restTitle": "Fourth of July BBQ",
+ "seoTitle": "Fourth of July BBQ | Greenstop Dispensary",
+ "description": "",
+ "date": "August 20, 2025",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2025-08-20T11:01:04-04:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/0b47b65beb5d20deab4007eaeaae4918e337f1b1.jpg",
+  "alt": "",
+  "w": 1080,
+  "h": 1398
+ },
+ "html": "",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/0b47b65beb5d20deab4007eaeaae4918e337f1b1.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Fourth of July BBQ",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Fourth of July BBQ"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "August 20, 2025"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/0b47b65beb5d20deab4007eaeaae4918e337f1b1.jpg",
+     "alt": "",
+     "w": 1080,
+     "h": 1398
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/pink-pixie-party/\">Previous</a>",
+      "<a href=\"/event/fresco-release-party/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "path": "/event/happy-holidaze/",
+ "url": "https://greenstopwellnessjc.com/event/happy-holidaze/",
+ "slug": "happy-holidaze",
+ "title": "Happy Holidaze",
+ "restTitle": "Happy Holidaze",
+ "seoTitle": "Happy Holidaze | Greenstop Dispensary",
+ "description": "",
+ "date": "August 20, 2025",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2025-08-20T11:07:14-04:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/1747f63bc591e0e4d648d7510cd862fdb0ce0714.jpg",
+  "alt": "",
+  "w": 1080,
+  "h": 1350
+ },
+ "html": "",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/1747f63bc591e0e4d648d7510cd862fdb0ce0714.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Happy Holidaze",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Happy Holidaze"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "August 20, 2025"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/1747f63bc591e0e4d648d7510cd862fdb0ce0714.jpg",
+     "alt": "",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/blazin-bbq/\">Previous</a>",
+      "<a href=\"/event/mischief-night-30th-october-2025/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

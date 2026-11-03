@@ -1,0 +1,157 @@
+{
+ "name": "Greenstop Wellness",
+ "shortName": "Greenstop",
+ "altNames": [
+  "Greenstop Dispensary",
+  "Green Stop",
+  "GreenStop"
+ ],
+ "origin": "https://greenstopwellnessjc.com",
+ "address": {
+  "street": "516 Tonnelle Ave",
+  "city": "Jersey City",
+  "state": "NJ",
+  "zip": "07307"
+ },
+ "mapUrl": "https://www.google.com/maps/place/516+Tonnelle+Ave,+Jersey+City,+NJ+07307/data=!4m2!3m1!1s0x89c2571661f9ebbf:0x755cb7878aab46d1?sa=X&ved=1t:242&ictx=111",
+ "phone": "201.604.1281",
+ "phoneHref": "tel:+12016041281",
+ "email": "greenstopwellnessjc@gmail.com",
+ "hours": [
+  {
+   "days": "Monday–Sunday",
+   "open": "7:00 AM",
+   "close": "11:00 PM"
+  }
+ ],
+ "hoursNote": "Footer wording: \"Timing: 7:00 AM to 11:00 PM\"",
+ "socials": [
+  {
+   "name": "Instagram",
+   "url": "https://www.instagram.com/greenstopnj",
+   "handle": "@GreenStopnj"
+  }
+ ],
+ "cart": {
+  "base": "https://cart.greenstopwellnessjc.com/",
+  "note": "host fails TLS verification (2026-11-03); same-host shop path /shop/mi/greenstop/ also linked",
+  "shop": "https://greenstopwellnessjc.com/shop/mi/greenstop/",
+  "categories": [
+   {
+    "label": "Bud Bar",
+    "slug": "bud-bar",
+    "url": "https://cart.greenstopwellnessjc.com/shop/c/BUDBAR/"
+   },
+   {
+    "label": "Flower",
+    "slug": "flower",
+    "url": "https://cart.greenstopwellnessjc.com/shop/c/Flower"
+   },
+   {
+    "label": "Pre-Rolls",
+    "slug": "pre-rolls",
+    "url": "https://cart.greenstopwellnessjc.com/shop/c/Pre-rolls"
+   },
+   {
+    "label": "Edibles",
+    "slug": "edibles",
+    "url": "https://cart.greenstopwellnessjc.com/shop/c/Edibles"
+   },
+   {
+    "label": "Concentrates",
+    "slug": "concentrates",
+    "url": "https://cart.greenstopwellnessjc.com/shop/c/Concentrates"
+   },
+   {
+    "label": "Vaporizers",
+    "slug": "vaporizers",
+    "url": "https://cart.greenstopwellnessjc.com/shop/c/Carts"
+   },
+   {
+    "label": "Tinctures",
+    "slug": "tinctures",
+    "url": "https://cart.greenstopwellnessjc.com/shop/c/Tinctures"
+   },
+   {
+    "label": "Topicals",
+    "slug": "topicals",
+    "url": "https://cart.greenstopwellnessjc.com/shop/Topicals"
+   }
+  ]
+ },
+ "logo": {
+  "green": "/assets/brand/greenstop-logo.png",
+  "white": "/assets/brand/greenstop-logo-white.png",
+  "w": 861,
+  "h": 312,
+  "favicon": "/assets/brand/favicon.png",
+  "faviconWhite": "/assets/brand/favicon-white.png"
+ },
+ "tagline": "Rooted in Wellness. Powered by Community.",
+ "licence": null,
+ "ageGate": "Are you 21 or over?",
+ "taglineSource": "https://greenstopwellnessjc.com/about/ (h3 + h2, verbatim)",
+ "serviceAreas": [
+  {
+   "name": "Jersey City Heights",
+   "slug": "jersey-city-heights",
+   "origin": "Jersey City Heights, NJ"
+  },
+  {
+   "name": "Journal Square",
+   "slug": "journal-square",
+   "origin": "Journal Square, NJ"
+  },
+  {
+   "name": "Downtown Jersey City",
+   "slug": "downtown-jersey-city",
+   "origin": "Downtown Jersey City, NJ"
+  },
+  {
+   "name": "Hoboken",
+   "slug": "hoboken",
+   "origin": "Hoboken, NJ"
+  },
+  {
+   "name": "Union City",
+   "slug": "union-city",
+   "origin": "Union City, NJ"
+  },
+  {
+   "name": "North Bergen",
+   "slug": "north-bergen",
+   "origin": "North Bergen, NJ"
+  },
+  {
+   "name": "Weehawken",
+   "slug": "weehawken",
+   "origin": "Weehawken, NJ"
+  },
+  {
+   "name": "West New York",
+   "slug": "west-new-york",
+   "origin": "West New York, NJ"
+  },
+  {
+   "name": "Guttenberg",
+   "slug": "guttenberg",
+   "origin": "Guttenberg, NJ"
+  },
+  {
+   "name": "Secaucus",
+   "slug": "secaucus",
+   "origin": "Secaucus, NJ"
+  },
+  {
+   "name": "Kearny",
+   "slug": "kearny",
+   "origin": "Kearny, NJ"
+  },
+  {
+   "name": "Bayonne",
+   "slug": "bayonne",
+   "origin": "Bayonne, NJ"
+  }
+ ],
+ "serviceAreasNote": "Glue list of nearby places for the adopted Service Areas page: names only, each with a directions link from that place to the store. No distance, travel time or delivery-zone claim."
+}

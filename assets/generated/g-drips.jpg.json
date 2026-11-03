@@ -1,0 +1,28 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-drips",
+ "file": "assets/generated/g-drips.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Close-up photograph of glossy lime chartreuse paint drips running down a dark forest-green painted wall, thick drips with rounded beads at their tips and long thin trails of different lengths across the frame, raking light from the left making the wet paint glisten and the brushed wall texture visible, dark moody shadows, shallow depth of field, macro detail, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "21:9"
+ },
+ "seed": 725751314,
+ "requestId": "01a19f24-7a79-7ca1-a061-ce021c117bb7",
+ "cutout": null,
+ "width": 3136,
+ "height": 1344,
+ "sha256": "472df6b85ff89f259250ae13782abe705e482b7335275ce2ad77ffd9003bf4a4",
+ "raw": "tmp/img/raw/g-drips.1793671339064.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-03T02:02:20.671Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Accepted on the first attempt.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ }
+}

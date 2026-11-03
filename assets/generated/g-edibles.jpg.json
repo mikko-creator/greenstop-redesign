@@ -1,0 +1,28 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-edibles",
+ "file": "assets/generated/g-edibles.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Product still life photograph: a shallow clear glass dish holding a small pile of sugar-dusted cannabis gummies in lime green, amber and deep red, two gummies on the surface beside the dish, a small fresh cannabis leaf lying next to the dish, everything plain and unlabelled, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "3:2"
+ },
+ "seed": 2274470820,
+ "requestId": "01a19f24-a567-7301-a137-e0ef7360d5af",
+ "cutout": null,
+ "width": 2496,
+ "height": 1664,
+ "sha256": "c673e0ed996fc0a31dab461370d91895123e299fba87e849d4811ec5dd1324cf",
+ "raw": "tmp/img/raw/g-edibles.1793671354808.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-03T02:02:36.788Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Accepted on the first attempt.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ }
+}

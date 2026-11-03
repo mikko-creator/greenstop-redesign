@@ -1,0 +1,31 @@
+{
+ "slug": "job-title--manager",
+ "path": "/job-title/manager/",
+ "url": "https://greenstopwellnessjc.com/job-title/manager/",
+ "title": "manager Archives | Greenstop Dispensary",
+ "description": "",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/greenstop-logo.png",
+ "h1": "Nothing Found",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Nothing Found",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Nothing Found"
+    },
+    {
+     "type": "p",
+     "html": "It seems we can’t find what you’re looking for. Perhaps searching can help."
+    },
+    {
+     "type": "embed",
+     "kind": "form",
+     "note": "{\"labels\": [], \"placeholders\": [\"Search\"], \"fieldNames\": [\"s\"], \"buttons\": [], \"options\": [], \"action\": \"https://greenstopwellnessjc.com/\"}"
+    }
+   ]
+  }
+ ]
+}

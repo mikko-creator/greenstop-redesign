@@ -1,0 +1,31 @@
+{
+ "slug": "event-type--past-event",
+ "path": "/event-type/past-event/",
+ "url": "https://greenstopwellnessjc.com/event-type/past-event/",
+ "title": "Past Event Archives | Greenstop Dispensary",
+ "description": "",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/greenstop-logo.png",
+ "h1": "Nothing Found",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Nothing Found",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Nothing Found"
+    },
+    {
+     "type": "p",
+     "html": "It seems we can’t find what you’re looking for. Perhaps searching can help."
+    },
+    {
+     "type": "embed",
+     "kind": "form",
+     "note": "{\"labels\": [], \"placeholders\": [\"Search\"], \"fieldNames\": [\"s\"], \"buttons\": [], \"options\": [], \"action\": \"https://greenstopwellnessjc.com/\"}"
+    }
+   ]
+  }
+ ]
+}

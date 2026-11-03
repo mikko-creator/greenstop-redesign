@@ -1,0 +1,67 @@
+{
+  "slug": "guide-to-terpenes",
+  "path": "/education/guide-to-terpenes/",
+  "title": "A Guide to Terpenes",
+  "seoTitle": "A Guide to Cannabis Terpenes | Greenstop Dispensary",
+  "description": "Terpenes give cannabis its scent, from citrus to pine. Learn what they are, the common ones you'll see on labels and what research does and doesn't show so far.",
+  "date": "2026-11-03",
+  "group": "basics",
+  "order": 2,
+  "readMinutes": 3,
+  "kicker": "Cannabis 101",
+  "lede": "Open a container of cannabis and the first thing you notice is the smell. That aroma comes from terpenes, natural compounds found throughout the plant world.",
+  "sections": [
+    {
+      "heading": "What terpenes are",
+      "blocks": [
+        { "type": "p", "html": "Terpenes are aromatic compounds made by many plants. They're behind the sharp scent of pine needles, the brightness of lemon peel and the soft floral note of lavender. Plants are thought to make them partly to deter pests and attract pollinators." },
+        { "type": "p", "html": "In cannabis, terpenes are produced mainly in the <strong>trichomes</strong>, the tiny, sticky resin glands that also make cannabinoids like THC and CBD. Scientists have identified more than 100 different terpenes in cannabis. Each plant carries its own mix, usually with a few that stand out." },
+        { "type": "p", "html": "That mix is a big part of why one strain smells like citrus and another like fresh herbs or diesel. It also shapes how a product tastes." }
+      ]
+    },
+    {
+      "heading": "Common terpenes you may see on a label",
+      "blocks": [
+        { "type": "ul", "items": [
+          "<strong>Myrcene:</strong> earthy and musky, with a hint of fruit. Also found in hops and lemongrass.",
+          "<strong>Limonene:</strong> bright and citrusy. Found in the peels of lemons, oranges and other citrus fruits.",
+          "<strong>Beta-caryophyllene:</strong> peppery and spicy. Also found in black pepper and cloves.",
+          "<strong>Linalool:</strong> floral, with a lavender note. Lavender is one of its best-known sources.",
+          "<strong>Pinene:</strong> fresh and piney. Found in pine needles and rosemary.",
+          "<strong>Humulene:</strong> woody and earthy. Also found in hops."
+        ] },
+        { "type": "p", "html": "Not every label lists terpenes. The amounts in a given product depend on the plant's genetics, how it was grown and harvested, and how the product was made and stored." },
+        { "type": "p", "html": "You may also see the word <em>terpenoids</em>. These are closely related compounds, and the two terms are often used interchangeably." }
+      ]
+    },
+    {
+      "heading": "What research does and doesn't show",
+      "blocks": [
+        { "type": "p", "html": "You'll often see terpenes described with words like relaxing or uplifting. Those descriptions draw mostly on aromatherapy traditions, personal reports and early laboratory studies. Research on what individual terpenes do when people use cannabis is limited, and scientists haven't established that any one terpene produces a particular effect." },
+        { "type": "p", "html": "You may also hear about the <em>entourage effect</em>, the idea that terpenes and cannabinoids work together to shape the overall experience. Many people find it intuitive, but the evidence so far is mixed and still developing." },
+        { "type": "callout", "title": "Let your nose guide you", "html": "Many people simply use scent as a guide to personal preference. If you keep enjoying products with a citrusy or piney aroma, that's worth noting and mentioning the next time you shop." },
+        { "type": "p", "html": "Effects vary from person to person. If you have questions about how cannabis might affect your health, a healthcare provider is the best person to ask." }
+      ]
+    },
+    {
+      "heading": "Keeping terpenes fresh",
+      "blocks": [
+        { "type": "p", "html": "Terpenes are volatile, which means they evaporate easily. Heat, light and air all break them down over time, which is why older cannabis can smell flat." },
+        { "type": "ul", "items": [
+          "Store cannabis in an airtight container, away from sunlight.",
+          "Keep it somewhere cool and dry, not in a hot car or on a sunny windowsill.",
+          "Close containers fully after each use.",
+          "Keep all cannabis in child-resistant packaging, out of reach of children and pets."
+        ] },
+        { "type": "p", "html": "Questions? Ask the Greenstop team in store." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Do terpenes get you high?", "a_html": "Terpenes on their own aren't known to be intoxicating. They're the same kinds of compounds found in many herbs, spices and fruits. THC is the main intoxicating compound in cannabis." },
+    { "q": "Are terpenes only found in cannabis?", "a_html": "No. Terpenes are found throughout the plant world, from citrus fruit and pine trees to black pepper and hops. Cannabis just happens to produce a wide variety of them." },
+    { "q": "What does it mean when a vape says terpenes were added?", "a_html": "Some vape oils have terpenes added back for flavor and aroma. These may come from cannabis or from other plants. If the label doesn't say which, just ask." }
+  ],
+  "related": ["guide-to-strains", "thc-and-cbd", "respiratory-administration"],
+  "note": "Educational content, not medical or legal advice."
+}

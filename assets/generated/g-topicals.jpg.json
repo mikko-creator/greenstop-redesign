@@ -1,0 +1,28 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-topicals",
+ "file": "assets/generated/g-topicals.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Product still life photograph: two unlabelled matte brushed-metal balm tins, one closed and one open showing a smooth pale green balm, and a frosted glass cream jar with its lid off showing thick white cream, a small fresh cannabis leaf beside them, all blank and unmarked, resting on a dark weathered concrete surface, a dark background with soft out-of-focus bokeh of graffiti colours far behind (lime chartreuse, teal, magenta), a crisp lime chartreuse rim light from behind, soft key light from the left, deep forest-green shadows, moody premium mood, shallow depth of field, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "3:2"
+ },
+ "seed": 111048450,
+ "requestId": "01a19f24-b813-7ff2-998b-c6d0225c9e73",
+ "cutout": null,
+ "width": 2496,
+ "height": 1664,
+ "sha256": "fa3ae5566438e138d3535549a947d845fb98c8fcc344f7a98725a08e68f0b810",
+ "raw": "tmp/img/raw/g-topicals.1793671354440.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-03T02:02:36.230Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Accepted on the first attempt.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ }
+}

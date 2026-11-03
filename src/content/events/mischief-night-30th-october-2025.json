@@ -1,0 +1,66 @@
+{
+ "path": "/event/mischief-night-30th-october-2025/",
+ "url": "https://greenstopwellnessjc.com/event/mischief-night-30th-october-2025/",
+ "slug": "mischief-night-30th-october-2025",
+ "title": "Mischief Night 30th October / 2025",
+ "restTitle": "Mischief Night 30th October / 2025",
+ "seoTitle": "Mischief Night 30th October / 2025 | Greenstop Dispensary",
+ "description": "Join Greenstop Jersey City on October 30th for Mischief Night — enjoy spooky pop-ups, raffles, and exclusive cannabis deals from Glass Meadows, Verano, Green Lightning, and Heavy Hitters. Spooky savings, games, and devilish vibes all night!",
+ "date": "October 24, 2025",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2025-10-24T09:00:34-04:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/Orange-and-Black-Skull-Spooky-Night-Halloween-Flyer-1.png",
+  "alt": "",
+  "w": 1080,
+  "h": 1350
+ },
+ "html": "<p>Celebrate <strong data-start=\"10\" data-end=\"65\">Mischief Night at Greenstop Jersey City on Oct 30th</strong> with spooky pop-ups, games, raffles, and exclusive deals from <strong data-start=\"128\" data-end=\"171\">Glass Meadows, Verano, Green Lightning,</strong> and a special <strong data-start=\"186\" data-end=\"219\">Heavy Hitters raffle giveaway</strong> — devilish vibes and spooky savings all night long!</p>\n",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/Orange-and-Black-Skull-Spooky-Night-Halloween-Flyer-1.png",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Mischief Night 30th October / 2025",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Mischief Night 30th October / 2025"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "October 24, 2025"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/Orange-and-Black-Skull-Spooky-Night-Halloween-Flyer-1.png",
+     "alt": "",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "type": "p",
+     "html": "Celebrate <strong>Mischief Night at Greenstop Jersey City on Oct 30th</strong> with spooky pop-ups, games, raffles, and exclusive deals from <strong>Glass Meadows, Verano, Green Lightning,</strong> and a special <strong>Heavy Hitters raffle giveaway</strong> — devilish vibes and spooky savings all night long!"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/happy-holidaze/\">Previous</a>",
+      "<a href=\"/event/events-donq-house-flower-drop/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "path": "/event/light-n-wick-jersey-city-edition/",
+ "url": "https://greenstopwellnessjc.com/event/light-n-wick-jersey-city-edition/",
+ "slug": "light-n-wick-jersey-city-edition",
+ "title": "Light N’ Wick: Jersey City Edition",
+ "restTitle": "Light N’ Wick: Jersey City Edition",
+ "seoTitle": "Light N' Wick: Jersey City Edition | Greenstop Dispensary",
+ "description": "Light N' Wick: Jersey City EditionExperience an elevated night of ambiance and intention at Light N’ Wick, hosted at GreenStop Dispensary in Jersey City, NJ. This curated evening brings together premium brands, smooth energy, and hands-on candle making for a vibe that feels both refined and unforgettable.Surrounded by a stylish setting, you will craft your own custom candle while enjoying a social atmosphere designed to help you unwind and connect. The music flows, the room glows, and every detail is set to create a polished, feel-good experience from start to finish.Powered by Garden State of Mind and sponsors including The Lid, Bango Bites, Elyon Cannabis, Dank Diamonds, Feelz, and Hamilton Farms, this is more than a workshop. It is a premium night out with elevated energy and curated touches throughout.Whether you are planning a unique night with friends or looking to switch up your usual Friday plans, this is your chance to enjoy something different, creative, and effortlessly stylish.Date: Friday, March 20thTime: 7:30 PMLocation: Green Stop Dispensary, Jersey City NJAge: 21 and up",
+ "date": "February 27, 2026",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2026-02-27T15:16:23-05:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/GreenStopFlyer_1024x1024.webp",
+  "alt": "",
+  "w": 819,
+  "h": 1024
+ },
+ "html": "<p><strong>Date: </strong>Friday, March 20th<br data-start=\"1095\" data-end=\"1098\" /><strong><span data-end=\"555\" data-start=\"546\">Time:</span> </strong>7:30 PM<br data-start=\"1115\" data-end=\"1118\" /><strong>Location:</strong> Green Stop Dispensary, Jersey City NJ<br data-start=\"1169\" data-end=\"1172\" /><strong data-start=\"786\" data-end=\"794\">Age: </strong>21 and up</p>\n",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/GreenStopFlyer_1024x1024.webp",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Light N’ Wick: Jersey City Edition",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Light N’ Wick: Jersey City Edition"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "February 27, 2026"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/GreenStopFlyer_1024x1024.webp",
+     "alt": "",
+     "w": 819,
+     "h": 1024
+    },
+    {
+     "type": "p",
+     "html": "<strong>Date:</strong>Friday, March 20th<br><strong>Time:</strong>7:30 PM<br><strong>Location:</strong> Green Stop Dispensary, Jersey City NJ<br><strong>Age:</strong>21 and up"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/mindful-flow-yoga-valentines-edition/\">Previous</a>",
+      "<a href=\"/event/greenstop-world-cup-2026-streaming-mixer-jersey-city-event/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

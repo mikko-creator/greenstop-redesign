@@ -1,0 +1,97 @@
+{
+ "path": "/team-member/sarah-chen-7/",
+ "url": "https://greenstopwellnessjc.com/team-member/sarah-chen-7/",
+ "slug": "sarah-chen-7",
+ "name": "Maisa",
+ "restTitle": "Maisa",
+ "jobTitle": "Budtender",
+ "seoTitle": "Maisa | Greenstop Dispensary",
+ "description": "",
+ "image": {
+  "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-20.18.30_67e85b33.jpg",
+  "alt": "",
+  "w": 1170,
+  "h": 1559
+ },
+ "html": "<p>Hi, I’m Maisa! A high-functioning smoker with a love for wellness and good vibes. I keep things light, fun, and judgment-free while helping customers find the perfect pick for their lifestyle.</p>\n",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/WhatsApp-Image-2025-09-02-at-20.18.30_67e85b33.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Maisa",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-20.18.30_67e85b33.jpg",
+     "alt": "",
+     "w": 1170,
+     "h": 1559
+    },
+    {
+     "type": "h3",
+     "text": "Maisa"
+    },
+    {
+     "type": "p",
+     "html": "Hi, I’m Maisa! A high-functioning smoker with a love for wellness and good vibes. I keep things light, fun, and judgment-free while helping customers find the perfect pick for their lifestyle."
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6NTAwfX0sImJ1Y2tldCI6InByb3RldXNpbWFnZXMiLCJrZXkiOiJncmVlbnN0b3AvcHJvZHVjdHMvTEdnZ3RyaXBsZW9nMy41LmpwZyJ9.jpeg",
+     "iconAlt": "",
+     "iconW": 500,
+     "iconH": 500,
+     "title": "GG | Triple Og | 3.5g Fl…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GGTripleOg35gFlowerFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6NTAwfX0sImJ1Y2tldCI6InByb3RldXNpbWFnZXMiLCJrZXkiOiJncmVlbnN0b3AvcHJvZHVjdHMvTEdTb3VyRGllc2VsSW5mdXNlZHByZXJvbGwuanBlZyJ9.jpeg",
+     "iconAlt": "",
+     "iconW": 500,
+     "iconH": 500,
+     "title": "GF | Sour Diesel | 1.2g…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GFSourDiesel12gMoonrockInfusedPreRollInfusedJoints/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-202801.png",
+     "iconAlt": "",
+     "iconW": 626,
+     "iconH": 619,
+     "title": "Little Leaf | Strawberry…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/LittleLeafStrawberryShortcake1gMoonrockInfusedPrerollInfusedJoints/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6NTAwfX0sImJ1Y2tldCI6InByb3RldXNpbWFnZXMiLCJrZXkiOiJncmVlbnN0b3AvcHJvZHVjdHMvTEdTY3JlZW5zaG90MjAyNS0wNy0wNzE0MTczMi5qcGcifQ.jpeg",
+     "iconAlt": "",
+     "iconW": 500,
+     "iconH": 499,
+     "title": "TSB | Papa Herb | Jack H…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/TSBPapaHerbJackHerer1gDisposables/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-08-21-122536.png",
+     "iconAlt": "",
+     "iconW": 625,
+     "iconH": 651,
+     "title": "GTI | Rythm | Dulce De U…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GTIRythmDulceDeUvaSolventlessLiveRosin1gConcentrates/",
+     "linkText": "add"
+    }
+   ]
+  }
+ ]
+}

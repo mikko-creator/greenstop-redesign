@@ -1,0 +1,10 @@
+/* fix.css - main-session integration fixes, loaded last. */
+
+/* 1. Review stars: the live star strip is drawn white for a dark ground; on the stone review cards it vanished.
+      Tint it to the brand moss green there (decorative, the quote carries the meaning). */
+.h-review__stars { filter: brightness(0) saturate(100%) invert(33%) sepia(38%) saturate(640%) hue-rotate(88deg) brightness(92%) contrast(90%); }
+
+/* 2. Category pages on phones: the hero frame overhangs into the next band and covered its sticker kicker. */
+@media (max-width: 767px) {
+  .page-hero + .s-after { padding-top: calc(var(--section-y) * 0.8 + var(--hero-overhang) * 2); }
+}

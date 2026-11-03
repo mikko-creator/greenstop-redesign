@@ -1,0 +1,104 @@
+/* tokens.css - "STREET GLASS" design tokens for the Greenstop Wellness redesign pitch (main session owns this file).
+   Brand (live greenstopwellnessjc.com theme + logo): lime #bdd765 on deep forest greens #04301e / #042115, near-black
+   green #1b2421, mid green #316e42, warm stone #e1e0d8, white. Display type in condensed caps (the live site sets
+   Adobe "apotek"; Barlow Condensed stands in), Inter body.
+   Style: glassmorphism x graffiti street, clean and modern. Three planes: the WALL (dark painted grounds, spray haze,
+   drips, grain), the GLASS (frosted panes with a lime edge light), the FRONT (cut-outs and taped photos that break
+   their frames). Never hard-code a colour that has a token here; lanes may add lane-scoped custom properties only. */
+:root {
+  /* ---- grounds (wall plane) ---- */
+  --ink-0: #02150d;          /* deepest night green: page ground, footer */
+  --ink-1: #042115;          /* brand dark */
+  --ink-2: #04301e;          /* brand forest */
+  --ink-3: #0b3d27;          /* lifted forest (cards on dark) */
+  --char: #1b2421;           /* brand near-black green */
+  --char-2: #313131;         /* brand charcoal (text on light) */
+  --moss: #316e42;           /* brand mid green */
+  --stone: #e1e0d8;          /* brand warm stone (light grounds) */
+  --stone-2: #ecebe4;
+  --paper: #f6f5f0;          /* lightest ground */
+  --white: #ffffff;
+
+  /* ---- signal ---- */
+  --lime: #bdd765;           /* brand lime: the spray colour, primary CTA fill, focus ring */
+  --lime-hi: #d6ee86;        /* hover / glow core */
+  --lime-deep: #8fae2e;      /* lime text on light grounds is NOT allowed (contrast): use --moss or --ink-2 */
+  --lime-ink: #10260f;       /* text on lime fills (contrast 12:1) */
+
+  /* ---- text ---- */
+  --text-on-dark: #f3f4ee;   /* body on ink grounds */
+  --text-on-dark-2: rgba(243, 244, 238, 0.76); /* secondary on ink (>= 7:1 on --ink-1) */
+  --text-on-light: #18211d;  /* body on stone/paper */
+  --text-on-light-2: #46514b;/* secondary on stone (>= 6:1) */
+
+  /* ---- glass (mid plane) ---- */
+  --glass-fill: rgba(9, 44, 29, 0.46);
+  --glass-fill-strong: rgba(5, 33, 21, 0.72);
+  --glass-fill-light: rgba(255, 255, 255, 0.10);
+  --glass-fill-paper: rgba(246, 245, 240, 0.62);  /* frosted pane on light grounds */
+  --glass-border: rgba(225, 224, 216, 0.18);
+  --glass-border-light: rgba(27, 36, 33, 0.12);
+  --glass-edge: rgba(189, 215, 101, 0.55);          /* lime edge light (top-left) */
+  --glass-blur: 18px;
+  --glass-sat: 150%;
+  --glass-shadow: 0 24px 60px -24px rgba(0, 0, 0, 0.55), 0 2px 0 rgba(255, 255, 255, 0.05) inset;
+  --glass-shadow-light: 0 22px 50px -26px rgba(4, 33, 21, 0.35);
+
+  /* ---- graffiti layer ---- */
+  --spray: radial-gradient(closest-side, rgba(189, 215, 101, 0.42), rgba(189, 215, 101, 0.12) 55%, transparent 78%);
+  --spray-white: radial-gradient(closest-side, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.06) 55%, transparent 78%);
+  --grain: url("/assets/brand/grain.svg");         /* FOUNDATION ships this tiny SVG noise tile */
+  --tape: rgba(225, 224, 216, 0.82);                /* masking-tape strips on pasted photos */
+  --tape-lime: rgba(189, 215, 101, 0.88);
+  --sticker-border: 3px solid var(--white);         /* slap-sticker labels */
+  --tag-rotate: -5deg;                               /* default tilt of a graffiti tag word */
+
+  /* ---- type ---- */
+  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-tag: "Sedgwick Ave Display", "Barlow Condensed", cursive;
+  --fw-display: 800;
+  --fw-display-2: 700;
+  --fs-mega: clamp(3.2rem, 2rem + 6.2vw, 8.6rem);   /* home hero */
+  --fs-h1: clamp(2.6rem, 1.6rem + 3.6vw, 5.2rem);   /* inner hero h1 */
+  --fs-h2: clamp(2rem, 1.35rem + 2.2vw, 3.6rem);
+  --fs-h3: clamp(1.35rem, 1.1rem + 0.8vw, 1.85rem);
+  --fs-kicker: 0.82rem;
+  --fs-body: 1rem;
+  --fs-lede: clamp(1.05rem, 0.98rem + 0.35vw, 1.25rem);
+  --fs-small: 0.875rem;                               /* never below 13px anywhere */
+  --lh-tight: 0.92;
+  --lh-body: 1.68;
+  --track-display: 0.005em;
+  --track-kicker: 0.22em;
+
+  /* ---- space, shape ---- */
+  --wrap: 1240px;
+  --wrap-wide: 1440px;
+  --wrap-narrow: 760px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --section-y: clamp(64px, 8vw, 128px);
+  --r-sm: 10px;
+  --r-md: 18px;
+  --r-lg: 28px;
+  --r-pill: 999px;
+  --r-tag: 4px 18px 4px 18px;  /* the "sticker" corner: two tight, two soft */
+
+  /* ---- motion ---- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-fast: 180ms;
+  --dur: 420ms;
+  --dur-slow: 900ms;
+  --reveal-distance: 28px;
+
+  /* ---- layers ---- */
+  --z-back: -1;
+  --z-protrude: 4;
+  --z-header: 50;
+  --z-drawer: 60;
+  --z-gate: 90;
+
+  /* ---- focus ---- */
+  --focus-ring: 0 0 0 3px var(--ink-1), 0 0 0 6px var(--lime);
+}

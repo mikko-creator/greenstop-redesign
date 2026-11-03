@@ -1,0 +1,28 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-spray-haze",
+ "file": "assets/generated/g-spray-haze.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "A billowing cloud of lime chartreuse and white spray-paint mist drifting through darkness, soft volumetric plumes curling outward, fine glowing paint droplets catching the light at the edges of the cloud, set against a plain near-black deep green background, the cloud sits right of centre and fills about a third of the frame, lots of empty dark space all around it, high-speed studio photograph on a dark ground, crisp droplets, soft glow, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "16:9"
+ },
+ "seed": 2119110895,
+ "requestId": "01a19f24-7a70-7f33-afd6-8330619b919f",
+ "cutout": null,
+ "width": 2752,
+ "height": 1536,
+ "sha256": "eb50f44ca53ad6308329663cefa42173ae459bdd8081d8bd30330bb3318631c4",
+ "raw": "tmp/img/raw/g-spray-haze.1793671344284.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-03T02:02:25.518Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Accepted on the first attempt.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ }
+}

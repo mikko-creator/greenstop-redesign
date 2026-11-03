@@ -1,0 +1,88 @@
+{
+  "slug": "qualifying-conditions",
+  "path": "/education/qualifying-conditions/",
+  "title": "New Jersey Medical Cannabis: Qualifying Conditions",
+  "seoTitle": "NJ Cannabis Qualifying Conditions | Greenstop Dispensary",
+  "description": "The qualifying medical conditions listed by New Jersey's Medicinal Cannabis Program, what the diagnosis requirement involves and how to check the current list.",
+  "date": "2026-11-03",
+  "group": "new-jersey",
+  "order": 10,
+  "readMinutes": 3,
+  "kicker": "New Jersey",
+  "lede": "This guide lists the qualifying medical conditions published by New Jersey's Medicinal Cannabis Program, explains what the official pages say about diagnosis and eligibility, and shows you where to check the current list.",
+  "sections": [
+    {
+      "heading": "Why the condition matters",
+      "blocks": [
+        { "type": "p", "html": "To register as a patient in New Jersey's Medicinal Cannabis Program, you must be diagnosed with a qualifying medical condition by a New Jersey healthcare practitioner registered with the program. You must also be a New Jersey resident and have a bona fide relationship with a healthcare provider registered with the program. Adults and minors with a qualifying medical condition may participate." },
+        { "type": "facts", "ids": ["elig-requirements", "elig-adults-and-minors"] },
+        { "type": "p", "html": "A qualifying condition is about eligibility only. It is not a promise of any particular result, and whether the program is right for you is a decision for you and your healthcare provider." }
+      ]
+    },
+    {
+      "heading": "The approved conditions",
+      "blocks": [
+        { "type": "p", "html": "The Commission's Medicinal Cannabis Program page lists these approved qualifying medical conditions:" },
+        { "type": "ul", "items": [
+          "Amyotrophic lateral sclerosis",
+          "Anxiety",
+          "Cancer",
+          "Chronic pain",
+          "Dysmenorrhea",
+          "Glaucoma",
+          "Inflammatory bowel disease, including Crohn's disease",
+          "Intractable skeletal muscular spasticity",
+          "Migraine",
+          "Multiple sclerosis",
+          "Muscular dystrophy",
+          "Opioid use disorder",
+          "Positive status for human immunodeficiency virus (HIV) and acquired immune deficiency syndrome (AIDS)",
+          "Post-traumatic stress disorder (PTSD)",
+          "Seizure disorder, including epilepsy",
+          "Sickle cell anemia",
+          "Terminal illness with a prognosis of less than 12 months to live",
+          "Tourette syndrome"
+        ] },
+        { "type": "facts", "ids": ["elig-conditions"] },
+        { "type": "p", "html": "The program's patient FAQ lists the same approved conditions but does not include sickle cell anemia. Because the two official pages differ, confirm the current list on the <a href=\"https://www.nj.gov/cannabis/medicinalcannabis/\">Medicinal Cannabis Program</a> page or the <a href=\"https://www.nj.gov/cannabis/medicinalcannabis/patient-faqs/\">Patient FAQs</a> before you rely on it." },
+        { "type": "facts", "ids": ["elig-conditions-faq"] }
+      ]
+    },
+    {
+      "heading": "Notes on two conditions",
+      "blocks": [
+        { "type": "p", "html": "Opioid use disorder qualifies as a standalone condition. According to the patient FAQ, a person may be eligible on the basis of the disorder itself or because of chronic, painful withdrawal symptoms." },
+        { "type": "facts", "ids": ["elig-oud"] },
+        { "type": "p", "html": "Terminal illness comes with two process differences. Most registrations cannot be expedited, but the exception is for patients with terminal cancer or another terminal illness with a prognosis of less than 12 months to live. Terminally ill patients are also exempt from the program's maximum purchase limit for a 30-day period." },
+        { "type": "facts", "ids": ["steps-no-expedite", "medbuy-85g-max"] }
+      ]
+    },
+    {
+      "heading": "From diagnosis to registration",
+      "blocks": [
+        { "type": "p", "html": "A bona fide relationship means the practitioner has treated you for at least one year, has seen you for the condition on at least four visits, or has taken over care of the condition after a comprehensive medical history and physical exam, including a review of your records from other treating physicians." },
+        { "type": "facts", "ids": ["elig-bona-fide"] },
+        { "type": "p", "html": "The first step is to find out whether your current healthcare provider participates in the program, or to find a participating practitioner. If you and your provider decide that adding cannabis to your course of treatment makes sense for you, the provider gives you an Authorizing Healthcare Practitioner Statement, which you need to register. Our guide to <a href=\"/education/medical-cannabis/\">how the program works</a> covers the remaining steps." },
+        { "type": "facts", "ids": ["steps-find-provider", "steps-authorization"] },
+        { "type": "p", "html": "Visiting from another state? Patients registered in another state's program may get a nonrenewable, six-month New Jersey card for their stay, after consulting a registered New Jersey healthcare practitioner who enrolls them." },
+        { "type": "facts", "ids": ["elig-out-of-state"] }
+      ]
+    },
+    {
+      "heading": "Check the current list",
+      "blocks": [
+        { "type": "callout", "title": "Rules change", "html": "Check the official program pages for the current list of conditions before you rely on this one. The program's Patient Services Unit can be reached at (609) 292-0424 or Medcannabis@crc.nj.gov." },
+        { "type": "facts", "ids": ["mcp-patient-services"] },
+        { "type": "p", "html": "Questions about this guide? <a href=\"/contact/\">Ask the Greenstop team</a>." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Is anxiety a qualifying condition in New Jersey?", "a_html": "Yes. Anxiety appears on the list of approved qualifying conditions on both official program pages cited here. The diagnosis must come from a New Jersey healthcare practitioner registered with the program." },
+    { "q": "Is sickle cell anemia a qualifying condition?", "a_html": "The Commission's Medicinal Cannabis Program page lists sickle cell anemia, but the program's patient FAQ does not. Check the current list with the program, or ask a healthcare provider registered with the program." },
+    { "q": "Can minors qualify?", "a_html": "Yes. Adults and minors with a qualifying medical condition may participate in the Medicinal Cannabis Program." }
+  ],
+  "related": ["medical-cannabis", "safe-and-responsible-consumption"],
+  "note": "Educational content, not medical or legal advice. Rules change: check the official sources linked on this page.",
+  "lastReviewed": "November 2026"
+}

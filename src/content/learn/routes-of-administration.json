@@ -1,0 +1,70 @@
+{
+  "slug": "routes-of-administration",
+  "path": "/education/routes-of-administration/",
+  "title": "Ways to Consume Cannabis: A Product Format Guide",
+  "seoTitle": "Ways to Consume Cannabis | Greenstop Dispensary",
+  "description": "From flower and vapes to edibles, tinctures and topicals, learn how each cannabis format works, how soon effects begin and how long they tend to last.",
+  "date": "2026-11-03",
+  "group": "consumption",
+  "order": 5,
+  "readMinutes": 3,
+  "kicker": "Consumption",
+  "lede": "How you consume cannabis shapes how quickly you feel it, how long it lasts and how easy it is to pace yourself. Here's a friendly tour of the main product formats.",
+  "sections": [
+    {
+      "heading": "Inhaled: flower, pre-rolls, vapes and concentrates",
+      "blocks": [
+        { "type": "p", "html": "When cannabis is inhaled, cannabinoids pass from the lungs into the bloodstream quickly. Effects usually begin within minutes and fade over a few hours, which makes inhaled products easier to pace than most other formats." },
+        { "type": "ul", "items": [
+          "<strong><a href=\"/products/flower/\">Flower</a></strong> is the dried bud of the plant, smoked in a joint or pipe or heated in a dry herb vaporizer.",
+          "<strong><a href=\"/products/pre-rolls/\">Pre-rolls</a></strong> are flower that comes already rolled and ready to use.",
+          "<strong><a href=\"/products/vapes-cartridges/\">Vapes</a></strong> heat cannabis oil into a vapor rather than burning it. Many use a cartridge that attaches to a battery, while disposables are all-in-one.",
+          "<strong><a href=\"/products/concentrates/\">Concentrates</a></strong> such as wax, shatter and rosin are extracts that are much stronger than flower, so they're best saved for when you know how you respond to cannabis."
+        ] },
+        { "type": "p", "html": "Our guide to <a href=\"/education/respiratory-administration/\">smoking and vaping</a> goes deeper on inhaled cannabis." }
+      ]
+    },
+    {
+      "heading": "Eaten: edibles",
+      "blocks": [
+        { "type": "p", "html": "<strong><a href=\"/products/edibles/\">Edibles</a></strong> include gummies, chocolates, baked goods and other foods made with cannabis. Because they're digested, they work on a slower timeline: effects can take 30 minutes to 2 hours to begin and usually last longer than inhaled cannabis." },
+        { "type": "p", "html": "When THC is swallowed, the liver converts some of it into a related compound, which is one reason edibles can feel different, and often stronger, than smoking or vaping." },
+        { "type": "callout", "title": "Patience pays off", "html": "The most common edible mistake is taking more because nothing seems to be happening yet. Start with a small amount, wait at least two hours before deciding on more, and keep edibles in their original packaging, away from children and pets." }
+      ]
+    },
+    {
+      "heading": "Under the tongue: tinctures",
+      "blocks": [
+        { "type": "p", "html": "<strong><a href=\"/products/tinctures/\">Tinctures</a></strong> are liquid cannabis extracts, usually sold in a bottle with a dropper. Many people hold the liquid under the tongue for a moment before swallowing. Some find tinctures take effect sooner than edibles, but timing varies, and whatever you swallow behaves more like an edible. The dropper makes it easier to measure the same amount each time, which helps when you're going slow." }
+      ]
+    },
+    {
+      "heading": "On the skin: topicals",
+      "blocks": [
+        { "type": "p", "html": "<strong><a href=\"/products/topicals/\">Topicals</a></strong> are lotions, balms and oils made with cannabis and applied to the skin. Typical topicals aren't designed to reach the bloodstream in meaningful amounts, so they generally aren't expected to cause a high. Research on topicals is still limited, so read labels closely and test a small patch of skin first." }
+      ]
+    },
+    {
+      "heading": "Choosing a format",
+      "blocks": [
+        { "type": "ul", "items": [
+          "<strong>Speed:</strong> inhaled products act within minutes, while edibles take much longer.",
+          "<strong>Duration:</strong> edibles usually last the longest, and inhaled effects fade sooner.",
+          "<strong>Smoke-free:</strong> edibles, tinctures and topicals involve no smoke at all.",
+          "<strong>Discretion:</strong> edibles, tinctures and topicals give off little or no aroma compared with smoking.",
+          "<strong>Tracking:</strong> edibles and tinctures are usually labeled by serving, which makes amounts easier to track."
+        ] },
+        { "type": "p", "html": "Whatever you choose, start low, go slow, and check with a healthcare provider if you have health questions or take medications. Effects vary from person to person, and research is still developing. Here's how New Jersey's cannabis regulator describes the legal product categories:" },
+        { "type": "facts", "ids": ["legal-product-categories"] },
+        { "type": "p", "html": "Questions? Ask the Greenstop team in store." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Which format works fastest?", "a_html": "Inhaled products, like flower and vapes, usually take effect within minutes. Edibles take the longest, often 30 minutes to 2 hours." },
+    { "q": "Why do edibles feel stronger to some people?", "a_html": "Digestion changes how THC is processed, and effects build slowly, so it's easy to take more before the first serving has kicked in. Patience is the best safeguard." },
+    { "q": "Do topicals get you high?", "a_html": "Typical topicals are applied to the skin and generally aren't expected to cause a high. Check the label, and ask if you're unsure about a product." }
+  ],
+  "related": ["respiratory-administration", "thc-tetrahydrocannabinol", "safe-and-responsible-consumption"],
+  "note": "Educational content, not medical or legal advice."
+}

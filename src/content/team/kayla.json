@@ -1,0 +1,86 @@
+{
+ "path": "/team-member/kayla/",
+ "url": "https://greenstopwellnessjc.com/team-member/kayla/",
+ "slug": "kayla",
+ "name": "Kayla",
+ "restTitle": "Kayla",
+ "jobTitle": "Budtender",
+ "seoTitle": "Kayla | Greenstop Dispensary",
+ "description": "",
+ "image": {
+  "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-19.18.35_7bfdeb52-e1756855199139.jpg",
+  "alt": "",
+  "w": 437,
+  "h": 697
+ },
+ "html": "<p>Kayla is a born and raised New Yorker with the ambition of a true hustler. Not only does she work here at GreenStop, she is pursuing a degree in Nursing and has two businesses in events and beauty. She also has an immense passion for travel, music, fashion, the arts, and of course CANNABIS ! Kayla loves working here at GreenStop, she loves to share her knowledge of cannabis and it’s amazing benefits. She always says it never feels like she’s working, it feels like she’s just talking with her besties about something she loves. Make sure you say hi so she can share that million dollar smile with you!</p>\n",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/WhatsApp-Image-2025-09-02-at-19.18.35_7bfdeb52-e1756855199139.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Kayla",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-02-at-19.18.35_7bfdeb52-e1756855199139.jpg",
+     "alt": "",
+     "w": 437,
+     "h": 697
+    },
+    {
+     "type": "h3",
+     "text": "Kayla"
+    },
+    {
+     "type": "p",
+     "html": "Kayla is a born and raised New Yorker with the ambition of a true hustler. Not only does she work here at GreenStop, she is pursuing a degree in Nursing and has two businesses in events and beauty. She also has an immense passion for travel, music, fashion, the arts, and of course CANNABIS ! Kayla loves working here at GreenStop, she loves to share her knowledge of cannabis and it’s amazing benefits. She always says it never feels like she’s working, it feels like she’s just talking with her besties about something she loves. Make sure you say hi so she can share that million dollar smile with you!"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6NTAwfX0sImJ1Y2tldCI6InByb3RldXNpbWFnZXMiLCJrZXkiOiJncmVlbnN0b3AvcHJvZHVjdHMvTEdtYW5nb2phY2toZXJlci5qcGcifQ.jpeg",
+     "iconAlt": "",
+     "iconW": 500,
+     "iconH": 403,
+     "title": "Little Leaf | Mango Jack…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/LittleLeafMangoJackHerer35gMoonrockInfusedShakeFlowerFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6NTAwfX0sImJ1Y2tldCI6InByb3RldXNpbWFnZXMiLCJrZXkiOiJncmVlbnN0b3AvcHJvZHVjdHMvTEdTY3JlZW5zaG90MjAyNS0wNi0xNDAyMzg0MC5qcGcifQ.jpeg",
+     "iconAlt": "",
+     "iconW": 500,
+     "iconH": 733,
+     "title": "HM FM | Tokesly | Strawb…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/HMFMTokeslyStrawberryMilanoGJ35gFlowerFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-192531.jpg",
+     "iconAlt": "",
+     "iconW": 620,
+     "iconH": 621,
+     "title": "GTI | Rythm | Jack Herer…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GTIRythmJackHererLiveResin1gConcentrates/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-09-02-192824.jpg",
+     "iconAlt": "",
+     "iconW": 621,
+     "iconH": 620,
+     "title": "VNF | Rove Ice Packs | P…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/VNFRoveIcePacksPeachesCream1gTripleInfusedPrerollInfusedPrerolls/",
+     "linkText": "add"
+    }
+   ]
+  }
+ ]
+}

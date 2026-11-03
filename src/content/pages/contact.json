@@ -1,0 +1,72 @@
+{
+ "slug": "contact",
+ "path": "/contact/",
+ "url": "https://greenstopwellnessjc.com/contact/",
+ "title": "Contact | Greenstop Dispensary",
+ "description": "",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/greenstop-logo.png",
+ "h1": "",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "",
+   "bg": "/assets/photos/gs/greenstop-room.jpg",
+   "blocks": []
+  },
+  {
+   "id": "s2",
+   "heading": "LOCATION",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h4",
+     "text": "LOCATION"
+    },
+    {
+     "type": "h3",
+     "text": "Greenstop Wellness 516 Tonnelle Ave, Jersey City, NJ 07307"
+    },
+    {
+     "type": "button",
+     "text": "Get Directions",
+     "href": "https://www.google.com/maps/place/516+Tonnelle+Ave,+Jersey+City,+NJ+07307/data=!4m2!3m1!1s0x89c2571661f9ebbf:0x755cb7878aab46d1?sa=X&ved=1t:242&ictx=111"
+    },
+    {
+     "type": "h4",
+     "text": "Hours:"
+    },
+    {
+     "type": "p",
+     "html": "Monday–Sunday: 7:00 AM – 11:00 PM"
+    },
+    {
+     "type": "h4",
+     "text": "Phone:"
+    },
+    {
+     "type": "p",
+     "html": "201.604.1281"
+    },
+    {
+     "type": "h4",
+     "text": "Email:"
+    },
+    {
+     "type": "p",
+     "html": "greenstopwellnessjc@gmail.com"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": "Send us a message",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Send us a message"
+    }
+   ]
+  }
+ ]
+}

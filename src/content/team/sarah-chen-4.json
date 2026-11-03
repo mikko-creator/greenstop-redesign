@@ -1,0 +1,86 @@
+{
+ "path": "/team-member/sarah-chen-4/",
+ "url": "https://greenstopwellnessjc.com/team-member/sarah-chen-4/",
+ "slug": "sarah-chen-4",
+ "name": "Claudia",
+ "restTitle": "Claudia",
+ "jobTitle": "Budtender",
+ "seoTitle": "Claudia | Greenstop Dispensary",
+ "description": "",
+ "image": {
+  "src": "/assets/photos/gs/WhatsApp-Image-2025-09-03-at-13.39.08_a2c48305.jpg",
+  "alt": "",
+  "w": 1200,
+  "h": 1599
+ },
+ "html": "<p>Claudia! Capricorn! Avid thrifter, knick knack enthusiast and your friendly neighborhood budtender!</p>\n",
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/WhatsApp-Image-2025-09-03-at-13.39.08_a2c48305.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Claudia",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/WhatsApp-Image-2025-09-03-at-13.39.08_a2c48305.jpg",
+     "alt": "",
+     "w": 1200,
+     "h": 1599
+    },
+    {
+     "type": "h3",
+     "text": "Claudia"
+    },
+    {
+     "type": "p",
+     "html": "Claudia! Capricorn! Avid thrifter, knick knack enthusiast and your friendly neighborhood budtender!"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-08-28-113527.png",
+     "iconAlt": "",
+     "iconW": 940,
+     "iconH": 927,
+     "title": "Bango | Feelz | Cherry G…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/BangoFeelzCherryGas7gFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/cake-desist.png",
+     "iconAlt": "",
+     "iconW": 800,
+     "iconH": 797,
+     "title": "GG | Cake & Desist | 3.5…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/GGCakeDesist35gFlowerFlower/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/BlackberryLemonade.jpg",
+     "iconAlt": "",
+     "iconW": 642,
+     "iconH": 575,
+     "title": "MPX | Gron | Blackberry…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/MPXGronBlackberryLemonadePearls111CBNCBDTHC100mg10pkEdibles/",
+     "linkText": "add"
+    },
+    {
+     "type": "icon-box",
+     "icon": "/assets/photos/gs/Screenshot-2025-08-08-223150.jpg",
+     "iconAlt": "",
+     "iconW": 955,
+     "iconH": 870,
+     "title": "CL | Select XBites | Rai…",
+     "html": "",
+     "href": "https://cart.greenstopwellnessjc.com/shop/p/CLSelectXBitesRainbowUpload100mg10pkRSOEdibles/",
+     "linkText": "add"
+    }
+   ]
+  }
+ ]
+}

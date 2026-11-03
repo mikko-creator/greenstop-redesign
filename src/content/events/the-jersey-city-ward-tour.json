@@ -1,0 +1,62 @@
+{
+ "path": "/event/the-jersey-city-ward-tour/",
+ "url": "https://greenstopwellnessjc.com/event/the-jersey-city-ward-tour/",
+ "slug": "the-jersey-city-ward-tour",
+ "title": "The Jersey City Ward Tour",
+ "restTitle": "The Jersey City Ward Tour",
+ "seoTitle": "The Jersey City Ward Tour | Greenstop Dispensary",
+ "description": "",
+ "date": "August 20, 2025",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2025-08-20T11:05:46-04:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/26b13b1c791aa981a7af5e049a351c9429b0c29d.jpg",
+  "alt": "",
+  "w": 1080,
+  "h": 1350
+ },
+ "html": "",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/26b13b1c791aa981a7af5e049a351c9429b0c29d.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "The Jersey City Ward Tour",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "The Jersey City Ward Tour"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "August 20, 2025"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/26b13b1c791aa981a7af5e049a351c9429b0c29d.jpg",
+     "alt": "",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/fresco-release-party/\">Previous</a>",
+      "<a href=\"/event/hip-hop-class/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

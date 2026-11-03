@@ -1,0 +1,66 @@
+{
+ "path": "/event/events-donq-house-flower-drop/",
+ "url": "https://greenstopwellnessjc.com/event/events-donq-house-flower-drop/",
+ "slug": "events-donq-house-flower-drop",
+ "title": "Don Q x Greenstop – House Flower Drop (Nov 8 | 2–5 PM)",
+ "restTitle": "Don Q x Greenstop – House Flower Drop (Nov 8 | 2–5 PM)",
+ "seoTitle": "Don Q x Greenstop House Flower Drop | Meet & Greet with A Boogie & Don Q | Greenstop NJ",
+ "description": "Celebrate the Don Q x Greenstop House Flower Drop on Nov 8th in Jersey City.Shop Gorilla Pie & Guava Sherbet by Hamilton Farms at 20% OFF, enjoy raffles, giveaways, and a chance to meet A Boogie & Don Q.",
+ "date": "November 3, 2025",
+ "dateNote": "the date shown on the page is the WordPress publish date (YOOtheme post meta), not necessarily the event date",
+ "startISO": "2025-11-03T01:44:16-05:00",
+ "start": null,
+ "end": null,
+ "time": null,
+ "venue": null,
+ "price": null,
+ "type": [
+  "Past Event"
+ ],
+ "image": {
+  "src": "/assets/photos/gs/donq.jpg",
+  "alt": "",
+  "w": 1100,
+  "h": 1200
+ },
+ "html": "<p>Greenstop and Don Q bring you an exclusive <em data-start=\"385\" data-end=\"399\">House Flower</em> release — <strong data-start=\"410\" data-end=\"425\">Gorilla Pie</strong> and <strong data-start=\"430\" data-end=\"447\">Guava Sherbet</strong> by Hamilton Farms.<br data-start=\"466\" data-end=\"469\" />Stop by November 8th from <strong data-start=\"495\" data-end=\"505\">2–5 PM</strong> for the official launch, with <strong data-start=\"536\" data-end=\"556\">20% OFF in-store</strong>, <strong data-start=\"558\" data-end=\"598\">raffles, giveaways, and signed merch</strong> — plus a chance to <strong data-start=\"618\" data-end=\"643\">meet A Boogie &amp; Don Q</strong>.</p>\n",
+ "links": [],
+ "ogImage": "https://greenstopwellnessjc.com/wp-content/uploads/donq.jpg",
+ "sections": [
+  {
+   "id": "s1",
+   "heading": "Don Q x Greenstop – House Flower Drop (Nov 8 | 2–5 PM)",
+   "bg": "",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Don Q x Greenstop – House Flower Drop (Nov 8 | 2–5 PM)"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "November 3, 2025"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/gs/donq.jpg",
+     "alt": "",
+     "w": 1100,
+     "h": 1200
+    },
+    {
+     "type": "p",
+     "html": "Greenstop and Don Q bring you an exclusive <em>House Flower</em> release — <strong>Gorilla Pie</strong> and <strong>Guava Sherbet</strong> by Hamilton Farms.<br>Stop by November 8th from <strong>2–5 PM</strong> for the official launch, with <strong>20% OFF in-store</strong>, <strong>raffles, giveaways, and signed merch</strong> — plus a chance to <strong>meet A Boogie &amp; Don Q</strong>."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<a href=\"/event/mischief-night-30th-october-2025/\">Previous</a>",
+      "<a href=\"/event/new-year-higher-yoga-1-11/\">Next</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

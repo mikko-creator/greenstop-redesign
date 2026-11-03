@@ -1,0 +1,29 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-hero-wall",
+ "file": "assets/generated/g-hero-wall.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Greenstop, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Cinematic night photograph of a long empty concrete and brick wall painted deep forest green, covered in a layered abstract graffiti mural made only of shapes: bold geometric blocks, swooping arrows, thick black outlines, long paint drips, spray splashes and dots in lime chartreuse, white, pale mint and a little teal. A soft glowing lime-green spray-paint haze drifts in from the left edge of the frame, wet black asphalt in the foreground mirrors the colours in long reflections, two or three soft diagonal streaks of light diffused as if seen through frosted glass. Composition: the left 45 percent of the frame is calm, dark and almost empty, deep green shadow with only the faint haze, the mural is concentrated in the right half of the frame. Empty street at night, moody high contrast, clean modern editorial look, 35mm photograph, fine grain, no people, no faces, no hands, no text, no letters, no words, no numbers, no logos, no brand marks, no signage",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "16:9"
+ },
+ "seed": 3931197017,
+ "requestId": "01a19f24-7a6f-73d2-97f8-d415563d7d12",
+ "cutout": null,
+ "width": 2752,
+ "height": 1536,
+ "sha256": "3260be0edcdb47e4a394549c4bad002e36ee8e5cb0c84a02fcf8659597f347a1",
+ "raw": "tmp/img/raw/g-hero-wall.1793671340386.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-03T02:02:22.660Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Attempt 1 kept after a retouch: a dotted block in the left headline zone that read like a numeral 6 or a letter E was painted out (ffmpeg delogo plus a feathered patch of the surrounding haze; a faint soft smear remains there). Attempt 2 was rejected: a bright busy mural across the left half, no calm area for type.",
+  "reviewedAt": "2026-11-03T02:25:13.470Z"
+ },
+ "postEdit": "retouched: letter-like block removed at x 460-698, y 500-782 of 2752x1536"
+}
