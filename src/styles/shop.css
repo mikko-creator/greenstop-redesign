@@ -295,3 +295,38 @@ a.s-dealcard { display: grid; gap: 10px; align-content: start; padding: clamp(22
   .s-drop__frame, .s-fan__card--a, .s-slap__frame { transition: none; }
   .s-offer__ico { transition: none; }
 }
+
+/* ---------- phones (mobile pass): 2-up tiles, no live blur, 13px+ stickers, 44px store rows, tighter rhythm.
+   Every rule below sits in a phone media query: desktop (1024 and up) is untouched. ---------- */
+@media (max-width: 767px) {
+  .s-tile__icon { -webkit-backdrop-filter: none; backdrop-filter: none; background: rgba(2, 21, 13, 0.86); }
+  .s-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .s-tiles .s-tile { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; align-items: start; align-content: start; row-gap: 6px; padding: 6px 6px 10px; }
+  .s-tile .tile__media { grid-row: auto; aspect-ratio: 16 / 10; }
+  .s-tile .tile__title { align-self: start; font-size: 1.15rem; line-height: 1; }
+  .s-tile .tile__cta { align-self: start; font-size: 0.9rem; }
+  .s-tile__icon { width: 36px; height: 36px; }
+  .s-tile__icon img { width: 24px; height: 24px; }
+  .s-tile__no { font-size: 1.4rem; }
+  .s-brand .s-brand__sticker { font-size: 0.85rem; }
+  .s-store__list a { display: inline-flex; align-items: center; min-height: 44px; }
+  .s-store__list > li:has(> a) { align-items: center; }
+  .s-store__list > li:has(> a) .s-store__ico { margin-top: 0; }
+  /* the band after the hero: fix.css reads --hero-overhang, which only .page-hero defines, so its padding computed
+     to 0 and the overhanging hero media covered the next kicker; a fixed phone value clears the overhang */
+  .page-hero + .band.s-after { padding-top: 76px; }
+  /* deals: the six discount cards 2-up, tiers tighter */
+  .s-offers { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .s-offer { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; row-gap: 8px; align-items: start; align-content: start; padding: 14px 12px 16px; }
+  .s-offer__ico { grid-row: auto; width: 48px; height: 48px; }
+  .s-offer__ico img { width: 26px; height: 26px; }
+  .s-offer__t { font-size: 1.25rem; }
+  .s-offer__pct { font-size: 3.6rem; }
+  .s-tiers { gap: 10px; }
+  .s-tier { padding: 16px; }
+  /* brands: 2-up cards */
+  .s-brands__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .s-brand { gap: 8px; padding: 14px 12px 10px; }
+  .s-brand__name { font-size: 1.35rem; }
+  .s-brand__picks { font-size: 0.875rem; }
+}

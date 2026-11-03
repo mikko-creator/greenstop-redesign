@@ -266,3 +266,48 @@
   .n-page .ico { width: 20px; height: 20px; }
   .n-page a:focus-visible, .n-page button:focus-visible, .n-page summary:focus-visible { outline: none; box-shadow: var(--focus-ring); }
 }
+
+/* ---------- phone pass (2026-11-03): compact table of contents, tighter reading rhythm; phone scoped only ---------- */
+@media (max-width: 599.98px) {
+  /* hero art a little smaller so the first screen keeps the title, lede and buttons */
+  .n-frame, .n-frame--guide { width: min(72%, 300px); }
+  .n-frame--tall { width: min(52%, 220px); }
+  /* table of contents: one swipe row of chips instead of a tall block above the article */
+  .n-toc { padding: 12px 0 10px; }
+  .n-toc__title { margin: 0 16px 6px; font-size: 0.875rem; }
+  .n-toc__list { display: flex; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; padding: 2px 16px 6px; scrollbar-width: none; }
+  .n-toc__list::-webkit-scrollbar { display: none; }
+  .n-toc__list li { flex: none; scroll-snap-align: start; }
+  .n-toc__list a { gap: 8px; padding: 0 14px 0 10px; white-space: nowrap; border: 1px solid var(--glass-border-light); border-radius: var(--r-pill); background: var(--white); color: var(--text-on-light); font-size: 0.875rem; }
+  .n-body--toc .n-body__wrap { gap: 22px; }
+  /* reading rhythm: 16px body like the rest of the site, shorter gaps */
+  .n-prose { font-size: 1rem; line-height: 1.64; }
+  .n-prose p, .n-prose ul, .n-prose ol { margin-bottom: 1em; }
+  .n-prose h2 { margin: 1.35em 0 0.45em; }
+  .n-prose h3 { margin: 1.2em 0 0.4em; }
+  .n-sec > h2:first-child { margin-top: 1.15em; }
+  .n-note { margin-bottom: 1.4em; padding: 10px 14px; gap: 10px; font-size: 0.875rem; line-height: 1.5; }
+  .n-callout { margin: 1.2em 0; padding: 14px 16px; }
+  /* official-source fact blocks */
+  .n-facts { margin: 0.6em 0 1.3em; padding: 10px 14px 4px; font-size: 0.875rem; line-height: 1.48; }
+  .n-facts__label { margin-bottom: 2px; font-size: 0.8125rem; }
+  .n-facts__item { padding: 7px 0; }
+  /* FAQ */
+  .n-faq__q { padding: 8px 2px; font-size: 1rem; line-height: 1.35; }
+  .n-faq__a { padding-bottom: 12px; }
+  .n-sources li { margin-bottom: 8px; }
+}
+@media (max-width: 599.98px) {
+  /* guide FAQ rows: the component's summary rule outranks .n-faq__q, so scope through .n-faq; one plus mark only (the component draws it) */
+  .n-faq .n-faq__q { min-height: 48px; padding: 8px 14px; font-size: 1rem; line-height: 1.35; }
+  .n-faq .n-faq__a { padding: 0 14px 12px; }
+  .n-faq .n-faq__ico { display: none; }
+}
+@media (max-width: 599.98px) {
+  /* the closing can stays a small protrusion into the seam, clear of the buttons */
+  .n-shop__can { width: 66px; right: 6px; bottom: calc(-1 * var(--section-y) - 30px); }
+}
+/* phone pass 2: long guide titles in the chip row wrap inside the chip instead of running off the screen */
+@media (max-width: 767.98px) {
+  .n-chiprow .n-chip { max-width: 100%; min-height: 44px; padding-block: 8px; white-space: normal; line-height: 1.2; }
+}

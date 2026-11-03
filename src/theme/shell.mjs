@@ -193,7 +193,7 @@ export function ctaTrio(ctx, path) {
 <div class="wrap">
 <div class="trio__grid">
 ${t.map((c, i) => `<a class="trio__card glass glass--lift"${linkAttrs(c.href)}${cur(c.href, path)} data-reveal style="--i:${i}">
-<span class="trio__media">${c.gimg ? gimg(c.gimg, { alt: '', sizes: '(min-width: 1024px) 400px, 92vw' }) : ''}</span>
+<span class="trio__media">${c.gimg ? gimg(c.gimg, { alt: '', sizes: '(min-width: 1024px) 400px, (min-width: 768px) 300px, 36vw' }) : ''}</span>
 <span class="trio__body"><span class="sticker${i === 1 ? ' sticker--tilt-r' : ''}">${esc(c.kicker || '')}</span><span class="trio__title">${esc(c.title)}</span><span class="trio__text">${esc(c.text || '')}</span><span class="trio__go" aria-hidden="true">${icon('arrow')}</span></span>
 </a>`).join('\n')}
 </div>

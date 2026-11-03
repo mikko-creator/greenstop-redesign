@@ -131,7 +131,7 @@ ${cats.map((c, i) => {
   const svcCard = (c, i) => {
     const r = SVC_ROUTES[c.title];
     const isIcon = /\.png$/i.test(c.icon) && c.iconW <= 200;
-    const media = `<span class="h-svc__media${isIcon ? ' h-svc__media--icon' : ''}">${img({ src: c.icon, alt: '', w: c.iconW, h: c.iconH }, { sizes: isIcon ? '96px' : '(max-width: 720px) 92vw, 300px', cls: 'h-svc__img' })}</span>`;
+    const media = `<span class="h-svc__media${isIcon ? ' h-svc__media--icon' : ''}">${img({ src: c.icon, alt: '', w: c.iconW, h: c.iconH }, { sizes: isIcon ? '96px' : '(max-width: 767px) 46vw, 300px', cls: 'h-svc__img' })}</span>`;
     const text = c.html ? `<span class="chip chip--lime h-svc__chip">${c.html}</span>` : '';
     const body = `<span class="h-svc__body"><h3 class="h-svc__t">${esc(c.title)}</h3>${text}${r ? `<span class="link-arrow h-svc__go">${esc(r[1])}${icon('arrow')}</span>` : ''}</span>`;
     return `<li class="h-svc__item" data-reveal style="--i:${i}">${r
@@ -160,7 +160,8 @@ ${svcs.map(svcCard).join('\n')}
   const commHtml = `<section class="h-comm band band--forest" aria-labelledby="h-comm-h">
 <div class="band__clip" aria-hidden="true">${s5.bg ? img({ src: s5.bg, alt: '' }, { cls: 'h-comm__mark', sizes: '420px' }) : ''}<span class="haze h-comm__haze"></span><span class="grain"></span></div>
 <div class="wrap h-comm__inner">
-<div class="h-comm__leaf protrude"><div data-depth="0.12">${img({ src: leaf.src, alt: 'A cannabis plant with four callouts: Trusted guidance, every time. See and smell before you choose. Quick delivery and easy pickup options. Wide range of premium products.', w: leaf.w, h: leaf.h }, { cls: 'cut h-comm__leaf-img', sizes: '(max-width: 720px) 92vw, 560px' })}</div></div>
+<div class="h-comm__leaf protrude"><div data-depth="0.12">${img({ src: leaf.src, alt: 'A cannabis plant with four callouts: Trusted guidance, every time. See and smell before you choose. Quick delivery and easy pickup options. Wide range of premium products.', w: leaf.w, h: leaf.h }, { cls: 'cut h-comm__leaf-img', sizes: '(max-width: 767px) 240px, 560px' })}</div></div>
+<ul class="h-comm__points" role="list" hidden aria-hidden="true">${['Trusted guidance, every time', 'See &amp; smell before you choose', 'Quick delivery &amp; easy pickup options', 'Wide range of premium products'].map((t) => `<li>${icon('leaf')}<span>${t}</span></li>`).join('')}</ul>
 <div class="h-comm__copy">
 ${head({ kicker: 'About Greenstop', h: esc(s6h.text), id: 'h-comm-h', tag: 'Community' })}
 <p class="lede h-comm__p" data-reveal style="--i:1">${s6p.html}</p>
@@ -198,7 +199,7 @@ ${head({ kicker: 'Visit Us', h: 'Visit Greenstop', id: 'h-store-h' })}
   // ctx.events is sorted on the display date string; sort on the captured ISO stamp instead (newest first)
   const events = [...(ctx.events || [])].filter((e) => e.path && e.title).sort((a, b) => String(b.startISO || '').localeCompare(String(a.startISO || ''))).slice(0, 4);
   const isPast = (e) => (e.type || []).some((t) => /past/i.test(t));
-  const ecard = (e, i) => `<li class="h-events__item" data-reveal style="--i:${i}"><a class="ecard h-ecard"${linkAttrs(e.path)}><span class="ecard__media h-ecard__media">${e.image && e.image.src ? img({ src: e.image.src, alt: e.image.alt || '', w: e.image.w, h: e.image.h }, { sizes: '(max-width: 720px) 80vw, 290px' }) : gimg('g-city-dusk', { alt: '', sizes: '290px' })}</span><span class="h-ecard__body">${isPast(e) ? '<span class="ecard__date chip h-ecard__chip">Past event</span>' : ''}<span class="ecard__title h-ecard__title">${esc(e.title)}</span><span class="ecard__meta h-ecard__more">Event details${icon('arrow')}</span></span></a></li>`;
+  const ecard = (e, i) => `<li class="h-events__item" data-reveal style="--i:${i}"><a class="ecard h-ecard"${linkAttrs(e.path)}><span class="ecard__media h-ecard__media">${e.image && e.image.src ? img({ src: e.image.src, alt: e.image.alt || '', w: e.image.w, h: e.image.h }, { sizes: '(max-width: 767px) 46vw, 290px' }) : gimg('g-city-dusk', { alt: '', sizes: '290px' })}</span><span class="h-ecard__body">${isPast(e) ? '<span class="ecard__date chip h-ecard__chip">Past event</span>' : ''}<span class="ecard__title h-ecard__title">${esc(e.title)}</span><span class="ecard__meta h-ecard__more">Event details${icon('arrow')}</span></span></a></li>`;
   const eventsHtml = `<section class="h-events band band--ink" aria-labelledby="h-events-h">
 <div class="band__clip" aria-hidden="true"><span class="h-events__glow"></span><span class="grain"></span></div>
 <div class="wrap">
@@ -261,7 +262,7 @@ ${reviews.map((r, i) => `<li class="h-reviews__item" data-reveal style="--i:${i 
 
   // ---------- 10. latest 3 blog posts
   const posts = [...(ctx.posts || [])].sort((a, b) => String(b.date || '').localeCompare(String(a.date || ''))).slice(0, 3);
-  const acard = (p, i) => `<li class="h-posts__item" data-reveal style="--i:${i}"><a class="acard h-acard"${linkAttrs(p.path || '/' + p.slug + '/')}><span class="acard__media h-acard__media">${p.image && p.image.src ? img({ src: p.image.src, alt: p.image.alt || '', w: p.image.w, h: p.image.h }, { sizes: '(max-width: 720px) 92vw, 400px' }) : gimg('g-glass-bud', { alt: '', sizes: '400px' })}</span><span class="h-acard__body"><span class="acard__meta"><time datetime="${escA(String(p.date).slice(0, 10))}">${esc(fmtDate(p.date))}</time></span><span class="acard__title">${esc(p.title)}</span><span class="acard__more">Read More${icon('arrow')}</span></span></a></li>`;
+  const acard = (p, i) => `<li class="h-posts__item" data-reveal style="--i:${i}"><a class="acard h-acard"${linkAttrs(p.path || '/' + p.slug + '/')}><span class="acard__media h-acard__media">${p.image && p.image.src ? img({ src: p.image.src, alt: p.image.alt || '', w: p.image.w, h: p.image.h }, { sizes: '(max-width: 767px) 80vw, 400px' }) : gimg('g-glass-bud', { alt: '', sizes: '400px' })}</span><span class="h-acard__body"><span class="acard__meta"><time datetime="${escA(String(p.date).slice(0, 10))}">${esc(fmtDate(p.date))}</time></span><span class="acard__title">${esc(p.title)}</span><span class="acard__more">Read More${icon('arrow')}</span></span></a></li>`;
   const postsHtml = posts.length ? `<section class="h-posts band band--ink" aria-labelledby="h-posts-h">
 <div class="band__clip" aria-hidden="true"><span class="h-posts__glow"></span><span class="grain"></span></div>
 <div class="wrap">

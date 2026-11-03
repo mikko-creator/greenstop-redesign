@@ -70,6 +70,6 @@ Prompts, seeds and request ids are in `src/content/image-plan.json` and `audit/g
   frames offset by 3 s score 0.528, so the check can fail). Edge detail is about 1.7 to 1.9 times that of a plain
   Lanczos enlargement. Faces and on-screen text were compared side by side: sharper, nothing added or changed.
 - **Files:** `assets/media/gs/WhatsApp-Video-2025-08-01-at-06.23.50_111c9249.mp4` 1600x906 (desktop) and `...-sm.mp4`
-  960x544 (phones, chosen with `<source media>`), H.264, no audio, plus a 1280px poster. Both videos carry the IPTC
+  800x452 (phones, chosen with `<source media>`), H.264, no audio, plus a 1280px poster. Both videos carry the IPTC
   digital source type `algorithmicallyEnhanced` and a plain "AI-upscaled" note in their container tags: the content is
   Greenstop's footage, the model added resolution only.

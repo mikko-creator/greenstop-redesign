@@ -161,7 +161,7 @@ function about(ctx) {
     const u = m ? memberPath(m) : '/about/team/';
     const ph = p.photo || { src: p.card.icon, w: p.card.iconW, h: p.card.iconH };
     return `<article class="p-crew glass" id="crew-${escA(m ? m.slug : i)}" data-reveal style="--i:${i % 2}; --rot:${ROT[i % ROT.length]}deg">
-<a class="p-crew__photo taped ${i % 2 ? 'taped--r' : ''}"${linkAttrs(u)} tabindex="-1" aria-hidden="true">${img({ src: ph.src, alt: '', w: ph.w, h: ph.h }, { sizes: '(min-width: 1024px) 220px, 40vw', cls: 'p-crew__img' })}</a>
+<a class="p-crew__photo taped ${i % 2 ? 'taped--r' : ''}"${linkAttrs(u)} tabindex="-1" aria-hidden="true">${img({ src: ph.src, alt: '', w: ph.w, h: ph.h }, { sizes: '(min-width: 1024px) 220px, (min-width: 761px) 40vw, 30vw', cls: 'p-crew__img' })}</a>
 <div class="p-crew__body">
 ${m && m.jobTitle ? `<p class="chip p-crew__role">${esc(m.jobTitle)}</p>` : ''}
 <h3 class="p-crew__name">${esc(p.name)}</h3>
@@ -177,7 +177,7 @@ ${p.picks.length ? `<details class="p-crew__picks"><summary class="p-crew__sum">
 <div class="wrap">
 <header class="section-head p-team__head" data-reveal><h2 class="display" id="p-team-h">${esc(team.intro[0].text)}</h2><p class="lede">${team.intro[1].html}</p></header>
 <article class="p-owner glass glass--strong" id="owner" data-reveal>
-<figure class="taped taped--lime p-owner__photo">${img({ src: o.photo.src, alt: stripTags(o.name.html), w: o.photo.w, h: o.photo.h }, { sizes: '(min-width: 1024px) 300px, 60vw', cls: 'p-owner__img' })}</figure>
+<figure class="taped taped--lime p-owner__photo">${img({ src: o.photo.src, alt: stripTags(o.name.html), w: o.photo.w, h: o.photo.h }, { sizes: '(min-width: 1024px) 300px, (min-width: 761px) 60vw, 36vw', cls: 'p-owner__img' })}</figure>
 <div class="p-owner__body"><div class="p-owner__name">${o.name.html}</div><p class="chip chip--lime p-owner__role">${o.role.html}</p><p class="p-owner__bio">${o.bio.html}</p></div>
 </article>
 <div class="p-crew-grid">${crewHtml}</div>
@@ -329,7 +329,7 @@ function listingLinks(ctx) {
 function flyer(e, i, links, { h = 'h3', lazy = true } = {}) {
   const ext = links.get(e.image && e.image.src);
   return `<article class="ecard p-flyer" data-reveal style="--i:${i % 4}; --rot:${ROT[i % ROT.length]}deg">
-<span class="ecard__media p-flyer__media">${img({ src: e.image.src, alt: `Flyer: ${stripTags(e.title)}`, w: e.image.w, h: e.image.h }, { sizes: '(min-width: 1280px) 280px, (min-width: 1024px) 22vw, (min-width: 640px) 45vw, 88vw', cls: 'p-flyer__img', eager: !lazy })}</span>
+<span class="ecard__media p-flyer__media">${img({ src: e.image.src, alt: `Flyer: ${stripTags(e.title)}`, w: e.image.w, h: e.image.h }, { sizes: '(min-width: 1280px) 280px, (min-width: 1024px) 22vw, (min-width: 640px) 45vw, 46vw', cls: 'p-flyer__img', eager: !lazy })}</span>
 <div class="ecard__body p-flyer__body">
 <p class="ecard__meta p-flyer__meta"><span class="chip p-flyer__type">${esc((e.type || [])[0] || 'Event')}</span><span>Posted ${esc(e.date)}</span></p>
 <${h} class="ecard__title p-flyer__title"><a${linkAttrs(`/event/${e.slug}/`)}>${esc(e.title)}</a></${h}>

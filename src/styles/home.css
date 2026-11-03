@@ -295,3 +295,105 @@
   .h-faq__list summary { padding: 14px 16px; }
   .h-faq__list details > :not(summary) { padding: 0 16px 16px; }
 }
+
+/* ---------- phones (mobile pass): tighter rhythm, 2-up grids and swipe rows instead of long stacks, 44px taps,
+   no live blur. Every rule below sits in a phone media query: desktop (1024 and up) is untouched. ---------- */
+@media (max-width: 767px) {
+  .h-page .h-promos, .h-page .h-cats, .h-page .h-svcs, .h-page .h-store, .h-page .h-events, .h-page .h-reels, .h-page .h-reviews, .h-page .h-posts, .h-page .h-faq { padding-block: 40px; }
+  .h-page .h-comm { padding-block: 44px 36px; }
+  .h-head { margin-bottom: 16px; }
+  .h-head__kicker { margin-bottom: 10px; }
+  .h-row { gap: 6px 16px; margin-bottom: 14px; }
+  .h-note { margin: -4px 0 14px; }
+
+  /* hero: the Pause motion button moves to the left under the frame, the spray can keeps the right edge */
+  .h-hero__toggle { right: auto; left: var(--gutter); }
+
+  /* category tiles: 2 columns, shorter media, no live blur on the icon disc */
+  .h-cats__grid { gap: 10px; }
+  .h-page .h-tile { padding: 6px 6px 10px; gap: 4px; }
+  .h-tile__media { aspect-ratio: 16 / 10; }
+  .h-tile__icon { width: 40px; height: 40px; left: 8px; top: 8px; -webkit-backdrop-filter: none; backdrop-filter: none; background-color: rgba(2, 21, 13, 0.86); }
+  .h-tile__icon-img { width: 26px; height: 26px; }
+  .h-tile--all .h-tile__icon-img { width: 30px; height: 30px; }
+  .h-tile__title { padding: 6px 4px 0; font-size: 1.05rem; }
+
+  /* services: 2 x 2 */
+  .h-svcs__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .h-svc { border-radius: var(--r-md); }
+  .h-svc__media { aspect-ratio: 16 / 10; margin: 6px 6px 0; border-radius: calc(var(--r-md) - 6px); }
+  .h-svc__media--icon .h-svc__img { width: 60px; height: 60px; }
+  .h-svc__body { gap: 8px; padding: 10px 10px 12px; }
+  .h-svc__t { font-size: 1.12rem; }
+  .h-svc__go { min-height: 0; font-size: 0.875rem; }
+  .h-svc__chip { max-width: 100%; white-space: normal; text-align: left; line-height: 1.25; padding-block: 6px; }
+
+  /* community: smaller leaf, tighter copy */
+  .h-comm__leaf { max-width: 230px; margin: -40px auto 18px; }
+  .h-comm__p { margin-bottom: 18px; font-size: 1rem; }
+  .h-comm__art { margin-top: 16px; max-width: 340px; }
+
+  /* store block */
+  .h-store__tab { padding: 10px 16px; font-size: 0.95rem; }
+  .h-store__panel { gap: 12px; padding: 10px; }
+  .h-store__info { gap: 10px; padding: 0 4px 6px; }
+
+  /* events (2 columns already): square media */
+  .h-ecard__media { aspect-ratio: 1 / 1; }
+
+  /* reels (swipe row already): narrower cards */
+  .h-reels__strip { padding: 10px 4px 26px; gap: 14px; }
+  .h-reels__item { flex: 0 0 46%; }
+
+  /* reviews and latest posts: horizontal swipe rows with scroll snap (every card stays in the DOM) */
+  .h-reviews__grid, .h-posts__grid { display: flex; gap: 12px; margin-inline: calc(-1 * var(--gutter)); padding: 4px var(--gutter) 16px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-inline: var(--gutter); scrollbar-width: none; }
+  .h-reviews__grid::-webkit-scrollbar, .h-posts__grid::-webkit-scrollbar { display: none; }
+  .h-reviews__item { flex: 0 0 88%; min-width: 0; scroll-snap-align: start; }
+  .h-posts__item { flex: 0 0 80%; min-width: 0; scroll-snap-align: start; }
+  .h-review { gap: 10px; padding: 16px; }
+  .h-review__avatar { width: 48px; height: 48px; }
+  .h-review__q { font-size: 0.95rem; line-height: 1.5; }
+  .h-acard__media { aspect-ratio: 16 / 9; }
+  .h-acard__body { gap: 8px; padding: 12px 14px 14px; }
+  .h-acard .acard__title { font-size: 1.18rem; }
+
+  /* FAQ: comfortable summary rows, readable answers; links in the answers get a taller tap box (no layout shift) */
+  .h-faq__grid { gap: 20px; }
+  .h-faq__intro { margin-top: 12px; }
+  .h-faq__ctas { margin-top: 18px; }
+  .h-faq__list summary { min-height: 52px; }
+  .h-faq__a { font-size: 1rem; }
+  .h-faq__a a { padding-block: 13px; }
+
+  /* closing marquee band */
+  .h-page .h-close { padding-block: 48px 32px; }
+  .h-close__links { gap: 8px; margin-top: 26px; }
+}
+/* promo slider on phones (one slide per view) */
+@media (max-width: 767px) {
+  .h-slider { --per-view: 1; --rot-gap: 14px; }
+  .h-slider.is-rotator .h-slider__track { padding: 4px 0 6px; }
+}
+/* promo slider on phones and tablets: prev/next 48px with an "n / total" counter between them on one row. The total is
+   the number of dots (slide positions) counted by CSS, so it is right at one and at two slides per view */
+@media (max-width: 1023px) {
+  .h-slider.is-rotator .h-slider__ctrl { display: grid; grid-template-columns: 48px minmax(0, 1fr) 48px; gap: 8px; max-width: 360px; margin: 6px auto 0; }
+  .h-slider.is-rotator .h-slider__btn { width: 48px; height: 48px; }
+  .h-slider.is-rotator .h-slider__dots { position: relative; counter-reset: h-dot; display: flex; flex-wrap: nowrap; align-items: center; justify-content: center; gap: 4px; font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; letter-spacing: 0.08em; color: var(--text-on-dark-2); }
+  .h-slider.is-rotator .h-slider__dots .rotator__dot { counter-increment: h-dot; }
+  .h-slider.is-rotator .h-slider__dots .rotator__dot:not([aria-current="true"]) { position: absolute; left: 0; top: 0; width: 1px; height: 1px; overflow: hidden; visibility: hidden; }
+  .h-slider.is-rotator .h-slider__dots .rotator__dot[aria-current="true"] { width: auto; min-width: 44px; height: 44px; padding: 0 2px 0 0; border-radius: var(--r-pill); color: var(--lime); font: inherit; letter-spacing: inherit; text-align: right; }
+  .h-slider.is-rotator .h-slider__dots .rotator__dot[aria-current="true"]::after { content: counter(h-dot); position: static; width: auto; height: auto; border: 0; border-radius: 0; background: none; transform: none; }
+  .h-slider.is-rotator .h-slider__dots::after { content: "/\00a0" counter(h-dot); }
+}
+/* phone pass 2 (phones only): the leaf image's four callouts as readable text (the list is [hidden] at every other
+   width, so desktop renders nothing new; aria-hidden because the image alt already carries the same words), and the
+   store video's Pause pill (site.js puts it at the band's bottom right) gets its own strip under the panel */
+@media (max-width: 767px) {
+  .h-comm__points[hidden] { display: grid !important; }
+  .h-comm__points { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 0 0 22px; padding: 0; list-style: none; }
+  .h-comm__points li { display: flex; align-items: center; gap: 8px; padding: 9px 10px; border: 1px solid var(--glass-border); border-radius: var(--r-tag); background-color: rgba(2, 21, 13, 0.55); font-family: var(--font-display); font-weight: 600; font-size: 0.875rem; line-height: 1.2; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-on-dark); }
+  .h-comm__points .ico { flex: none; width: 16px; height: 16px; color: var(--lime); }
+  .h-page .h-store { padding-bottom: 68px; }
+  .h-store > .video-toggle { right: var(--gutter); bottom: 12px; }
+}

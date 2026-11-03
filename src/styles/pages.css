@@ -260,3 +260,68 @@
 .p-hero--about .p-hero__title, .p-hero--store .p-hero__title { max-width: none; font-size: clamp(2.3rem, 1.4rem + 2.9vw, 4.3rem); }
 .p-hero .page-hero__media > .p-hero__photo { bottom: calc(-1 * var(--hero-overhang) - 20px); }
 @media (min-width: 761px) { .p-hero .p-hero__lede { max-width: 52ch; } }
+
+/* ---------- phone pass (2026-11-03): tap targets, 13px floor, shorter pages; every rule is phone/tablet scoped ---------- */
+@media (max-width: 1023px) {
+  .p-flyer__type { font-size: 0.8125rem; }
+  .p-count { font-size: 0.8125rem; }
+}
+@media (max-width: 760px) {
+  /* event flyers and person cards: the title link itself is a 44px row (its ::after still stretches over the card) */
+  .p-flyer__title > a, .p-pcard .pcard__name > a { display: flex; align-items: center; min-height: 44px; }
+  .p-flyer__body { gap: 6px; padding: 12px 12px 14px; }
+  .p-flyer__meta { gap: 4px 10px; }
+  .p-flyer__title { font-size: 1.15rem; }
+  /* team grids: two columns of small cards instead of one long stack */
+  .p-pcards, .p-pcards--four { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 12px; }
+  .p-pcard { gap: 6px; padding: 8px 8px 10px; }
+  .p-pcard .pcard__name { padding-inline: 4px; font-size: 1.2rem; }
+  .p-pcard .pcard__role { padding-inline: 4px; }
+  /* About crew and owner: a small taped photo floats beside the name and the bio wraps under it */
+  .p-owner { display: block; padding: 18px; margin-bottom: 48px; }
+  .p-owner__photo { float: left; width: 128px; margin: -30px 16px 8px 0; }
+  .p-owner__name { font-size: 2rem; }
+  .p-owner__role { margin: 10px 0 12px; }
+  .p-crew-grid { gap: 34px; }
+  .p-crew { display: block; padding: 16px; }
+  .p-crew__photo { float: left; width: 104px; margin: -24px 14px 6px 0; }
+  .p-crew__role { margin-bottom: 6px; }
+  .p-crew__name { margin-bottom: 8px; }
+  .p-crew__more { margin-top: 8px; }
+  .p-crew__picks { clear: both; margin-top: 10px; padding-top: 4px; }
+  .p-story__media { min-height: 250px; }
+  /* links that sit alone in a row: a 44px tall target */
+  .p-facts__row a, .p-store__row a, .p-areas__phone a { display: inline-flex; align-items: center; min-height: 44px; }
+  .p-facts__list { gap: 10px; }
+  /* sitemap */
+  .p-sm__link { min-height: 44px; }
+  .p-sm__group { padding: 18px 16px; }
+  /* FAQ topics: one swipe row of chips instead of a tall list */
+  .p-faq__index { padding: 14px 0 10px; }
+  .p-faq__ih { margin: 0 16px 6px; }
+  .p-faq__index ol { display: flex; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; padding: 2px 16px 6px; scrollbar-width: none; }
+  .p-faq__index ol::-webkit-scrollbar { display: none; }
+  .p-faq__index li { flex: none; scroll-snap-align: start; }
+  .p-faq__index a { white-space: nowrap; padding: 0 14px 0 10px; border: 1px solid var(--glass-border-light); border-radius: var(--r-pill); background: var(--white); }
+  /* service areas: two columns of small area cards */
+  .p-areas__list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .p-area { gap: 4px; padding: 14px 12px 8px; }
+  .p-area__name { font-size: 1.25rem; }
+}
+@media (max-width: 420px) {
+  .p-crew { display: block; }
+  .p-crew__photo { width: 96px; }
+}
+@media (max-width: 760px) {
+  /* the hero photo keeps a small protrusion but no longer slides down over the next section's kicker or heading */
+  .p-hero .page-hero__media > .p-hero__photo { bottom: 10px; }
+  /* FAQ topic chips: a chip-sized stencil number */
+  .p-faq__index .p-faq__num { font-size: 1.15rem; line-height: 1; }
+}
+/* phone pass 2: on phones .glass is an opaque dark fill (mobile.css), but the event Previous / Next cards sit on the
+   light stone band with dark text (measured 1.2:1). They take the light paper fill there instead. */
+@media (max-width: 767.98px) {
+  .band--stone .p-pn__link.glass, .band--paper .p-pn__link.glass { background-color: rgba(246, 245, 240, 0.97); border-color: var(--glass-border-light); }
+  /* `a.glass` (display:block) also outranked the card's grid, so the label ran into the title ("PREVIOUSNew year...") */
+  .p-pn .p-pn__link.glass { display: grid; }
+}

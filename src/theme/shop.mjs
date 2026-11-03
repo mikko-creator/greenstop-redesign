@@ -134,7 +134,7 @@ function tape(words, cls = '') {
   return `<div class="s-tape ${cls}" aria-hidden="true"><div class="caution marquee s-tape__run" data-marquee><div class="marquee__track">${words.map((w) => `<span>${esc(w)}</span>`).join('')}</div></div></div>`;
 }
 
-function tile(ctx, c, i, sizes = '(min-width: 1240px) 290px, (min-width: 1024px) 23vw, (min-width: 600px) 45vw, 92vw') {
+function tile(ctx, c, i, sizes = '(min-width: 1240px) 290px, (min-width: 1024px) 23vw, (min-width: 768px) 45vw, 44vw') {
   const ic = gsIcon(ctx, c);
   return `<li class="s-tiles__item" data-reveal style="--i:${i % 4}"><a class="tile s-tile"${linkAttrs(c.href)}>
 <span class="tile__media s-tile__media">${gimg(c.gimg, { alt: '', sizes })}${ic ? `<span class="s-tile__icon" aria-hidden="true">${iconImg(ic)}</span>` : ''}<span class="s-tile__no stencil" aria-hidden="true">${pad(c.i + 1)}</span></span>
@@ -185,7 +185,7 @@ function productsPage(ctx) {
   const media = `<div class="s-fan">
 <div class="frame s-fan__card s-fan__card--b" aria-hidden="true">${gimg('g-edibles', { alt: '', sizes: '(min-width: 1024px) 340px, 50vw' })}</div>
 <div class="frame s-fan__card s-fan__card--c" aria-hidden="true">${gimg('g-vapes', { alt: '', sizes: '(min-width: 1024px) 340px, 50vw' })}</div>
-<div class="frame s-fan__card s-fan__card--a" data-tilt="5">${gimg('g-flower', { eager: true, sizes: '(min-width: 1024px) 520px, 88vw' })}</div>
+<div class="frame s-fan__card s-fan__card--a" data-tilt="5">${gimg('g-flower', { eager: true, sizes: '(min-width: 1024px) 520px, 80vw' })}</div>
 <div class="glass glass--strong s-fan__badge"><span class="stencil s-fan__n">${pad(all.length)}</span><span class="s-fan__l">categories on the online menu</span></div>
 <div class="s-cutwrap s-fan__cut" data-depth="0.14" aria-hidden="true">${gimg('g-bud-cut', { alt: '', sizes: '(min-width: 1024px) 230px, 32vw', cls: 'cut' })}</div>
 </div>`;
@@ -281,7 +281,7 @@ ${tape(all.map((c) => c.label))}
 <div class="wrap">
 <div class="s-head s-head--row" data-reveal><div><p class="kicker sticker">Keep browsing</p><h2 class="s-h2" id="others-h">Other categories</h2></div><a class="link-arrow s-head__link"${linkAttrs('/products/')}>${arrow('All products')}</a></div>
 <ul class="s-tiles s-tiles--others" role="list">
-${others.map((c, i) => tile(ctx, c, i, '(min-width: 1240px) 290px, (min-width: 1024px) 23vw, (min-width: 600px) 45vw, 92vw')).join('\n')}
+${others.map((c, i) => tile(ctx, c, i, '(min-width: 1240px) 290px, (min-width: 1024px) 23vw, (min-width: 768px) 45vw, 44vw')).join('\n')}
 </ul>
 </div>
 </section>
@@ -419,7 +419,7 @@ function orderingPage(ctx) {
   const media = `<div class="s-fan s-fan--order">
 <div class="frame s-fan__card s-fan__card--b" aria-hidden="true">${gimg('g-edibles', { alt: '', sizes: '(min-width: 1024px) 340px, 50vw' })}</div>
 <div class="frame s-fan__card s-fan__card--c" aria-hidden="true">${gimg('g-flower', { alt: '', sizes: '(min-width: 1024px) 340px, 50vw' })}</div>
-<div class="frame s-fan__card s-fan__card--a" data-tilt="5">${gimg('g-prerolls', { eager: true, sizes: '(min-width: 1024px) 520px, 88vw' })}</div>
+<div class="frame s-fan__card s-fan__card--a" data-tilt="5">${gimg('g-prerolls', { eager: true, sizes: '(min-width: 1024px) 520px, 80vw' })}</div>
 <div class="s-cutwrap s-fan__cut" data-depth="0.14" aria-hidden="true">${gimg('g-leaf-cut', { alt: '', sizes: '(min-width: 1024px) 230px, 32vw', cls: 'cut' })}</div>
 </div>`;
   const main = `${hero({

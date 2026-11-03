@@ -208,7 +208,7 @@ ${learnBand}`;
 function postPage(ctx, p, it, items) {
   const path = it.path;
   const crumbs = [{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog/' }, { label: p.title }];
-  const media = it.image ? tapedFrame(img({ src: it.image.src, alt: it.image.alt || '', w: it.image.w, h: it.image.h }, { sizes: '(min-width: 1024px) 520px, 92vw', eager: true, cls: 'n-frame__img' }), 'n-frame--post') : '';
+  const media = it.image ? tapedFrame(img({ src: it.image.src, alt: it.image.alt || '', w: it.image.w, h: it.image.h }, { sizes: '(min-width: 1024px) 520px, (min-width: 600px) 92vw, 72vw', eager: true, cls: 'n-frame__img' }), 'n-frame--post') : '';
   const meta = `<time datetime="${escA(ymd(p.date))}">${esc(fmtDate(p.date))}</time><span>${esc(it.minutes)} min read</span>`;
   // Greenstop's own Previous / Next links (captured on the live post)
   const navItems = [];
@@ -264,7 +264,7 @@ function eduHub(ctx, guides, guideItems, postItems) {
   const ctas = present.length
     ? `<a class="btn btn--lime" href="#${escA(present[0].key)}">Start with ${esc(present[0].label === 'Cannabis Basics' ? 'the basics' : present[0].label)} ${icon('arrow')}</a>${present.find((x) => x.key === 'new-jersey') ? `<a class="btn btn--glass" href="#new-jersey">New Jersey rules</a>` : ''}`
     : `<a class="btn btn--lime"${linkAttrs('/blog/')}>Read the Journal ${icon('arrow')}</a>`;
-  const media = tapedFrame(gimg('g-glass-bud', { alt: '', sizes: '(min-width: 1024px) 400px, 70vw', eager: true, cls: 'n-frame__img' }), 'n-frame--tall');
+  const media = tapedFrame(gimg('g-glass-bud', { alt: '', sizes: '(min-width: 1024px) 400px, (min-width: 600px) 70vw, 52vw', eager: true, cls: 'n-frame__img' }), 'n-frame--tall');
   const jump = present.length > 1 ? `<nav class="n-jump" aria-label="Guide topics"><ul role="list">${present.map((gr) => `<li><a class="chip n-chip"${linkAttrs('#' + gr.key)}>${esc(gr.label)} <span class="n-chip__n">${gr.items.length}</span></a></li>`).join('')}</ul></nav>` : '';
   const groupsHtml = present.length ? present.map((gr, gi) => `<section class="n-group" id="${escA(gr.key)}" aria-labelledby="n-g-${escA(gr.key)}">
 <header class="n-group__head" data-reveal><span class="stencil n-group__num" aria-hidden="true">${gi + 1}</span><div><h2 class="display n-head__title" id="n-g-${escA(gr.key)}">${esc(gr.label)}</h2><p class="n-head__line">${esc(gr.line)}</p></div></header>
@@ -352,7 +352,7 @@ ${ctx.nj && ctx.nj.retrieved ? `<p class="n-sources__note">Official pages checke
   const fill = guideItems.filter((x) => x.path !== path && !rel.includes(x) && x.group === it.group);
   const related = [...rel, ...fill].slice(0, 3);
   const meta = `<span>By ${esc(ORG)}</span>${g.readMinutes ? `<span>${esc(g.readMinutes)} min read</span>` : ''}${g.lastReviewed ? `<span>Reviewed ${esc(g.lastReviewed)}</span>` : ''}`;
-  const media = tapedFrame(gimg(it.gen, { alt: '', sizes: '(min-width: 1024px) 520px, 92vw', eager: true, cls: 'n-frame__img' }), 'n-frame--guide');
+  const media = tapedFrame(gimg(it.gen, { alt: '', sizes: '(min-width: 1024px) 520px, (min-width: 600px) 92vw, 72vw', eager: true, cls: 'n-frame__img' }), 'n-frame--guide');
   const main = `${hero({ crumbs, kicker: esc(g.kicker || gr.label), title: esc(g.title), meta, lede: g.lede ? esc(stripTags(g.lede)) : '', media, mod: 'n-hero--article n-hero--guide' })}
 <section class="band band--paper n-body n-body--guide${tocHtml ? ' n-body--toc' : ''}" aria-label="Guide">
 ${clipLayers('n-ground--paper')}

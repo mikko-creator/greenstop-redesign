@@ -84,3 +84,81 @@
   .header-cta { display: none; }
   .topbar__addr { display: none; }
 }
+
+/* ============================================================ phone pass 2 (CHROME lane). Every rule below sits in
+   a max-width 767.98px query (or narrower): nothing here reaches 768px and up, so tablets and desktop are untouched. */
+@media (max-width: 767.98px) {
+  /* rhythm: tighter sections, a slightly smaller heading scale (still big condensed caps), a touch less leading */
+  :root {
+    --section-y: 48px; --mainbar-h: 60px; --lh-body: 1.6;
+    --fs-h1: clamp(2.25rem, 1.5rem + 3vw, 2.75rem);
+    --fs-h2: clamp(1.8rem, 1.3rem + 1.8vw, 2.25rem);
+    --fs-h3: clamp(1.25rem, 1.1rem + 0.5vw, 1.45rem);
+  }
+  html { scroll-padding-top: 76px; }
+  .band { padding-block: min(var(--section-y), 48px); }
+  .band--tight { padding-block: 32px; }
+
+  /* no live blur on phones: every element and pseudo-element of every lane sheet; near-opaque fills stand in */
+  *, *::before, *::after { -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
+  .site-header::before, .site-header.is-scrolled::before, .site-header.has-open-mega::before { background-color: rgba(2, 21, 13, 0.96); }
+
+  /* sticky chrome = the main bar alone (60px): the store bar follows it and scrolls away beneath it */
+  .site-header { order: -2; }
+  .topbar { order: -1; z-index: calc(var(--z-header) - 1); }
+  .topbar__pop { top: calc(var(--mainbar-h) + var(--topbar-h) + 6px); }
+  .brand { min-height: 44px; }
+
+  /* breadcrumbs: 44px tap boxes that overhang the row (negative margins), so the crumb bar stays slim */
+  .crumbs-bar { padding-block: 10px; }
+  .crumbs ol { row-gap: 8px; }
+  .crumbs a { min-width: 44px; padding-inline: 6px; margin: -10px -6px; justify-content: center; }
+
+  /* drawer */
+  .mega__all { min-height: 44px; }
+  .nav__drawer-head { min-height: 64px; }
+
+  /* trio: three compact row cards (photo left, words right), each one link */
+  .trio { padding-block: 40px; }
+  .trio__grid { gap: 10px; }
+  .trio__card { grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr); grid-template-rows: none; border-radius: var(--r-md); }
+  .trio__media { aspect-ratio: auto; min-height: 100%; border-radius: calc(var(--r-md) - 1px) 0 0 calc(var(--r-md) - 1px); }
+  .trio__body { gap: 6px; align-content: center; padding: 14px 14px 14px 16px; }
+  .trio__title { font-size: 1.5rem; }
+  .trio__go { margin-top: 0; }
+
+  /* footer: tighter */
+  .site-footer { padding-top: 64px; }
+  .footer__grid { gap: 28px; }
+  .footer__store { gap: 8px; }
+  .footer__areas { margin-top: 28px; padding-top: 20px; }
+  .footer__legal { margin-top: 20px; padding: 10px 0 14px; }
+}
+@media (max-width: 1023px) {
+  /* the drawer lives inside the header's stacking context and the scrim sat above it (every drawer tap hit the scrim):
+     while the drawer is open the header rides above the scrim */
+  html.nav-open .site-header { z-index: calc(var(--z-scrim) + 1); }
+}
+@media (max-width: 767.98px) {
+  /* trio row cards: `a.glass` (display:block) outranked .trio__card's grid, so the grid is restated with more weight */
+  .trio .trio__card { display: grid; align-items: stretch; }
+  .trio__media img, .trio__media .img-slot { position: absolute; inset: 0; }
+  .trio__media { min-height: 112px; }
+
+  /* footer: one swipe row of area chips, a two-line tagline, the full-width Learn column in two columns */
+  .brand--footer .brand__logo { width: 150px; }
+  .footer__tagline { max-width: none; font-size: 1.45rem; }
+  .footer__area-list { flex-wrap: nowrap; overflow-x: auto; overscroll-behavior-x: contain; margin-inline: calc(-1 * var(--gutter)); padding: 2px var(--gutter) 6px; scroll-padding-inline: var(--gutter); scrollbar-width: none; }
+  .footer__area-list::-webkit-scrollbar { display: none; }
+  .footer__area-list > li { flex: none; }
+  .footer__cols > :last-child .footer__links { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 16px; }
+
+  /* 21+ gate: Yes and No share the card width */
+  .age-gate__actions { justify-self: stretch; }
+}
+@media (max-width: 1023.98px) {
+  /* tablets too: the trio's row-card grid (photo left, words right) never applied because `a.glass` (display:block)
+     outranks .trio__card; restated with more weight, the photo fills its cell instead of setting the card height */
+  .trio .trio__card { display: grid; align-items: stretch; }
+  .trio__media img, .trio__media .img-slot { position: absolute; inset: 0; }
+}
