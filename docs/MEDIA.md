@@ -59,3 +59,17 @@ Prompts, seeds and request ids are in `src/content/image-plan.json` and `audit/g
 - Every generated JPEG and PNG carries an embedded IPTC XMP packet with `Iptc4xmpExt:DigitalSourceType` = `http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia`. The retouched and cropped files were labelled again after editing.
 - The two loop videos carry the same IPTC source-type URI in their container `comment` and `description` tags, along with a note that they are not footage of Greenstop. The posters carry the XMP label.
 - Check with `node tools/ai-label.mjs verify assets/generated assets/media/hero-haze.mp4 assets/media/hero-haze-sm.mp4 assets/media/hero-haze.jpg assets/media/hero-haze-sm.jpg`.
+
+## Greenstop's hero video, AI-upscaled
+
+- **Source:** Greenstop's own store video on the live home page (`WhatsApp-Video-2025-08-01-at-06.23.50_111c9249.mp4`,
+  848x480, about 24 fps). The first 16 seconds (384 frames) were cut from the original upload, near-lossless, no audio.
+- **Upscale:** Topaz Video, Proteus model, x2.25 to 1908x1080, through fal.ai. Higgsfield's video upscaler was tried
+  first and could not run this job, so the same Topaz engine was used on fal.ai.
+- **Checks:** every upscaled frame, scaled back to 848x480, matches its source frame (SSIM mean 0.979, lowest 0.950;
+  frames offset by 3 s score 0.528, so the check can fail). Edge detail is about 1.7 to 1.9 times that of a plain
+  Lanczos enlargement. Faces and on-screen text were compared side by side: sharper, nothing added or changed.
+- **Files:** `assets/media/gs/WhatsApp-Video-2025-08-01-at-06.23.50_111c9249.mp4` 1600x906 (desktop) and `...-sm.mp4`
+  960x544 (phones, chosen with `<source media>`), H.264, no audio, plus a 1280px poster. Both videos carry the IPTC
+  digital source type `algorithmicallyEnhanced` and a plain "AI-upscaled" note in their container tags: the content is
+  Greenstop's footage, the model added resolution only.

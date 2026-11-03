@@ -17,9 +17,11 @@ const DEALS = '/deals/';
 
 // Greenstop's own web-encoded videos (contract D5b): muted, looped, never preloaded, poster = same path .jpg,
 // autoplay only when in view (site.js), never under reduced motion.
-function gsVideo(src, { w, h, cls = '', id = '' } = {}) {
+// small: an optional lighter cut for phones, picked by the browser through <source media> (listed first).
+function gsVideo(src, { w, h, cls = '', id = '', small = '' } = {}) {
   const poster = String(src).replace(/\.mp4$/, '.jpg');
-  return `<video class="${escA(cls)}"${id ? ` id="${escA(id)}"` : ''} muted playsinline loop preload="none" poster="${escA(poster)}" width="${w}" height="${h}" aria-hidden="true" tabindex="-1" data-inview-play><source src="${escA(src)}" type="video/mp4"></video>`;
+  const phone = small ? `<source src="${escA(small)}" type="video/mp4" media="(max-width: 720px)">` : '';
+  return `<video class="${escA(cls)}"${id ? ` id="${escA(id)}"` : ''} muted playsinline loop preload="none" poster="${escA(poster)}" width="${w}" height="${h}" aria-hidden="true" tabindex="-1" data-inview-play>${phone}<source src="${escA(src)}" type="video/mp4"></video>`;
 }
 
 // a section head: sticker kicker, h2, optional decorative graffiti tag over the heading corner
@@ -70,7 +72,7 @@ ${loop}
 </div>
 <div class="h-hero__media" data-reveal style="--i:2">
 <figure class="h-hero__frame taped">
-<div class="h-hero__screen glass" data-tilt>${gsVideo(heroVid.src, { w: heroVid.w, h: heroVid.h, cls: 'h-hero__vid' })}</div>
+<div class="h-hero__screen glass" data-tilt>${gsVideo(heroVid.src, { w: heroVid.w, h: heroVid.h, cls: 'h-hero__vid', small: String(heroVid.src).replace(/\.mp4$/, '-sm.mp4') })}</div>
 </figure>
 </div>
 </div>
