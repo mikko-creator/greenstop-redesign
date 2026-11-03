@@ -284,7 +284,35 @@ ${tapeRow('h-tape--b')}
 <ul class="h-close__links wrap" role="list">${words.map((w) => `<li><a class="chip"${linkAttrs('/products/' + CAT_ROUTES[w][0] + '/')}>${esc(w)}</a></li>`).join('')}</ul>
 </section>`;
 
-  const main = [heroHtml, promosHtml, catsHtml, svcHtml, commHtml, storeHtml, eventsHtml, reelsHtml, reviewsHtml, postsHtml, tapeHtml].join('\n');
+  // ---------- 10b. FAQ for local dispensary searches (src/content/home-faq.json; main session): visible accordion
+  // (every answer in the DOM, first one open) + FAQPage JSON-LD built from the same text
+  const faq = ctx.homeFaq;
+  const faqLinks = (html) => String(html).replace(/<a href="([^"]+)">/g, (m, u) => `<a${linkAttrs(u.replace(/&amp;/g, '&'))}>`);
+  // FAQPage answers keep their links (Google's FAQ markup allows <a> in acceptedAnswer.text), internal paths made
+  // absolute on the site origin; every other tag is dropped
+  const ldAnswer = (html) => String(html)
+    .replace(/<a href="([^"]+)">/g, (m, u) => `<a href="${escA(/^\//.test(u) ? absUrl(ctx, u) : u.replace(/&amp;/g, '&'))}">`)
+    .replace(/<(?!\/?a[\s>])[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  const faqHtml = faq && faq.items && faq.items.length ? `<section class="h-faq band band--forest" id="faq" aria-labelledby="h-faq-h">
+<div class="band__clip" aria-hidden="true"><span class="h-faq__glow"></span><span class="grain"></span></div>
+<div class="wrap h-faq__grid">
+<div class="h-faq__side">
+${head({ kicker: faq.kicker, h: esc(faq.heading), id: 'h-faq-h', tag: faq.tag, extra: `<p class="lede h-faq__intro">${esc(faq.intro)}</p>` })}
+<div class="btn-row h-faq__ctas" data-reveal style="--i:1"><a class="btn btn--lime"${linkAttrs(faq.more.href)}>${esc(faq.more.label)}${icon('arrow')}</a><a class="btn btn--glass"${linkAttrs(faq.contact.href)}>${esc(faq.contact.label)}</a></div>
+<div class="h-faq__cut" aria-hidden="true">${gimg('g-leaf-cut', { alt: '', cls: 'cut h-faq__leaf', sizes: '(max-width: 720px) 120px, 220px' })}</div>
+</div>
+<div class="faq h-faq__list">
+${faq.items.map((it, i) => `<details id="faq-${escA(it.id)}"${i === 0 ? ' open' : ''} data-reveal style="--i:${i % 4}"><summary><h3 class="h-faq__q">${esc(it.q)}</h3></summary><div class="h-faq__a">${faqLinks(it.a_html)}</div></details>`).join('\n')}
+</div>
+</div>
+</section>` : '';
+  const faqLd = faqHtml ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.items.map((it) => ({ '@type': 'Question', name: it.q, acceptedAnswer: { '@type': 'Answer', text: ldAnswer(it.a_html) } })),
+  } : null;
+
+  const main = [heroHtml, promosHtml, catsHtml, svcHtml, commHtml, storeHtml, eventsHtml, reelsHtml, reviewsHtml, postsHtml, faqHtml, tapeHtml].join('\n');
 
   const description = `${site.name}, a cannabis dispensary at ${addrLine}. Open ${hoursLine}.`;
   const ld = {
@@ -296,13 +324,24 @@ ${tapeRow('h-tape--b')}
     address: { '@type': 'PostalAddress', streetAddress: addr.street, addressLocality: addr.city, addressRegion: addr.state, postalCode: addr.zip, addressCountry: 'US' },
     sameAs: (site.socials || []).map((s) => s.url),
   };
+  // opening hours from site.json ("Monday to Sunday", "7:00 AM" to "11:00 PM") for "open now" searches
+  const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+  const to24 = (t) => { const m = String(t).match(/^(\d{1,2}):(\d{2})\s*([AP])M$/i); if (!m) return null; let h = +m[1] % 12; if (/p/i.test(m[3])) h += 12; return String(h).padStart(2, '0') + ':' + m[2]; };
+  const spec = hours.map((r) => {
+    const d = String(r.days).match(/^(\w+)\s+to\s+(\w+)$/i) || [];
+    const a = DAYS.findIndex((x) => x.toLowerCase() === String(d[1] || '').toLowerCase());
+    const b = DAYS.findIndex((x) => x.toLowerCase() === String(d[2] || '').toLowerCase());
+    const opens = to24(r.open), closes = to24(r.close);
+    return a >= 0 && b >= a && opens && closes ? { '@type': 'OpeningHoursSpecification', dayOfWeek: DAYS.slice(a, b + 1), opens, closes } : null;
+  }).filter(Boolean);
+  if (spec.length === hours.length) ld.openingHoursSpecification = spec;
   const html = page({
     ctx,
     path: '/',
     title: home.title,
     description: home.description || description,
     og: { title: home.title, description: home.description || description, type: 'website' },
-    jsonld: ld,
+    jsonld: [ld, faqLd].filter(Boolean),
     bodyClass: 'h-page',
     main,
     crumbs: [],

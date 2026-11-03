@@ -1,0 +1,102 @@
+{
+  "about": "Home page FAQ written for local cannabis / weed dispensary searches (Jersey City, Hudson County, nearby towns, NJ rules). Every claim about Greenstop comes from Greenstop's own pages (greenstop: page and wording below); every legal statement comes from src/content/nj-law.json (facts: ids) and links the official source of each cited fact. Revised 2026-11-03 after an independent fact and compliance review. Rendered by src/theme/home.mjs with FAQPage JSON-LD.",
+  "kicker": "FAQ",
+  "tag": "Ask us",
+  "heading": "Jersey City Cannabis Dispensary FAQ",
+  "intro": "Quick answers about shopping at Greenstop, the recreational weed dispensary on Tonnelle Ave in Jersey City: hours, ID, purchase limits, online ordering, pickup, delivery and deals.",
+  "items": [
+    {
+      "id": "where",
+      "q": "Where is Greenstop's cannabis dispensary in Jersey City?",
+      "a_html": "Greenstop Wellness is a recreational cannabis dispensary at <a href=\"/location/jersey-city-nj/\">516 Tonnelle Ave, Jersey City, NJ 07307</a>, in the heart of Hudson County and a 10-minute drive from the Meadowlands. <a href=\"https://www.google.com/maps/place/516+Tonnelle+Ave,+Jersey+City,+NJ+07307/data=!4m2!3m1!1s0x89c2571661f9ebbf:0x755cb7878aab46d1?sa=X&amp;ved=1t:242&amp;ictx=111\">Get directions</a> or call <a href=\"tel:+12016041281\">201.604.1281</a>.",
+      "facts": [],
+      "greenstop": ["site.json address, phone, mapUrl", "/about/ s3: \"Jersey City's newest premier recreational dispensary, is situated in the heart of Hudson County on Tonnelle Ave, a mere 10-minute drive from the Meadowlands\""]
+    },
+    {
+      "id": "nearby",
+      "q": "Is there a weed dispensary near Hoboken, Union City or North Bergen?",
+      "a_html": "Greenstop Wellness is a recreational dispensary at 516 Tonnelle Ave in Jersey City, in the heart of Hudson County. Our <a href=\"/about/service-areas/\">service areas page</a> has Google Maps directions to the store from Hoboken, Union City, North Bergen and other nearby Hudson County towns.",
+      "facts": [],
+      "greenstop": ["site.json address", "/about/ s3: \"recreational dispensary\", \"in the heart of Hudson County\"", "site.json serviceAreas (directions links only)"]
+    },
+    {
+      "id": "hours",
+      "q": "What are the dispensary hours at Greenstop in Jersey City?",
+      "a_html": "Greenstop is open seven days a week, Monday to Sunday, from 7:00 AM to 11:00 PM. Questions before you visit? Call <a href=\"tel:+12016041281\">201.604.1281</a> or find the store email on our <a href=\"/contact/\">contact page</a>.",
+      "facts": [],
+      "greenstop": ["site.json hours: Monday to Sunday, 7:00 AM to 11:00 PM (as captured on /contact/ and /about/)", "site.json email (shown on /contact/)"]
+    },
+    {
+      "id": "what-to-bring",
+      "q": "What should I bring to a weed dispensary in Jersey City?",
+      "a_html": "Bring a valid government-issued photo ID that shows you are 21 or older. Under New Jersey's rules, a dispensary checks photo ID before letting you in and again before each sale, and it may not keep a copy of your ID. Greenstop accepts cash and may also accept debit cards; call <a href=\"tel:+12016041281\">201.604.1281</a> to confirm current payment options before you visit. Sources: <a href=\"https://www.nj.gov/cannabis/adult-personal/\">New Jersey Cannabis Regulatory Commission</a>, <a href=\"https://www.nj.gov/cannabis/documents/rules/NJAC%201730%20Personal%20Use%20Cannabis.pdf\">N.J.A.C. 17:30</a>.",
+      "facts": ["age-id-check", "age-id-each-transaction"],
+      "greenstop": ["/about/ FAQ: \"We accept cash and may also accept debit cards. Please check our website or contact us for the most up-to-date payment options.\""]
+    },
+    {
+      "id": "medical-card",
+      "q": "Do I need a medical card to buy weed at a New Jersey dispensary?",
+      "a_html": "No, not for recreational cannabis. In New Jersey, anyone 21 or older, resident or visitor, can buy recreational cannabis at a licensed dispensary; a Medicinal Cannabis Program ID is needed only to buy from a dispensary's medical menu. Greenstop is a recreational dispensary, so bring a valid government-issued ID that shows you are 21 or older. Registered patients can read about the state program in our <a href=\"/education/medical-cannabis/\">medical cannabis guide</a>. Sources: <a href=\"https://www.nj.gov/cannabis/adult-personal/\">New Jersey Cannabis Regulatory Commission</a>, <a href=\"https://www.nj.gov/cannabis/resources/faqs/general/\">General Information FAQ</a>, <a href=\"https://www.nj.gov/cannabis/medicinalcannabis/patient-faqs/\">Patient FAQs</a>.",
+      "facts": ["age-who-can-buy", "legal-buy-at-licensed", "medbuy-id-required", "age-id-check"],
+      "greenstop": ["/about/ s3: \"recreational dispensary\""]
+    },
+    {
+      "id": "visitors",
+      "q": "Can I buy weed in Jersey City if I'm visiting from New York or another state?",
+      "a_html": "Yes. Anyone 21 or older, New Jersey resident or visitor, can buy cannabis at a licensed New Jersey dispensary with a valid government-issued ID. You cannot take it home across state lines, though: transporting cannabis across state lines is still illegal. Sources: <a href=\"https://www.nj.gov/cannabis/adult-personal/\">New Jersey Cannabis Regulatory Commission</a>, <a href=\"https://www.nj.gov/cannabis/resources/faqs/general/\">General Information FAQ</a>.",
+      "facts": ["age-who-can-buy", "legal-buy-at-licensed", "age-id-check", "transport-state-lines"],
+      "greenstop": []
+    },
+    {
+      "id": "first-time",
+      "q": "What should I know before my first visit to a dispensary in Jersey City?",
+      "a_html": "Bring a valid photo ID that shows you are 21 or older, and ask a budtender for help: Greenstop's knowledgeable staff can help you choose the right product based on your needs and experience level. If you are new, start with a low dose and go slow, and read our <a href=\"/education/safe-and-responsible-consumption/\">guide to responsible use</a> and <a href=\"/education/\">Cannabis 101 guides</a> before you visit. You can also <a href=\"/about/team/\">meet the team</a>. Source for the ID rule: <a href=\"https://www.nj.gov/cannabis/adult-personal/\">New Jersey Cannabis Regulatory Commission</a>.",
+      "facts": ["age-id-check"],
+      "greenstop": ["/about/ FAQ: \"Our knowledgeable staff can help you choose the right product based on your needs and experience level.\"", "/about/ FAQ: \"it's important to start with a low dose, especially if you're a beginner\"", "home s4 card: Budtenders"]
+    },
+    {
+      "id": "products",
+      "q": "What's on the menu at Greenstop in Jersey City?",
+      "a_html": "Greenstop's online menu covers <a href=\"/products/flower/\">flower</a>, <a href=\"/products/pre-rolls/\">pre-rolls</a>, <a href=\"/products/edibles/\">edibles</a>, <a href=\"/products/vapes-cartridges/\">vapes and cartridges</a>, <a href=\"/products/concentrates/\">concentrates</a>, <a href=\"/products/tinctures/\">tinctures</a> and <a href=\"/products/topicals/\">topicals</a>, plus a <a href=\"/products/bud-bar/\">Bud Bar</a> category, and Greenstop's FAQ says it also sells accessories. Brands featured with the team on Greenstop's About page include Garden Greens, Happy Farmer, Hamilton Farms, Rove and Verano; see <a href=\"/our-brands/\">our brands</a>. Stock changes, so ask in store about what is available today.",
+      "facts": [],
+      "greenstop": ["home s3 tiles: Flower, PreRolls, Edibles, Concentrates, Vaporizers, Tinctures, Topicals", "site.json cart category Bud Bar", "/about/ FAQ: \"flowers, edibles, concentrates, topicals, tinctures, and accessories\"", "/about/ team product cards: Garden Greens, Happy Farmer, Hamilton Farms, Rove, Verano"]
+    },
+    {
+      "id": "online-pickup",
+      "q": "Can I order weed online for pickup in Jersey City?",
+      "a_html": "Yes. Greenstop's FAQ says you can place your order online and select the in-store pickup option; you'll receive a notification when your order is ready and can pick it up during business hours (Monday to Sunday, 7:00 AM to 11:00 PM) at 516 Tonnelle Ave. Bring a valid photo ID that shows you are 21 or older, because staff check ID before each sale. Start on our <a href=\"/online-ordering/\">online ordering page</a> or read <a href=\"/in-store-pickup/\">how in-store pickup works</a>. Source for the ID rule: <a href=\"https://www.nj.gov/cannabis/documents/rules/NJAC%201730%20Personal%20Use%20Cannabis.pdf\">N.J.A.C. 17:30</a>.",
+      "facts": ["age-id-each-transaction"],
+      "greenstop": ["/about/ FAQ: \"You can place your order online and select the in-store pickup option. You'll receive a notification when your order is ready, and you can pick it up during our business hours.\"", "site.json hours and address"]
+    },
+    {
+      "id": "delivery",
+      "q": "Does Greenstop offer weed delivery in Jersey City?",
+      "a_html": "Greenstop offers door-to-door delivery in certain areas. Its website does not list delivery areas or fees, so call <a href=\"tel:+12016041281\">201.604.1281</a> to check whether your address is covered and what delivery costs, or read the <a href=\"/online-ordering/#delivery\">delivery details</a>.",
+      "facts": [],
+      "greenstop": ["/about/ FAQ: \"We offer delivery services in certain areas. Please check our delivery policy page for more information on availability and fees.\" (no such page exists)", "home s4 card: \"Door to Door Delivery\""]
+    },
+    {
+      "id": "deals",
+      "q": "What weed deals and discounts does Greenstop offer in Jersey City?",
+      "a_html": "Greenstop gives an extra 5% off to veterans, police, healthcare workers, firefighters, students and senior citizens (65+), with valid ID required at purchase; every customer must be 21 or older. Greenstop's Rewards Program gives you one point for every dollar you spend, with rewards from $5 off a purchase of $5 or more up to $100 off a purchase of $100 or more. See Greenstop's <a href=\"/deals/\">deals and rewards</a>. Source for the age rule: <a href=\"https://www.nj.gov/cannabis/adult-personal/\">New Jersey Cannabis Regulatory Commission</a>.",
+      "facts": ["legal-creamm-act", "age-who-can-buy"],
+      "greenstop": ["/deals/: \"Extra 5% off for our community heroes\": Veterans, Police, Medical (Healthcare heroes), Firefighters, Students, Senior Citizens (Age 65+); \"Valid ID required at purchase\"", "/deals/: \"Every dollar you spend is one point\"; tiers \"$5 off purchase of $5 or more\" to \"$100 off purchase of $100 or more\""]
+    },
+    {
+      "id": "limits",
+      "q": "How much cannabis can I buy at once in New Jersey?",
+      "a_html": "In each transaction, a New Jersey dispensary may sell you up to the equivalent of 1 ounce (28.35 grams) of usable cannabis. That means up to 28.35 grams of dried flower, or 4 grams of solid concentrate or resin (or the liquid equivalent), or edibles with up to 1,000 mg of THC in total, such as ten 100 mg packages of gummies. You can combine products, for example half an ounce of flower with 2 grams of concentrate, and dispensaries must make a good-faith effort to stop customers from going over one ounce across multiple transactions. For vapes, the Commission lists 4 grams of vaporized formulations (oil), a cap the state rules express as no more than 4 mL of oil. Sources: <a href=\"https://www.nj.gov/cannabis/adult-personal/\">New Jersey Cannabis Regulatory Commission</a>, <a href=\"https://www.nj.gov/cannabis/documents/rules/NJAC%201730%20Personal%20Use%20Cannabis.pdf\">N.J.A.C. 17:30</a>. More in our <a href=\"/education/recreational-cannabis/\">guide to recreational cannabis in New Jersey</a>.",
+      "facts": ["limit-per-transaction", "limit-flower", "limit-concentrate", "limit-edibles", "limit-rule-edibles", "limit-combination", "limit-rule-combination", "limit-vape", "limit-rule-concentrate-vape"],
+      "greenstop": []
+    },
+    {
+      "id": "where-to-smoke",
+      "q": "Where can I legally smoke weed in New Jersey?",
+      "a_html": "Generally, adults 21 and older can use cannabis on private property, but property owners can limit its use and landlords can prohibit it. Cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise, but New Jersey's Smoke Free Air Act prohibits smoking of any kind in most public spaces, and the state rules do not permit smoking or vaping cannabis anywhere a federal, state or local law prohibits smoking tobacco. You can also consume cannabis at licensed dispensaries with consumption areas, which admit only patrons 21 or older with photo ID. Greenstop's home page lists a Consume Place as coming soon. Never drive high: driving under the influence of cannabis is illegal in New Jersey. Sources: <a href=\"https://www.nj.gov/cannabis/adult-personal/\">New Jersey Cannabis Regulatory Commission</a>, <a href=\"https://www.nj.gov/cannabis/resources/faqs/general/\">General Information FAQ</a>, <a href=\"https://www.nj.gov/cannabis/medicinalcannabis/patient-faqs/\">Patient FAQs</a>, <a href=\"https://www.nj.gov/cannabis/documents/rules/NJAC%201730%20Personal%20Use%20Cannabis.pdf\">N.J.A.C. 17:30</a>, <a href=\"https://www.nj.gov/cannabis/adult-personal/dont-drive-high/\">Don't Drive High</a>.",
+      "facts": ["use-private-property", "use-private-spaces", "use-where-cigarettes", "use-smoke-free-air-act", "use-rule-tobacco-places", "use-consumption-areas", "drive-illegal"],
+      "greenstop": ["home s4 card: \"Consume Place\" / \"Coming Soon\""]
+    }
+  ],
+  "more": { "label": "All FAQs", "href": "/about/frequently-asked-questions/" },
+  "contact": { "label": "Ask the team", "href": "/contact/" }
+}

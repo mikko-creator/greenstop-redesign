@@ -48,5 +48,7 @@ export function loadAll() {
   const team = normaliseDashes(Object.values(readDir('src/content/team')));
   const learn = normaliseDashes(Object.values(readDir('src/content/learn')).sort((a, b) => (a.order ?? 99) - (b.order ?? 99)));
   const nj = normaliseDashes(readJson('src/content/nj-law.json', { facts: [], sources: [] }));
-  return { site, ia, images, content, posts, events, team, learn, nj };
+  // home page FAQ for local dispensary searches (main session; claims traced per item, see the file's "about")
+  const homeFaq = normaliseDashes(readJson('src/content/home-faq.json', null));
+  return { site, ia, images, content, posts, events, team, learn, nj, homeFaq };
 }
